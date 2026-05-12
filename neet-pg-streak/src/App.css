@@ -8,6 +8,19 @@
   color: #17212f;
 }
 
+.corner-note {
+  position: fixed;
+  right: 14px;
+  bottom: 10px;
+  z-index: 30;
+  color: #64748b;
+  font-size: 0.72rem;
+  font-weight: 700;
+  line-height: 1;
+  opacity: 0.72;
+  pointer-events: none;
+}
+
 .practice-sidebar {
   min-height: 100svh;
   padding: 28px;

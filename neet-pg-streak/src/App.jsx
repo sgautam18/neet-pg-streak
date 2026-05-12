@@ -347,6 +347,7 @@ function App() {
           </footer>
         </article>
       </section>
+      <span className="corner-note">for you baby</span>
     </main>
   );
 }
