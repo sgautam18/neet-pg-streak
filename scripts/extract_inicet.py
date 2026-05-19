@@ -1,10 +1,21 @@
 #!/usr/bin/env python3
 import hashlib
+import io
 import json
 import re
 from pathlib import Path
 
 import fitz
+
+try:
+    import pytesseract
+    from PIL import Image
+except ImportError:
+    Image = None
+    pytesseract = None
+
+if pytesseract and Path("/opt/homebrew/bin/tesseract").exists():
+    pytesseract.pytesseract.tesseract_cmd = "/opt/homebrew/bin/tesseract"
 
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -13,6 +24,7 @@ PUBLIC = FRONTEND / "public"
 PDF_DIR = Path("/Users/admin/Desktop/inicet")
 OUTPUT_JSON = PUBLIC / "inicet_questions.json"
 IMAGE_DIR = PUBLIC / "images" / "inicet"
+LOGO_TEXT_RE = re.compile(r"\b(prep\s*ladder|prepladder|rapid\s+revision|qbank)\b", re.IGNORECASE)
 
 
 QUESTION_RE = re.compile(r"(?m)^\s*Q\s*(\d+)\s*[\.)]\s*")
@@ -121,7 +133,37 @@ def parse_answer(segment, options):
     return ""
 
 
-def extract_page_images(page, pdf_path):
+def image_ocr_text(image_bytes):
+    if not Image or not pytesseract:
+        return ""
+
+    try:
+        image = Image.open(io.BytesIO(image_bytes))
+        return pytesseract.image_to_string(image)
+    except Exception:
+        return ""
+
+
+def is_brand_or_noise_image(image_bytes, width, height):
+    if width <= 2 or height <= 2:
+        return True
+
+    size_kb = len(image_bytes) / 1024
+    aspect_ratio = width / max(height, 1)
+
+    # PrepLadder headers in this data are wide, shallow JPEG banners.
+    if aspect_ratio >= 3.3 and height <= 350 and size_kb <= 90:
+        return True
+
+    # Tiny brand marks and spacer pixels are not question assets.
+    if width < 80 or height < 80 or size_kb < 2:
+        return True
+
+    ocr_text = image_ocr_text(image_bytes)
+    return bool(LOGO_TEXT_RE.search(ocr_text))
+
+
+def extract_page_images(page, pdf_path, seen_image_hashes):
     image_paths = []
     page_dict = page.get_text("dict")
     image_index = 1
@@ -129,12 +171,24 @@ def extract_page_images(page, pdf_path):
         if block.get("type") != 1 or not block.get("image"):
             continue
 
+        image_bytes = block["image"]
+        image_hash = hashlib.sha1(image_bytes).hexdigest()
+        if image_hash in seen_image_hashes:
+            continue
+
+        width = block.get("width", 0)
+        height = block.get("height", 0)
+        if is_brand_or_noise_image(image_bytes, width, height):
+            seen_image_hashes.add(image_hash)
+            continue
+
         ext = block.get("ext") or "png"
         safe_stem = re.sub(r"[^A-Za-z0-9._-]+", "_", pdf_path.stem)
         image_name = f"{safe_stem}_page{page.number + 1}_img{image_index}.{ext}"
         image_path = IMAGE_DIR / image_name
-        image_path.write_bytes(block["image"])
+        image_path.write_bytes(image_bytes)
         image_paths.append(f"images/inicet/{image_name}")
+        seen_image_hashes.add(image_hash)
         image_index += 1
 
     return image_paths
@@ -148,13 +202,15 @@ def question_id(source_pdf, question_no, question):
 def parse_pdf(pdf_path):
     questions = []
     subject = subject_from_filename(pdf_path)
+    seen_image_hashes = set()
     with fitz.open(pdf_path) as doc:
         for page in doc:
             raw_text = clean(page.get_text("text"))
             if not raw_text.strip():
                 continue
 
-            page_images = extract_page_images(page, pdf_path)
+            page_images = extract_page_images(page, pdf_path, seen_image_hashes)
+            page_image_cursor = 0
             starts = list(QUESTION_RE.finditer(raw_text))
             for index, start in enumerate(starts):
                 end = starts[index + 1].start() if index + 1 < len(starts) else len(raw_text)
@@ -176,6 +232,10 @@ def parse_pdf(pdf_path):
                     question_text,
                     re.IGNORECASE,
                 )
+                question_images = []
+                if mentions_image and page_image_cursor < len(page_images):
+                    question_images = [page_images[page_image_cursor]]
+                    page_image_cursor += 1
 
                 questions.append(
                     {
@@ -188,7 +248,7 @@ def parse_pdf(pdf_path):
                         "question": question_text,
                         "options": options,
                         "answer": answer,
-                        "images": page_images if mentions_image else [],
+                        "images": question_images,
                         "source_pdf": pdf_path.name,
                         "page_number": page.number + 1,
                     }
