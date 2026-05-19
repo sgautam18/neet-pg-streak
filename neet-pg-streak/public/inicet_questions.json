@@ -1,0 +1,5600 @@
+[
+  {
+    "id": "inicet-32cb70790f",
+    "exam": "inicet",
+    "question_no": "1",
+    "subject": "Pathology",
+    "topic": "Pathology",
+    "sub_topic": "",
+    "question": "Match the following cell types with their associated malignancy: Cell Type Associated Malignancy 1. Popcorn cell a. Acute promyelocytic leukemia 2. Faggot cell b. Lymphocyte-predominant Hodgkin’s lymphoma 3. Cerebriform nuclei c. Burkitt lymphoma 4. Starry sky appearance d. Sezary syndrome",
+    "options": {
+      "O1": "1-b, 2-a, 3-d, 4-c",
+      "O2": "1-a, 2-d, 3-c, 4-b",
+      "O3": "1-b, 2-c, 3-a, 4-c",
+      "O4": "1-a, 2-b, 3-d, 4-c"
+    },
+    "answer": "O1",
+    "images": [],
+    "source_pdf": "Copy-of-Last-5-Year-PYQs-in-Pathology-for-INI-CET.pdf",
+    "page_number": 1
+  },
+  {
+    "id": "inicet-40ce572193",
+    "exam": "inicet",
+    "question_no": "2",
+    "subject": "Pathology",
+    "topic": "Pathology",
+    "sub_topic": "",
+    "question": "A 35-year-old woman presents with fatigue. Investigations reveal the following: Hemoglobin (Hb): 5 gm%, low mean corpuscular haemoglobin (MCH), and low mean corpuscular volume (MCV). The peripheral smear shows microcytic hypochromic red blood cells. What is the most likely diagnosis?",
+    "options": {
+      "O1": "Megaloblastic anaemia",
+      "O2": "Iron deficiency anaemia",
+      "O3": "Thalassemia major",
+      "O4": "Essential thrombocytosis"
+    },
+    "answer": "O2",
+    "images": [],
+    "source_pdf": "Copy-of-Last-5-Year-PYQs-in-Pathology-for-INI-CET.pdf",
+    "page_number": 2
+  },
+  {
+    "id": "inicet-a7a20602a2",
+    "exam": "inicet",
+    "question_no": "3",
+    "subject": "Pathology",
+    "topic": "Pathology",
+    "sub_topic": "",
+    "question": "The following image shows an instrument used to estimate haemoglobin levels. What does it measure?",
+    "options": {
+      "O1": "Alkaline hematin",
+      "O2": "Acid hematin",
+      "O3": "Oxyhemoglobin",
+      "O4": "Deoxyhemoglobin"
+    },
+    "answer": "O2",
+    "images": [
+      "images/inicet/Copy-of-Last-5-Year-PYQs-in-Pathology-for-INI-CET_page3_img1.jpeg",
+      "images/inicet/Copy-of-Last-5-Year-PYQs-in-Pathology-for-INI-CET_page3_img2.png"
+    ],
+    "source_pdf": "Copy-of-Last-5-Year-PYQs-in-Pathology-for-INI-CET.pdf",
+    "page_number": 3
+  },
+  {
+    "id": "inicet-a973df0fe8",
+    "exam": "inicet",
+    "question_no": "4",
+    "subject": "Pathology",
+    "topic": "Pathology",
+    "sub_topic": "",
+    "question": "Which of the following methods is iron in tissues stained?",
+    "options": {
+      "O1": "Masson’s trichrome",
+      "O2": "Prussian blue",
+      "O3": "PAS",
+      "O4": "Fite-Faraco"
+    },
+    "answer": "O2",
+    "images": [],
+    "source_pdf": "Copy-of-Last-5-Year-PYQs-in-Pathology-for-INI-CET.pdf",
+    "page_number": 3
+  },
+  {
+    "id": "inicet-9fc8bd0a84",
+    "exam": "inicet",
+    "question_no": "6",
+    "subject": "Pathology",
+    "topic": "Pathology",
+    "sub_topic": "",
+    "question": "Which of the following is not likely to be seen in a patient with paroxysmal nocturnal hemoglobinuria (PNH)?",
+    "options": {
+      "O1": "Aplastic anemia",
+      "O2": "Leukaemia",
+      "O3": "Thrombosis",
+      "O4": "Hemolysis"
+    },
+    "answer": "O2",
+    "images": [],
+    "source_pdf": "Copy-of-Last-5-Year-PYQs-in-Pathology-for-INI-CET.pdf",
+    "page_number": 4
+  },
+  {
+    "id": "inicet-9218bee317",
+    "exam": "inicet",
+    "question_no": "8",
+    "subject": "Pathology",
+    "topic": "Pathology",
+    "sub_topic": "",
+    "question": "The human papillomavirus inactivates the Rb gene by which of the following proteins?",
+    "options": {
+      "O1": "E6",
+      "O2": "E7",
+      "O3": "L1",
+      "O4": "L2"
+    },
+    "answer": "O2",
+    "images": [],
+    "source_pdf": "Copy-of-Last-5-Year-PYQs-in-Pathology-for-INI-CET.pdf",
+    "page_number": 5
+  },
+  {
+    "id": "inicet-3ecaaab245",
+    "exam": "inicet",
+    "question_no": "9",
+    "subject": "Pathology",
+    "topic": "Pathology",
+    "sub_topic": "",
+    "question": "Which of the following oil red O stains is used?",
+    "options": {
+      "O1": "Formalin fixation",
+      "O2": "Frozen section",
+      "O3": "Alcohol fixation",
+      "O4": "Glutaraldehyde fixation"
+    },
+    "answer": "O2",
+    "images": [],
+    "source_pdf": "Copy-of-Last-5-Year-PYQs-in-Pathology-for-INI-CET.pdf",
+    "page_number": 5
+  },
+  {
+    "id": "inicet-c9469cca7d",
+    "exam": "inicet",
+    "question_no": "10",
+    "subject": "Pathology",
+    "topic": "Pathology",
+    "sub_topic": "",
+    "question": "An electron microscopic picture of a cut section of a nerve fibre is given. Identify the area that will be affected by the most common variant of Guillain-Barre syndrome.",
+    "options": {
+      "O1": "1",
+      "O2": "2",
+      "O3": "3",
+      "O4": "4"
+    },
+    "answer": "O2",
+    "images": [
+      "images/inicet/Copy-of-Last-5-Year-PYQs-in-Pathology-for-INI-CET_page5_img1.jpeg"
+    ],
+    "source_pdf": "Copy-of-Last-5-Year-PYQs-in-Pathology-for-INI-CET.pdf",
+    "page_number": 5
+  },
+  {
+    "id": "inicet-5ebe14de23",
+    "exam": "inicet",
+    "question_no": "11",
+    "subject": "Pathology",
+    "topic": "Pathology",
+    "sub_topic": "",
+    "question": "All of the following are immunohistochemical markers for GIST, except?",
+    "options": {
+      "O1": "PDGFR Beta",
+      "O2": "SDH",
+      "O3": "KIT",
+      "O4": "NRG-1"
+    },
+    "answer": "O4",
+    "images": [],
+    "source_pdf": "Copy-of-Last-5-Year-PYQs-in-Pathology-for-INI-CET.pdf",
+    "page_number": 5
+  },
+  {
+    "id": "inicet-89af920afb",
+    "exam": "inicet",
+    "question_no": "12",
+    "subject": "Pathology",
+    "topic": "Pathology",
+    "sub_topic": "",
+    "question": "Which of the following is a new intranuclear immunohistochemistry marker for neuroendocrine tumors?",
+    "options": {
+      "O1": "Synaptophysin",
+      "O2": "Chromogranin",
+      "O3": "INSM",
+      "O4": "NCAM1/ CD56"
+    },
+    "answer": "O3",
+    "images": [],
+    "source_pdf": "Copy-of-Last-5-Year-PYQs-in-Pathology-for-INI-CET.pdf",
+    "page_number": 6
+  },
+  {
+    "id": "inicet-a7909f4fa2",
+    "exam": "inicet",
+    "question_no": "13",
+    "subject": "Pathology",
+    "topic": "Pathology",
+    "sub_topic": "",
+    "question": "Which of the following features does not distinguish between necrosis and apoptosis?",
+    "options": {
+      "O1": "Enzymatic degradation",
+      "O2": "Association with underlying pathology",
+      "O3": "Lipid change",
+      "O4": "Intact membrane"
+    },
+    "answer": "O2",
+    "images": [],
+    "source_pdf": "Copy-of-Last-5-Year-PYQs-in-Pathology-for-INI-CET.pdf",
+    "page_number": 6
+  },
+  {
+    "id": "inicet-bff491ca53",
+    "exam": "inicet",
+    "question_no": "14",
+    "subject": "Pathology",
+    "topic": "Pathology",
+    "sub_topic": "",
+    "question": "Which of the following is not a feature of G6PD deficiency?",
+    "options": {
+      "O1": "Males and females are equally affected",
+      "O2": "Oxidative stress",
+      "O3": "Absence of NADPH",
+      "O4": "Presence of Heinz's bodies"
+    },
+    "answer": "O1",
+    "images": [],
+    "source_pdf": "Copy-of-Last-5-Year-PYQs-in-Pathology-for-INI-CET.pdf",
+    "page_number": 6
+  },
+  {
+    "id": "inicet-6bd6b48eec",
+    "exam": "inicet",
+    "question_no": "15",
+    "subject": "Pathology",
+    "topic": "Pathology",
+    "sub_topic": "",
+    "question": "Which connective tissue disorder is not associated with aneurysm formation?",
+    "options": {
+      "O1": "Marfan syndrome",
+      "O2": "Scurvy",
+      "O3": "Atherosclerosis",
+      "O4": "Ehler-Danlos syndrome"
+    },
+    "answer": "O3",
+    "images": [],
+    "source_pdf": "Copy-of-Last-5-Year-PYQs-in-Pathology-for-INI-CET.pdf",
+    "page_number": 6
+  },
+  {
+    "id": "inicet-c5ce25fdb4",
+    "exam": "inicet",
+    "question_no": "17",
+    "subject": "Pathology",
+    "topic": "Pathology",
+    "sub_topic": "",
+    "question": "The absence of the structure will be present in all except:",
+    "options": {
+      "O1": "Pernicious anemia",
+      "O2": "Autoimmune Metaplastic Atrophic Gastritis",
+      "O3": "Vitamin B12 Deficiency",
+      "O4": "Zollinger-Ellison syndrome"
+    },
+    "answer": "O4",
+    "images": [],
+    "source_pdf": "Copy-of-Last-5-Year-PYQs-in-Pathology-for-INI-CET.pdf",
+    "page_number": 7
+  },
+  {
+    "id": "inicet-4ffb52357a",
+    "exam": "inicet",
+    "question_no": "18",
+    "subject": "Pathology",
+    "topic": "Pathology",
+    "sub_topic": "",
+    "question": "The cells lining the isthmus of gastric pits are:",
+    "options": {
+      "O1": "Chief cells",
+      "O2": "Stem cells",
+      "O3": "Parietal cells",
+      "O4": "Mucous cells"
+    },
+    "answer": "O2",
+    "images": [],
+    "source_pdf": "Copy-of-Last-5-Year-PYQs-in-Pathology-for-INI-CET.pdf",
+    "page_number": 7
+  },
+  {
+    "id": "inicet-f0b6374069",
+    "exam": "inicet",
+    "question_no": "20",
+    "subject": "Pathology",
+    "topic": "Pathology",
+    "sub_topic": "",
+    "question": "Which of the following statements regarding Peutz-Jeghers syndrome is correct? 1. An arborizing pattern of smooth muscle 2. Loss of heterozygosity in STK11 gene 3. Multiple GI polyps 4. Autosomal recessive inheritance 5. Congenital hypertrophy of retinal pigmental epithelium is seen",
+    "options": {
+      "O1": "2, 4, 5",
+      "O2": "1, 2, 3",
+      "O3": "1, 3, 4",
+      "O4": "2, 3, 5"
+    },
+    "answer": "O2",
+    "images": [],
+    "source_pdf": "Copy-of-Last-5-Year-PYQs-in-Pathology-for-INI-CET.pdf",
+    "page_number": 8
+  },
+  {
+    "id": "inicet-83e9f7d92a",
+    "exam": "inicet",
+    "question_no": "1",
+    "subject": "PSM",
+    "topic": "PSM",
+    "sub_topic": "",
+    "question": "In a patient, if a point-of-care diagnostic test with a sensitivity of 98% yields a negative test result, what does this indicate?",
+    "options": {
+      "O1": "The patient would need another point–of–care diagnostic test for the same clinical",
+      "O2": "The prevalence of the disease is 2%.",
+      "O3": "The patient is less likely to have the disease",
+      "O4": "The patient has been wrongly ruled out due to false negatives"
+    },
+    "answer": "O3",
+    "images": [],
+    "source_pdf": "Last-5-Year-PYQ- in-PSM-for-INI-CET.pdf",
+    "page_number": 1
+  },
+  {
+    "id": "inicet-c21de5a2af",
+    "exam": "inicet",
+    "question_no": "2",
+    "subject": "PSM",
+    "topic": "PSM",
+    "sub_topic": "",
+    "question": "Which of the following statements is false regarding rabies immunoglobulin?",
+    "options": {
+      "O1": "It is exclusively given only in the deltoid",
+      "O2": "The dose is 20 IU/kg",
+      "O3": "Administer it immediately after exposure",
+      "O4": "If human RIG is unavailable, equine is preferred"
+    },
+    "answer": "O1",
+    "images": [],
+    "source_pdf": "Last-5-Year-PYQ- in-PSM-for-INI-CET.pdf",
+    "page_number": 1
+  },
+  {
+    "id": "inicet-b7713ee8da",
+    "exam": "inicet",
+    "question_no": "3",
+    "subject": "PSM",
+    "topic": "PSM",
+    "sub_topic": "",
+    "question": "For which of the following airborne infections is it necessary to isolate patients in a separate room?",
+    "options": {
+      "O1": "Measles",
+      "O2": "Rabies",
+      "O3": "Nipah",
+      "O4": "Aseptic meningitis"
+    },
+    "answer": "O1",
+    "images": [],
+    "source_pdf": "Last-5-Year-PYQ- in-PSM-for-INI-CET.pdf",
+    "page_number": 1
+  },
+  {
+    "id": "inicet-ee70fe12c9",
+    "exam": "inicet",
+    "question_no": "4",
+    "subject": "PSM",
+    "topic": "PSM",
+    "sub_topic": "",
+    "question": "What is the branch of statistics dealing with methods of data collection and counting?",
+    "options": {
+      "O1": "Theoretical statistics",
+      "O2": "Descriptive statistics",
+      "O3": "Analytical statistics",
+      "O4": "Inferential statistics"
+    },
+    "answer": "O2",
+    "images": [],
+    "source_pdf": "Last-5-Year-PYQ- in-PSM-for-INI-CET.pdf",
+    "page_number": 1
+  },
+  {
+    "id": "inicet-f4a84e4103",
+    "exam": "inicet",
+    "question_no": "5",
+    "subject": "PSM",
+    "topic": "PSM",
+    "sub_topic": "",
+    "question": "While measuring a patient's blood pressure at a primary health center, the sphygmomanometer accidentally fell and broke, resulting in spilled mercury on the ground. Which of the following is the most appropriate step to clean this spillage?",
+    "options": {
+      "O1": "Collect it by using a card on a sheet of paper and put the mercury into a jar",
+      "O2": "Collect it by sweeping it with a broom and throwing outside",
+      "O3": "Collect it by sweeping it and flush it in the toilet",
+      "O4": "Collect it by hand and then wash hands with water"
+    },
+    "answer": "O1",
+    "images": [],
+    "source_pdf": "Last-5-Year-PYQ- in-PSM-for-INI-CET.pdf",
+    "page_number": 2
+  },
+  {
+    "id": "inicet-73da5968c9",
+    "exam": "inicet",
+    "question_no": "7",
+    "subject": "PSM",
+    "topic": "PSM",
+    "sub_topic": "",
+    "question": "Compared to a pregnant female, a lactating female would require a higher level of nutrient supplementation for which of the following?",
+    "options": {
+      "O1": "Vitamin A",
+      "O2": "Calcium",
+      "O3": "Iron",
+      "O4": "Folic acid"
+    },
+    "answer": "O2",
+    "images": [],
+    "source_pdf": "Last-5-Year-PYQ- in-PSM-for-INI-CET.pdf",
+    "page_number": 2
+  },
+  {
+    "id": "inicet-e894ab5156",
+    "exam": "inicet",
+    "question_no": "8",
+    "subject": "PSM",
+    "topic": "PSM",
+    "sub_topic": "",
+    "question": "What is the primary method of absorption of inorganic lead in industrial settings that can result in lead poisoning?",
+    "options": {
+      "O1": "Absorption through skin",
+      "O2": "Inhaled lead dust",
+      "O3": "Ingestion of contaminated food and water",
+      "O4": "Contaminated hands"
+    },
+    "answer": "O2",
+    "images": [],
+    "source_pdf": "Last-5-Year-PYQ- in-PSM-for-INI-CET.pdf",
+    "page_number": 3
+  },
+  {
+    "id": "inicet-c4dfb0d793",
+    "exam": "inicet",
+    "question_no": "9",
+    "subject": "PSM",
+    "topic": "PSM",
+    "sub_topic": "",
+    "question": "In the hospital ward, the nurse arranges the bins as depicted in the image. Which of the subsequent items should be disposed of in the black bin?",
+    "options": {
+      "O1": "Soiled linen bedsheet",
+      "O2": "Glove paper cover",
+      "O3": "Gloves",
+      "O4": "Contaminated gloves"
+    },
+    "answer": "O2",
+    "images": [
+      "images/inicet/Last-5-Year-PYQ-_in-PSM-for-INI-CET_page3_img1.jpeg",
+      "images/inicet/Last-5-Year-PYQ-_in-PSM-for-INI-CET_page3_img2.png"
+    ],
+    "source_pdf": "Last-5-Year-PYQ- in-PSM-for-INI-CET.pdf",
+    "page_number": 3
+  },
+  {
+    "id": "inicet-e0ce098393",
+    "exam": "inicet",
+    "question_no": "11",
+    "subject": "PSM",
+    "topic": "PSM",
+    "sub_topic": "",
+    "question": "Patients requiring immediate life-threatening care are categorized under which of the following triages?",
+    "options": {
+      "O1": "Red",
+      "O2": "Yellow",
+      "O3": "Green",
+      "O4": "Black"
+    },
+    "answer": "O1",
+    "images": [],
+    "source_pdf": "Last-5-Year-PYQ- in-PSM-for-INI-CET.pdf",
+    "page_number": 4
+  },
+  {
+    "id": "inicet-7585018a31",
+    "exam": "inicet",
+    "question_no": "12",
+    "subject": "PSM",
+    "topic": "PSM",
+    "sub_topic": "",
+    "question": "Which of the following statements about the rotavirus vaccine is incorrect?",
+    "options": {
+      "O1": "Given orally",
+      "O2": "Cannot be given after 6 months of age",
+      "O3": "Live vaccine",
+      "O4": "It has monovalent and pentavalent form"
+    },
+    "answer": "O2",
+    "images": [],
+    "source_pdf": "Last-5-Year-PYQ- in-PSM-for-INI-CET.pdf",
+    "page_number": 4
+  },
+  {
+    "id": "inicet-4c2fbefca3",
+    "exam": "inicet",
+    "question_no": "13",
+    "subject": "PSM",
+    "topic": "PSM",
+    "sub_topic": "",
+    "question": "Which of the following mineral deficiency is associated with sexual dysfunction?",
+    "options": {
+      "O1": "Zinc",
+      "O2": "Copper",
+      "O3": "Magnesium",
+      "O4": "Molybdenum"
+    },
+    "answer": "O1",
+    "images": [],
+    "source_pdf": "Last-5-Year-PYQ- in-PSM-for-INI-CET.pdf",
+    "page_number": 4
+  },
+  {
+    "id": "inicet-0fc595f62b",
+    "exam": "inicet",
+    "question_no": "14",
+    "subject": "PSM",
+    "topic": "PSM",
+    "sub_topic": "",
+    "question": "A 5-year-old has the following anthropometric findings: Weight/age < -3.2 SD, Height/age < -2.5 SD, Weight/height < -1.7 SD. Under which of the following categories would this child be classified?",
+    "options": {
+      "O1": "Acute malnutrition",
+      "O2": "Chronic malnutrition",
+      "O3": "Acute on chronic malnutrition",
+      "O4": "Severe malnutrition"
+    },
+    "answer": "O2",
+    "images": [],
+    "source_pdf": "Last-5-Year-PYQ- in-PSM-for-INI-CET.pdf",
+    "page_number": 4
+  },
+  {
+    "id": "inicet-176ae6fd7e",
+    "exam": "inicet",
+    "question_no": "15",
+    "subject": "PSM",
+    "topic": "PSM",
+    "sub_topic": "",
+    "question": "Choose the correct statement regarding graft survival",
+    "options": {
+      "O1": "Both CD4 and CD8 T cells play a role in graft rejection",
+      "O2": "Only CD8 T cells play a role in graft rejection",
+      "O3": "Only CD4 T cells play a role in graft rejection",
+      "O4": "Neither CD4 nor CD8 T cells play a role in graft rejection"
+    },
+    "answer": "O1",
+    "images": [],
+    "source_pdf": "Last-5-Year-PYQ- in-PSM-for-INI-CET.pdf",
+    "page_number": 5
+  },
+  {
+    "id": "inicet-2d25462482",
+    "exam": "inicet",
+    "question_no": "16",
+    "subject": "PSM",
+    "topic": "PSM",
+    "sub_topic": "",
+    "question": "The maternal mortality ratio defined as?",
+    "options": {
+      "O1": "Maternal Deaths per 10,000 live births",
+      "O2": "Maternal Deaths per 100,000 live births",
+      "O3": "Maternal Deaths per 10,000 women in reproductive age group",
+      "O4": "Maternal Deaths per 100,000 women in reproductive age group"
+    },
+    "answer": "O2",
+    "images": [],
+    "source_pdf": "Last-5-Year-PYQ- in-PSM-for-INI-CET.pdf",
+    "page_number": 5
+  },
+  {
+    "id": "inicet-447c2ee897",
+    "exam": "inicet",
+    "question_no": "18",
+    "subject": "PSM",
+    "topic": "PSM",
+    "sub_topic": "",
+    "question": "Which statement accurately describes the Nikshay Poshan Yojana program?",
+    "options": {
+      "O1": "Rs 500 is given per week",
+      "O2": "Rs 500 is given per month",
+      "O3": "Mid day meals are given",
+      "O4": "Dietary advice is given"
+    },
+    "answer": "O2",
+    "images": [],
+    "source_pdf": "Last-5-Year-PYQ- in-PSM-for-INI-CET.pdf",
+    "page_number": 6
+  },
+  {
+    "id": "inicet-2e477781d1",
+    "exam": "inicet",
+    "question_no": "19",
+    "subject": "PSM",
+    "topic": "PSM",
+    "sub_topic": "",
+    "question": "What type of vaccine is the Diphtheria vaccine?",
+    "options": {
+      "O1": "Polysaccharide vaccine",
+      "O2": "Toxoid",
+      "O3": "Killed vaccine",
+      "O4": "Live attenuated vaccine"
+    },
+    "answer": "O2",
+    "images": [],
+    "source_pdf": "Last-5-Year-PYQ- in-PSM-for-INI-CET.pdf",
+    "page_number": 6
+  },
+  {
+    "id": "inicet-0bb41cf6e8",
+    "exam": "inicet",
+    "question_no": "20",
+    "subject": "PSM",
+    "topic": "PSM",
+    "sub_topic": "",
+    "question": "Which statement is correct regarding the reference woman represents the average healthy woman's nutritional needs and is used as a standard for setting the RDA ?",
+    "options": {
+      "O1": "Weight 55 kgs",
+      "O2": "Height 1.73 m",
+      "O3": "Works 10 hours/day",
+      "O4": "Age of 18-25 years"
+    },
+    "answer": "O1",
+    "images": [],
+    "source_pdf": "Last-5-Year-PYQ- in-PSM-for-INI-CET.pdf",
+    "page_number": 6
+  },
+  {
+    "id": "inicet-bab0bc6d8d",
+    "exam": "inicet",
+    "question_no": "3",
+    "subject": "Microbiology",
+    "topic": "Microbiology",
+    "sub_topic": "",
+    "question": "An elderly male presented with meningitis, and the CSF sample was subjected to gram staining and microscopy, as shown in the image given. Which of the following will be characteristics of the likely organism?",
+    "options": {
+      "O1": "Motile at 22° C and non-motile at 37° C",
+      "O2": "No motility at 22° C and motile at 37° C",
+      "O3": "Motile at both 37° C and 22° C",
+      "O4": "Non motile at both 37° C and 22° C"
+    },
+    "answer": "O1",
+    "images": [
+      "images/inicet/Last-5-Year-PYQs-in-Microbiology-for-INI-CET_page2_img1.jpeg",
+      "images/inicet/Last-5-Year-PYQs-in-Microbiology-for-INI-CET_page2_img2.png"
+    ],
+    "source_pdf": "Last-5-Year-PYQs-in-Microbiology-for-INI-CET.pdf",
+    "page_number": 2
+  },
+  {
+    "id": "inicet-41a9102522",
+    "exam": "inicet",
+    "question_no": "4",
+    "subject": "Microbiology",
+    "topic": "Microbiology",
+    "sub_topic": "",
+    "question": "In which of the following disorders is vaccination not contraindicated?",
+    "options": {
+      "O1": "Digeorge syndrome",
+      "O2": "Wiskott-Aldrich syndrome",
+      "O3": "Complement Deficiency",
+      "O4": "Ataxia telangiectasia"
+    },
+    "answer": "O3",
+    "images": [],
+    "source_pdf": "Last-5-Year-PYQs-in-Microbiology-for-INI-CET.pdf",
+    "page_number": 2
+  },
+  {
+    "id": "inicet-a7890bb83d",
+    "exam": "inicet",
+    "question_no": "6",
+    "subject": "Microbiology",
+    "topic": "Microbiology",
+    "sub_topic": "",
+    "question": "Identify the pathognomonic structure in the slide given below.",
+    "options": {
+      "O1": "Sclerotic body",
+      "O2": "Budding yeast",
+      "O3": "Negri body",
+      "O4": "Asteroid body"
+    },
+    "answer": "O1",
+    "images": [
+      "images/inicet/Last-5-Year-PYQs-in-Microbiology-for-INI-CET_page5_img1.jpeg",
+      "images/inicet/Last-5-Year-PYQs-in-Microbiology-for-INI-CET_page5_img2.png"
+    ],
+    "source_pdf": "Last-5-Year-PYQs-in-Microbiology-for-INI-CET.pdf",
+    "page_number": 5
+  },
+  {
+    "id": "inicet-8a83c9bd73",
+    "exam": "inicet",
+    "question_no": "7",
+    "subject": "Microbiology",
+    "topic": "Microbiology",
+    "sub_topic": "",
+    "question": "Antigen binding to MHC class I activates which of the following cells?",
+    "options": {
+      "O1": "Cytotoxic T cells",
+      "O2": "B cells",
+      "O3": "NK cells",
+      "O4": "Helper cells"
+    },
+    "answer": "O1",
+    "images": [],
+    "source_pdf": "Last-5-Year-PYQs-in-Microbiology-for-INI-CET.pdf",
+    "page_number": 5
+  },
+  {
+    "id": "inicet-068f92cce5",
+    "exam": "inicet",
+    "question_no": "8",
+    "subject": "Microbiology",
+    "topic": "Microbiology",
+    "sub_topic": "",
+    "question": "Which of the following is true about anti-CMV IgG antibodies?",
+    "options": {
+      "O1": "Denotes latent CMV infection",
+      "O2": "Denotes chronic CMV infection with immunity to other serotypes",
+      "O3": "Indicates acute CMV infection",
+      "O4": "IgG avidity assay helps in differentiating past and primary infection"
+    },
+    "answer": "O4",
+    "images": [],
+    "source_pdf": "Last-5-Year-PYQs-in-Microbiology-for-INI-CET.pdf",
+    "page_number": 6
+  },
+  {
+    "id": "inicet-b02aa8b57d",
+    "exam": "inicet",
+    "question_no": "9",
+    "subject": "Microbiology",
+    "topic": "Microbiology",
+    "sub_topic": "",
+    "question": "Which of the following statements regarding the given image is correct?",
+    "options": {
+      "O1": "Albendazole is the drug of choice",
+      "O2": "Majority of infections are asymptomatic in hum",
+      "O3": "Infection is acquired by ingestion of aquatic plants",
+      "O4": "No scolex and suckers"
+    },
+    "answer": "O3",
+    "images": [
+      "images/inicet/Last-5-Year-PYQs-in-Microbiology-for-INI-CET_page6_img1.jpeg",
+      "images/inicet/Last-5-Year-PYQs-in-Microbiology-for-INI-CET_page6_img2.png"
+    ],
+    "source_pdf": "Last-5-Year-PYQs-in-Microbiology-for-INI-CET.pdf",
+    "page_number": 6
+  },
+  {
+    "id": "inicet-b4dbb4c40c",
+    "exam": "inicet",
+    "question_no": "10",
+    "subject": "Microbiology",
+    "topic": "Microbiology",
+    "sub_topic": "",
+    "question": "Which of the organisms listed below are capable of being stained with acid-fast staining?",
+    "options": {
+      "O1": "Nocardia",
+      "O2": "Mycobacterium leprae",
+      "O3": "Actinomyces",
+      "O4": "Cryptosporidium parvum"
+    },
+    "answer": "O2",
+    "images": [],
+    "source_pdf": "Last-5-Year-PYQs-in-Microbiology-for-INI-CET.pdf",
+    "page_number": 7
+  },
+  {
+    "id": "inicet-a29857e3dc",
+    "exam": "inicet",
+    "question_no": "11",
+    "subject": "Microbiology",
+    "topic": "Microbiology",
+    "sub_topic": "",
+    "question": "In a healthy adult, what is the proportion between T cells and B cells?",
+    "options": {
+      "O1": "1:1",
+      "O2": "3:1",
+      "O3": "1:2",
+      "O4": "1:3"
+    },
+    "answer": "O2",
+    "images": [],
+    "source_pdf": "Last-5-Year-PYQs-in-Microbiology-for-INI-CET.pdf",
+    "page_number": 7
+  },
+  {
+    "id": "inicet-d3baf01760",
+    "exam": "inicet",
+    "question_no": "12",
+    "subject": "Microbiology",
+    "topic": "Microbiology",
+    "sub_topic": "",
+    "question": "A patient presented with severe watery diarrhea resembling that of rice gruel stool. Damage of which structure is likely to have resulted in this diarrhea?",
+    "options": {
+      "O1": "Zona occludens",
+      "O2": "Gap junction",
+      "O3": "Adherens junction",
+      "O4": "Hemidesmosomes"
+    },
+    "answer": "O1",
+    "images": [],
+    "source_pdf": "Last-5-Year-PYQs-in-Microbiology-for-INI-CET.pdf",
+    "page_number": 8
+  },
+  {
+    "id": "inicet-0ba9fd4ba0",
+    "exam": "inicet",
+    "question_no": "13",
+    "subject": "Microbiology",
+    "topic": "Microbiology",
+    "sub_topic": "",
+    "question": "A 55-year-old patient had a tooth extraction three days back. He now presents with a mass in the submandibular region, which is otherwise asymptomatic. There is no ulcer on the oral mucosa. On drainage of the discharge, it was foul-smelling with a lot of yellow granules. What is the most likely implicated pathogen?",
+    "options": {
+      "O1": "Fonsecaea pedrosoi",
+      "O2": "Mucor",
+      "O3": "Actinomyces israelli",
+      "O4": "Histoplasma capsulatum"
+    },
+    "answer": "O3",
+    "images": [],
+    "source_pdf": "Last-5-Year-PYQs-in-Microbiology-for-INI-CET.pdf",
+    "page_number": 8
+  },
+  {
+    "id": "inicet-ffa8ab96bb",
+    "exam": "inicet",
+    "question_no": "14",
+    "subject": "Microbiology",
+    "topic": "Microbiology",
+    "sub_topic": "",
+    "question": "Which of the given statements accurately reflects the characteristics of trematodes?",
+    "options": {
+      "O1": "Fasciola hepatica are seen in the intrahepatic biliary radicles",
+      "O2": "Schistosoma are monoecious",
+      "O3": "Fasciola hepatica is not acquired through contaminated water",
+      "O4": "Triclabendazole is the treatment of choice for all trematode infections"
+    },
+    "answer": "O1",
+    "images": [
+      "images/inicet/Last-5-Year-PYQs-in-Microbiology-for-INI-CET_page9_img1.jpeg"
+    ],
+    "source_pdf": "Last-5-Year-PYQs-in-Microbiology-for-INI-CET.pdf",
+    "page_number": 9
+  },
+  {
+    "id": "inicet-6e06e5bcf6",
+    "exam": "inicet",
+    "question_no": "15",
+    "subject": "Microbiology",
+    "topic": "Microbiology",
+    "sub_topic": "",
+    "question": "Galactomannan in serum is seen in :",
+    "options": {
+      "O1": "Invasive aspergillosis",
+      "O2": "Systemic candidiasis",
+      "O3": "Mucormycosis",
+      "O4": "Histoplasma capsulatm"
+    },
+    "answer": "O3",
+    "images": [],
+    "source_pdf": "Last-5-Year-PYQs-in-Microbiology-for-INI-CET.pdf",
+    "page_number": 9
+  },
+  {
+    "id": "inicet-3b6851593d",
+    "exam": "inicet",
+    "question_no": "16",
+    "subject": "Microbiology",
+    "topic": "Microbiology",
+    "sub_topic": "",
+    "question": "What is the causative organism for the condition shown in the image below ?",
+    "options": {
+      "O1": "Echinococcus granulosus",
+      "O2": "Schistsoma japonicum",
+      "O3": "Echinococcus multilocularis",
+      "O4": "Schistosoma m"
+    },
+    "answer": "O2",
+    "images": [
+      "images/inicet/Last-5-Year-PYQs-in-Microbiology-for-INI-CET_page10_img1.jpeg",
+      "images/inicet/Last-5-Year-PYQs-in-Microbiology-for-INI-CET_page10_img2.png"
+    ],
+    "source_pdf": "Last-5-Year-PYQs-in-Microbiology-for-INI-CET.pdf",
+    "page_number": 10
+  },
+  {
+    "id": "inicet-a01a9ad3e5",
+    "exam": "inicet",
+    "question_no": "17",
+    "subject": "Microbiology",
+    "topic": "Microbiology",
+    "sub_topic": "",
+    "question": "Which of the following methods can detect deoxynucleotide incorporation in a DNA?",
+    "options": {
+      "O1": "Flow cytometry",
+      "O2": "Pyrosequencing",
+      "O3": "FISH",
+      "O4": "RFLP analysis"
+    },
+    "answer": "O2",
+    "images": [],
+    "source_pdf": "Last-5-Year-PYQs-in-Microbiology-for-INI-CET.pdf",
+    "page_number": 10
+  },
+  {
+    "id": "inicet-4600762a95",
+    "exam": "inicet",
+    "question_no": "18",
+    "subject": "Microbiology",
+    "topic": "Microbiology",
+    "sub_topic": "",
+    "question": "CD 40 marker is absent in a person. Which of the following would be seen?",
+    "options": {
+      "O1": "Absent T cells",
+      "O2": "Absent B cells",
+      "O3": "Absent NK cells",
+      "O4": "Absent Macrophages"
+    },
+    "answer": "O2",
+    "images": [],
+    "source_pdf": "Last-5-Year-PYQs-in-Microbiology-for-INI-CET.pdf",
+    "page_number": 11
+  },
+  {
+    "id": "inicet-36f557181b",
+    "exam": "inicet",
+    "question_no": "1",
+    "subject": "Orthopaedics",
+    "topic": "Orthopaedics",
+    "sub_topic": "",
+    "question": "Which nerve is most likely to be damaged in cases of anterior shoulder dislocation?",
+    "options": {
+      "O1": "Axillary nerve",
+      "O2": "Median nerve",
+      "O3": "Radial nerve",
+      "O4": "Suprascapular nerve"
+    },
+    "answer": "O1",
+    "images": [],
+    "source_pdf": "Last-5-Year-PYQs-in-Orthopaedics-for-INI-CET.pdf",
+    "page_number": 1
+  },
+  {
+    "id": "inicet-a7d0cba5a6",
+    "exam": "inicet",
+    "question_no": "2",
+    "subject": "Orthopaedics",
+    "topic": "Orthopaedics",
+    "sub_topic": "",
+    "question": "A 60-year-old patient presents with a limping gait and left hip pain. What is the likely diagnosis?",
+    "options": {
+      "O1": "Tuberculosis of the hip",
+      "O2": "Rheumatoid arthritis",
+      "O3": "Ankylosing spondylitis",
+      "O4": "Avascular necrosis"
+    },
+    "answer": "O4",
+    "images": [],
+    "source_pdf": "Last-5-Year-PYQs-in-Orthopaedics-for-INI-CET.pdf",
+    "page_number": 1
+  },
+  {
+    "id": "inicet-aa844f8d1e",
+    "exam": "inicet",
+    "question_no": "3",
+    "subject": "Orthopaedics",
+    "topic": "Orthopaedics",
+    "sub_topic": "",
+    "question": "A 72-year-old man came with complaints of unilateral knee pain. X-ray examination showed reduced joint space. Histopathological examination of the affected joint is shown below. What is the likely diagnosis?",
+    "options": {
+      "O1": "Osteoarthritis",
+      "O2": "Tuberculosis of the knee",
+      "O3": "Rheumatoid arthritis",
+      "O4": "Lyme disease"
+    },
+    "answer": "O1",
+    "images": [
+      "images/inicet/Last-5-Year-PYQs-in-Orthopaedics-for-INI-CET_page2_img1.jpeg",
+      "images/inicet/Last-5-Year-PYQs-in-Orthopaedics-for-INI-CET_page2_img2.png"
+    ],
+    "source_pdf": "Last-5-Year-PYQs-in-Orthopaedics-for-INI-CET.pdf",
+    "page_number": 2
+  },
+  {
+    "id": "inicet-9b8bcadbde",
+    "exam": "inicet",
+    "question_no": "4",
+    "subject": "Orthopaedics",
+    "topic": "Orthopaedics",
+    "sub_topic": "",
+    "question": "Which of the following statements are true about open fractures? 1. Tibia and phalanges are most commonly involved 2. Usually no co-existing injuries 3. Compartment syndrome does not occur in open fractures 4. Early debridement should be done",
+    "options": {
+      "O1": "1 and 2",
+      "O2": "1 and 4",
+      "O3": "2 and 4",
+      "O4": "2 and 3"
+    },
+    "answer": "O2",
+    "images": [],
+    "source_pdf": "Last-5-Year-PYQs-in-Orthopaedics-for-INI-CET.pdf",
+    "page_number": 2
+  },
+  {
+    "id": "inicet-49728b72bc",
+    "exam": "inicet",
+    "question_no": "5",
+    "subject": "Orthopaedics",
+    "topic": "Orthopaedics",
+    "sub_topic": "",
+    "question": "Match the following fractures with their respective sites.",
+    "options": {
+      "O1": "Jones fracture",
+      "O2": "Bennett's fracture",
+      "O3": "March fracture",
+      "O4": "Boxer fracture"
+    },
+    "answer": "O1",
+    "images": [],
+    "source_pdf": "Last-5-Year-PYQs-in-Orthopaedics-for-INI-CET.pdf",
+    "page_number": 3
+  },
+  {
+    "id": "inicet-3dc6bffb41",
+    "exam": "inicet",
+    "question_no": "6",
+    "subject": "Orthopaedics",
+    "topic": "Orthopaedics",
+    "sub_topic": "",
+    "question": "Arrange the following in the correct sequence for the Thomas test: 1. Squaring of pelvis 2. Flexion of the hip 3. Look for exaggerated lumbar lordosis 4. Measure actual flexion deformity 5. Make sure that the ischial tuberosity makes contact with the ground. 6. Overcorrection of the normal side",
+    "options": {
+      "O1": "1, 2, 3, 4, 5",
+      "O2": "3, 2, 1, 4, 6",
+      "O3": "3, 2, 6, 5, 4",
+      "O4": "3, 6, 2, 5, 4"
+    },
+    "answer": "O3",
+    "images": [],
+    "source_pdf": "Last-5-Year-PYQs-in-Orthopaedics-for-INI-CET.pdf",
+    "page_number": 3
+  },
+  {
+    "id": "inicet-8bddb31a94",
+    "exam": "inicet",
+    "question_no": "7",
+    "subject": "Orthopaedics",
+    "topic": "Orthopaedics",
+    "sub_topic": "",
+    "question": "What treatment would you provide to a 60-year-old female patient who had a Colles' fracture 8 months ago, has a T score of -2.5, attained menopause at 52 years, and is currently not experiencing any symptoms, when she visits the orthopedics outpatient department?",
+    "options": {
+      "O1": "Hormone replacement therapy",
+      "O2": "Alendronate",
+      "O3": "Calcium and vitamin D",
+      "O4": "Repeat DEXA scan after 3 months"
+    },
+    "answer": "O2",
+    "images": [],
+    "source_pdf": "Last-5-Year-PYQs-in-Orthopaedics-for-INI-CET.pdf",
+    "page_number": 4
+  },
+  {
+    "id": "inicet-05d99ba95e",
+    "exam": "inicet",
+    "question_no": "8",
+    "subject": "Orthopaedics",
+    "topic": "Orthopaedics",
+    "sub_topic": "",
+    "question": "A 45-year-old patient with a cast, due to tibia fracture, presented to the emergency department with complaints of intense pain. The cast was removed and on physical examination, passive extension of leg was painful. The dorsalis pedis and posterior tibial pulses were present and there was a loss of sensation over the first web space. What is the next step?",
+    "options": {
+      "O1": "Duplex imaging",
+      "O2": "Re-apply cast",
+      "O3": "Measure the anterior compartment pressure",
+      "O4": "Analgesics"
+    },
+    "answer": "O3",
+    "images": [],
+    "source_pdf": "Last-5-Year-PYQs-in-Orthopaedics-for-INI-CET.pdf",
+    "page_number": 4
+  },
+  {
+    "id": "inicet-df50352183",
+    "exam": "inicet",
+    "question_no": "10",
+    "subject": "Orthopaedics",
+    "topic": "Orthopaedics",
+    "sub_topic": "",
+    "question": "What condition is caused by nerve injury?",
+    "options": {
+      "O1": "Ulnar nerve",
+      "O2": "Radial nerve",
+      "O3": "Median nerve",
+      "O4": "Posterior interosseous nerve"
+    },
+    "answer": "O1",
+    "images": [],
+    "source_pdf": "Last-5-Year-PYQs-in-Orthopaedics-for-INI-CET.pdf",
+    "page_number": 5
+  },
+  {
+    "id": "inicet-3f68a5ae3b",
+    "exam": "inicet",
+    "question_no": "11",
+    "subject": "Orthopaedics",
+    "topic": "Orthopaedics",
+    "sub_topic": "",
+    "question": "A 75-year-old man presents with a fracture of the intracapsular neck of the femur. What is the standard management done in this patient?",
+    "options": {
+      "O1": "Hemiarthroplasty",
+      "O2": "Boot and bar cast",
+      "O3": "Intramedullary nails",
+      "O4": "Russels traction"
+    },
+    "answer": "O1",
+    "images": [],
+    "source_pdf": "Last-5-Year-PYQs-in-Orthopaedics-for-INI-CET.pdf",
+    "page_number": 5
+  },
+  {
+    "id": "inicet-782e9f5163",
+    "exam": "inicet",
+    "question_no": "13",
+    "subject": "Orthopaedics",
+    "topic": "Orthopaedics",
+    "sub_topic": "",
+    "question": "A 26-year-old male presented with a proximal 1/3rd fracture of the shaft of femur. What is the treatment of choice in this patient?",
+    "options": {
+      "O1": "Interlocking nail",
+      "O2": "Hip spica",
+      "O3": "Above knee slab",
+      "O4": "Above knee cast"
+    },
+    "answer": "O1",
+    "images": [],
+    "source_pdf": "Last-5-Year-PYQs-in-Orthopaedics-for-INI-CET.pdf",
+    "page_number": 6
+  },
+  {
+    "id": "inicet-5d017dcdd5",
+    "exam": "inicet",
+    "question_no": "14",
+    "subject": "Orthopaedics",
+    "topic": "Orthopaedics",
+    "sub_topic": "",
+    "question": "Which of the following is the most common site of an osteoporotic fracture?",
+    "options": {
+      "O1": "Vertebrae fracture",
+      "O2": "Subtrochanteric fracture",
+      "O3": "Glenoid fracture",
+      "O4": "Midshaft of humerus fracture"
+    },
+    "answer": "O1",
+    "images": [],
+    "source_pdf": "Last-5-Year-PYQs-in-Orthopaedics-for-INI-CET.pdf",
+    "page_number": 6
+  },
+  {
+    "id": "inicet-1111e6c2c6",
+    "exam": "inicet",
+    "question_no": "15",
+    "subject": "Orthopaedics",
+    "topic": "Orthopaedics",
+    "sub_topic": "",
+    "question": "A 23 year old male reports severe pain, swelling, and an inability to extend his knee after a fall. What is the diagnosis?",
+    "options": {
+      "O1": "Patellar fracture",
+      "O2": "Rheumatoid arthritis",
+      "O3": "Hemarthrosis of knee",
+      "O4": "Tibial condylar fracture"
+    },
+    "answer": "O1",
+    "images": [],
+    "source_pdf": "Last-5-Year-PYQs-in-Orthopaedics-for-INI-CET.pdf",
+    "page_number": 6
+  },
+  {
+    "id": "inicet-e05d4776ad",
+    "exam": "inicet",
+    "question_no": "16",
+    "subject": "Orthopaedics",
+    "topic": "Orthopaedics",
+    "sub_topic": "",
+    "question": "Identify the zone of calcification in the image given below.",
+    "options": {
+      "O1": "A",
+      "O2": "B",
+      "O3": "C",
+      "O4": "D"
+    },
+    "answer": "O1",
+    "images": [
+      "images/inicet/Last-5-Year-PYQs-in-Orthopaedics-for-INI-CET_page7_img1.jpeg",
+      "images/inicet/Last-5-Year-PYQs-in-Orthopaedics-for-INI-CET_page7_img2.png",
+      "images/inicet/Last-5-Year-PYQs-in-Orthopaedics-for-INI-CET_page7_img3.png"
+    ],
+    "source_pdf": "Last-5-Year-PYQs-in-Orthopaedics-for-INI-CET.pdf",
+    "page_number": 7
+  },
+  {
+    "id": "inicet-e4d8f95ce8",
+    "exam": "inicet",
+    "question_no": "17",
+    "subject": "Orthopaedics",
+    "topic": "Orthopaedics",
+    "sub_topic": "",
+    "question": "A 22-year-old male presents with thigh pain. A CT scan was done as given below. Identify the condition.?",
+    "options": {
+      "O1": "Osteomalacia",
+      "O2": "Osteosarcoma",
+      "O3": "Ewings sarcoma",
+      "O4": "Chronic Osteomyelitis"
+    },
+    "answer": "O4",
+    "images": [
+      "images/inicet/Last-5-Year-PYQs-in-Orthopaedics-for-INI-CET_page7_img1.jpeg",
+      "images/inicet/Last-5-Year-PYQs-in-Orthopaedics-for-INI-CET_page7_img2.png",
+      "images/inicet/Last-5-Year-PYQs-in-Orthopaedics-for-INI-CET_page7_img3.png"
+    ],
+    "source_pdf": "Last-5-Year-PYQs-in-Orthopaedics-for-INI-CET.pdf",
+    "page_number": 7
+  },
+  {
+    "id": "inicet-6f6c09baac",
+    "exam": "inicet",
+    "question_no": "18",
+    "subject": "Orthopaedics",
+    "topic": "Orthopaedics",
+    "sub_topic": "",
+    "question": "A 10-year-old boy is experiencing pain in the area surrounding his knee joint. The following lesion visible on the X-ray is seen extending from the distal femur to the terminal end. What is the most likely diagnosis?",
+    "options": {
+      "O1": "Giant cell tumour",
+      "O2": "Chondroblastoma",
+      "O3": "Osteoid osteoma",
+      "O4": "Osteosarcoma"
+    },
+    "answer": "O4",
+    "images": [
+      "images/inicet/Last-5-Year-PYQs-in-Orthopaedics-for-INI-CET_page8_img1.jpeg",
+      "images/inicet/Last-5-Year-PYQs-in-Orthopaedics-for-INI-CET_page8_img2.png"
+    ],
+    "source_pdf": "Last-5-Year-PYQs-in-Orthopaedics-for-INI-CET.pdf",
+    "page_number": 8
+  },
+  {
+    "id": "inicet-cbe8fbada1",
+    "exam": "inicet",
+    "question_no": "19",
+    "subject": "Orthopaedics",
+    "topic": "Orthopaedics",
+    "sub_topic": "",
+    "question": "What could be the potential diagnosis for a 22-year-old male patient presenting with a history of accident, exhibiting leg abduction and external rotation?",
+    "options": {
+      "O1": "Anterior dislocation of the hip",
+      "O2": "Posterior dislocation of the hip",
+      "O3": "Intertrochanteric fracture",
+      "O4": "Fracture neck of femur"
+    },
+    "answer": "O1",
+    "images": [],
+    "source_pdf": "Last-5-Year-PYQs-in-Orthopaedics-for-INI-CET.pdf",
+    "page_number": 8
+  },
+  {
+    "id": "inicet-16050417f0",
+    "exam": "inicet",
+    "question_no": "1",
+    "subject": "Pedia",
+    "topic": "Pedia",
+    "sub_topic": "",
+    "question": "What possible symptoms can be observed in a child exhibiting the following appearance?",
+    "options": {
+      "O1": "Pure red cell aplasia",
+      "O2": "Immunodeficiency",
+      "O3": "Lymphoproliferative disorder",
+      "O4": "Gingivostomatitis"
+    },
+    "answer": "O1",
+    "images": [],
+    "source_pdf": "Last-5-Year-PYQs-in-Pedia-for-INI-CET.pdf",
+    "page_number": 1
+  },
+  {
+    "id": "inicet-41272ded23",
+    "exam": "inicet",
+    "question_no": "3",
+    "subject": "Pedia",
+    "topic": "Pedia",
+    "sub_topic": "",
+    "question": "During a visit to a temple, a child accompanied by his grandmother exhibited continuous crying. Upon examination, the child displayed severe pain, high blood pressure, elevated heart rate, excessive sweating, persistent erection, and cool, damp skin. What treatment should be administered to the patient?",
+    "options": {
+      "O1": "Adrenaline",
+      "O2": "Anti snake venom",
+      "O3": "Prazosin",
+      "O4": "Methylprednisolone"
+    },
+    "answer": "O3",
+    "images": [],
+    "source_pdf": "Last-5-Year-PYQs-in-Pedia-for-INI-CET.pdf",
+    "page_number": 2
+  },
+  {
+    "id": "inicet-dbb5d2b30f",
+    "exam": "inicet",
+    "question_no": "4",
+    "subject": "Pedia",
+    "topic": "Pedia",
+    "sub_topic": "",
+    "question": "What components of Nada’s are minor criteria for congenital heart disease?",
+    "options": {
+      "O1": "Diastolic murmur",
+      "O2": "Systolic murmur grade-3",
+      "O3": "Abnormal 2nd heart sound",
+      "O4": "1, 2 and 3"
+    },
+    "answer": "O2",
+    "images": [],
+    "source_pdf": "Last-5-Year-PYQs-in-Pedia-for-INI-CET.pdf",
+    "page_number": 3
+  },
+  {
+    "id": "inicet-7fcac01338",
+    "exam": "inicet",
+    "question_no": "9",
+    "subject": "Pedia",
+    "topic": "Pedia",
+    "sub_topic": "",
+    "question": "Which of the following marked structures is damaged in respiratory distress syndrome in newborn?",
+    "options": {
+      "O1": "1",
+      "O2": "2",
+      "O3": "3",
+      "O4": "4"
+    },
+    "answer": "O2",
+    "images": [
+      "images/inicet/Last-5-Year-PYQs-in-Pedia-for-INI-CET_page6_img1.jpeg",
+      "images/inicet/Last-5-Year-PYQs-in-Pedia-for-INI-CET_page6_img2.png"
+    ],
+    "source_pdf": "Last-5-Year-PYQs-in-Pedia-for-INI-CET.pdf",
+    "page_number": 6
+  },
+  {
+    "id": "inicet-edf185c454",
+    "exam": "inicet",
+    "question_no": "12",
+    "subject": "Pedia",
+    "topic": "Pedia",
+    "sub_topic": "",
+    "question": "Which of the following PFT findings in a child do not suggest asthma?",
+    "options": {
+      "O1": "Increase in FEV1 > 12% after salbutamol inhalation",
+      "O2": "FEV1/FVC< 80%",
+      "O3": "Day-night variation of FEV1 > 15%",
+      "O4": "Decrease in FEV1 > 15% after exercise"
+    },
+    "answer": "O3",
+    "images": [],
+    "source_pdf": "Last-5-Year-PYQs-in-Pedia-for-INI-CET.pdf",
+    "page_number": 7
+  },
+  {
+    "id": "inicet-1aa5ab395e",
+    "exam": "inicet",
+    "question_no": "1",
+    "subject": "Pharmacology",
+    "topic": "Pharmacology",
+    "sub_topic": "",
+    "question": "Which of the following is the false statement regarding statins?",
+    "options": {
+      "O1": "Although HMG-CoA reductase inhibitors substantially reduce the risk of cardiovascular",
+      "O2": "These drugs should not be stopped even in severe conditions like injury, surgery etc.",
+      "O3": "They can be given with verapamil and other enzyme inhibitors",
+      "O4": "With long-term use, there is a slight increase in the incidence of type 2 diabetes"
+    },
+    "answer": "O3",
+    "images": [],
+    "source_pdf": "Last-5-Year-PYQs-in-Pharmacology-for-INI-CET.pdf",
+    "page_number": 1
+  },
+  {
+    "id": "inicet-40b3aacd8d",
+    "exam": "inicet",
+    "question_no": "2",
+    "subject": "Pharmacology",
+    "topic": "Pharmacology",
+    "sub_topic": "",
+    "question": "A young man sustained a scorpion sting 2 hours ago. On examination, his blood pressure is 168/100 mm Hg; HR, 72 beats/minute and respiratory rate, 32 breaths/ minute. He also complains of breathlessness. How do you manage this patient?",
+    "options": {
+      "O1": "Metoprolol",
+      "O2": "Ivabradine",
+      "O3": "Prazosin",
+      "O4": "Frusemide"
+    },
+    "answer": "O3",
+    "images": [],
+    "source_pdf": "Last-5-Year-PYQs-in-Pharmacology-for-INI-CET.pdf",
+    "page_number": 1
+  },
+  {
+    "id": "inicet-6c7481572c",
+    "exam": "inicet",
+    "question_no": "4",
+    "subject": "Pharmacology",
+    "topic": "Pharmacology",
+    "sub_topic": "",
+    "question": "A man was brought to the emergency room after poisoning with an unknown substance. Muscarinic poisoning was suspected, and he was treated for the same. What is the possible presenting feature that led to the diagnosis?",
+    "options": {
+      "O1": "Mydriasis",
+      "O2": "Diuresis",
+      "O3": "Muscle fasciculations",
+      "O4": "Bradycardia"
+    },
+    "answer": "O4",
+    "images": [],
+    "source_pdf": "Last-5-Year-PYQs-in-Pharmacology-for-INI-CET.pdf",
+    "page_number": 2
+  },
+  {
+    "id": "inicet-9c0f0fc10b",
+    "exam": "inicet",
+    "question_no": "5",
+    "subject": "Pharmacology",
+    "topic": "Pharmacology",
+    "sub_topic": "",
+    "question": "A patient was diagnosed with pulmonary tuberculosis and was started on first-time antitubercular drugs. Which of the following drugs acts by inhibiting the synthesis of the marked layer shown in the image?",
+    "options": {
+      "O1": "Isoniazid",
+      "O2": "Rifampicin",
+      "O3": "Pyrazinamide",
+      "O4": "Ethambutol"
+    },
+    "answer": "O1",
+    "images": [
+      "images/inicet/Last-5-Year-PYQs-in-Pharmacology-for-INI-CET_page3_img1.jpeg",
+      "images/inicet/Last-5-Year-PYQs-in-Pharmacology-for-INI-CET_page3_img2.png"
+    ],
+    "source_pdf": "Last-5-Year-PYQs-in-Pharmacology-for-INI-CET.pdf",
+    "page_number": 3
+  },
+  {
+    "id": "inicet-4df959ca28",
+    "exam": "inicet",
+    "question_no": "7",
+    "subject": "Pharmacology",
+    "topic": "Pharmacology",
+    "sub_topic": "",
+    "question": "Which of the following is not an off-label use of risperidone?",
+    "options": {
+      "O1": "Obsessive impulsive disorder",
+      "O2": "Dementia",
+      "O3": "PTSD",
+      "O4": "Bipolar disorder"
+    },
+    "answer": "O4",
+    "images": [],
+    "source_pdf": "Last-5-Year-PYQs-in-Pharmacology-for-INI-CET.pdf",
+    "page_number": 4
+  },
+  {
+    "id": "inicet-f275f06c92",
+    "exam": "inicet",
+    "question_no": "8",
+    "subject": "Pharmacology",
+    "topic": "Pharmacology",
+    "sub_topic": "",
+    "question": "If the dosage of a drug following first-order kinetics is doubled, how would it affect the half-life and plasma concentration?",
+    "options": {
+      "O1": "Half-life doubles, and plasma concentration remains the same",
+      "O2": "Half-life remains the sam,e and plasma concentration doubles",
+      "O3": "Half-life and plasma concentration remain the same",
+      "O4": "Half-life and plasma concentration doubles"
+    },
+    "answer": "O2",
+    "images": [],
+    "source_pdf": "Last-5-Year-PYQs-in-Pharmacology-for-INI-CET.pdf",
+    "page_number": 4
+  },
+  {
+    "id": "inicet-9913d3731f",
+    "exam": "inicet",
+    "question_no": "9",
+    "subject": "Pharmacology",
+    "topic": "Pharmacology",
+    "sub_topic": "",
+    "question": "Which of the following diseases does not involve the use of antimicrobial combinations?",
+    "options": {
+      "O1": "Uncomplicated gonorrhea",
+      "O2": "Tuberculosis",
+      "O3": "Intra-abdominal infections",
+      "O4": "Malaria"
+    },
+    "answer": "O1",
+    "images": [],
+    "source_pdf": "Last-5-Year-PYQs-in-Pharmacology-for-INI-CET.pdf",
+    "page_number": 4
+  },
+  {
+    "id": "inicet-467630596a",
+    "exam": "inicet",
+    "question_no": "10",
+    "subject": "Pharmacology",
+    "topic": "Pharmacology",
+    "sub_topic": "",
+    "question": "The dose at which dopamine acts on beta-1 receptors is _________?",
+    "options": {
+      "O1": "2-10 mcg/kg/min",
+      "O2": "<2 mcg/kg/min",
+      "O3": "10-20 mcg/kg/min",
+      "O4": ">20 mcg/kg/min"
+    },
+    "answer": "O1",
+    "images": [],
+    "source_pdf": "Last-5-Year-PYQs-in-Pharmacology-for-INI-CET.pdf",
+    "page_number": 4
+  },
+  {
+    "id": "inicet-73669e2587",
+    "exam": "inicet",
+    "question_no": "11",
+    "subject": "Pharmacology",
+    "topic": "Pharmacology",
+    "sub_topic": "",
+    "question": "Which among the following anti-leprosy drugs can cause skin hyperpigmentation?",
+    "options": {
+      "O1": "Clofazimine",
+      "O2": "Rifampicin",
+      "O3": "Dapsone",
+      "O4": "Ofloxacin"
+    },
+    "answer": "O1",
+    "images": [],
+    "source_pdf": "Last-5-Year-PYQs-in-Pharmacology-for-INI-CET.pdf",
+    "page_number": 5
+  },
+  {
+    "id": "inicet-e4fcdd1e6a",
+    "exam": "inicet",
+    "question_no": "12",
+    "subject": "Pharmacology",
+    "topic": "Pharmacology",
+    "sub_topic": "",
+    "question": "Which among the following is an HER-1 inhibitor?",
+    "options": {
+      "O1": "Panitumumab",
+      "O2": "Crizotinib",
+      "O3": "Alectinib",
+      "O4": "Lorlatinib"
+    },
+    "answer": "O1",
+    "images": [],
+    "source_pdf": "Last-5-Year-PYQs-in-Pharmacology-for-INI-CET.pdf",
+    "page_number": 5
+  },
+  {
+    "id": "inicet-cc875e6c15",
+    "exam": "inicet",
+    "question_no": "13",
+    "subject": "Pharmacology",
+    "topic": "Pharmacology",
+    "sub_topic": "",
+    "question": "Identify the Pcsk9 inhibitor.",
+    "options": {
+      "O1": "Evolocumab",
+      "O2": "Lomitapide",
+      "O3": "Mipomersen",
+      "O4": "Torcetrapib"
+    },
+    "answer": "O1",
+    "images": [
+      "images/inicet/Last-5-Year-PYQs-in-Pharmacology-for-INI-CET_page5_img1.jpeg"
+    ],
+    "source_pdf": "Last-5-Year-PYQs-in-Pharmacology-for-INI-CET.pdf",
+    "page_number": 5
+  },
+  {
+    "id": "inicet-60277090fc",
+    "exam": "inicet",
+    "question_no": "14",
+    "subject": "Pharmacology",
+    "topic": "Pharmacology",
+    "sub_topic": "",
+    "question": "Which of the following diuretics is matched correctly with its primary site of action? 1) Osmotic diuretics - Distal convoluted tubule. 2) Thiazide diuretics - Proximal convoluted tubule 3) Carbonic anhydrase inhibitors - Proximal convoluted tubule 4) Potassium-sparing diuretics - Collecting duct.",
+    "options": {
+      "O1": "1, 2, and 3",
+      "O2": "3 and 4",
+      "O3": "2, 3, and 4",
+      "O4": "1 and 2"
+    },
+    "answer": "O2",
+    "images": [],
+    "source_pdf": "Last-5-Year-PYQs-in-Pharmacology-for-INI-CET.pdf",
+    "page_number": 5
+  },
+  {
+    "id": "inicet-42e238a4f6",
+    "exam": "inicet",
+    "question_no": "15",
+    "subject": "Pharmacology",
+    "topic": "Pharmacology",
+    "sub_topic": "",
+    "question": "Which of the following adverse effects prevents the use of Teriparatide in a patient with Paget’s disease?",
+    "options": {
+      "O1": "Osteonecrosis of jawbone",
+      "O2": "Osteosarcoma",
+      "O3": "Subtrochanteric fractures",
+      "O4": "Net loss of bone mass"
+    },
+    "answer": "O2",
+    "images": [],
+    "source_pdf": "Last-5-Year-PYQs-in-Pharmacology-for-INI-CET.pdf",
+    "page_number": 6
+  },
+  {
+    "id": "inicet-a6b17fef0c",
+    "exam": "inicet",
+    "question_no": "16",
+    "subject": "Pharmacology",
+    "topic": "Pharmacology",
+    "sub_topic": "",
+    "question": "Which of the following is not a use of enteric-coated drugs? a) Protect the acid-labile drug from gastric acidity b) Protect the gastric mucosa from the irritant effects of certain drugs c) Prolongs the half-life of the drug d) Deliver drugs distal to the stomach",
+    "options": {
+      "O1": "a, b & c",
+      "O2": "b, c & d",
+      "O3": "a, c & d",
+      "O4": "c"
+    },
+    "answer": "O1",
+    "images": [],
+    "source_pdf": "Last-5-Year-PYQs-in-Pharmacology-for-INI-CET.pdf",
+    "page_number": 6
+  },
+  {
+    "id": "inicet-4677bff8b1",
+    "exam": "inicet",
+    "question_no": "17",
+    "subject": "Pharmacology",
+    "topic": "Pharmacology",
+    "sub_topic": "",
+    "question": "Which of the following side effects are likely to be observed when a patient already taking metoprolol is prescribed verapamil? a) Bradycardia with Av Block b) Torsades De Pointes c) Tachycardia d) Ventricular Fibrillation",
+    "options": {
+      "O1": "a only",
+      "O2": "a & b",
+      "O3": "a & c",
+      "O4": "b & d"
+    },
+    "answer": "O1",
+    "images": [],
+    "source_pdf": "Last-5-Year-PYQs-in-Pharmacology-for-INI-CET.pdf",
+    "page_number": 6
+  },
+  {
+    "id": "inicet-cbb87159e7",
+    "exam": "inicet",
+    "question_no": "18",
+    "subject": "Pharmacology",
+    "topic": "Pharmacology",
+    "sub_topic": "",
+    "question": "Which of the following drugs should not be combined with rosuvastatin?",
+    "options": {
+      "O1": "Oxycodone",
+      "O2": "Clarithromycin",
+      "O3": "Adalimumab",
+      "O4": "Rivaroxaban"
+    },
+    "answer": "O2",
+    "images": [],
+    "source_pdf": "Last-5-Year-PYQs-in-Pharmacology-for-INI-CET.pdf",
+    "page_number": 7
+  },
+  {
+    "id": "inicet-d7d6bdc907",
+    "exam": "inicet",
+    "question_no": "19",
+    "subject": "Pharmacology",
+    "topic": "Pharmacology",
+    "sub_topic": "",
+    "question": "Which topical antifungal exhibits both anti-inflammatory properties and provides relief from itching?",
+    "options": {
+      "O1": "Ketoconazole",
+      "O2": "Sertaconazole",
+      "O3": "Luliconazole",
+      "O4": "Terbinafine"
+    },
+    "answer": "O2",
+    "images": [],
+    "source_pdf": "Last-5-Year-PYQs-in-Pharmacology-for-INI-CET.pdf",
+    "page_number": 7
+  },
+  {
+    "id": "inicet-fc23aa7fbc",
+    "exam": "inicet",
+    "question_no": "20",
+    "subject": "Pharmacology",
+    "topic": "Pharmacology",
+    "sub_topic": "",
+    "question": "For a patient who has commenced lithium therapy, which of the following adverse effects should they be instructed to be vigilant for in order to detect any signs of toxicity?",
+    "options": {
+      "O1": "Malaise and sore throat",
+      "O2": "Vertigo and Diarrhoea",
+      "O3": "Fever",
+      "O4": "Breathlessness"
+    },
+    "answer": "O2",
+    "images": [],
+    "source_pdf": "Last-5-Year-PYQs-in-Pharmacology-for-INI-CET.pdf",
+    "page_number": 7
+  },
+  {
+    "id": "inicet-ad1bd74358",
+    "exam": "inicet",
+    "question_no": "1",
+    "subject": "Physiology",
+    "topic": "Physiology",
+    "sub_topic": "",
+    "question": "A and B in the graph below represent which of the following ions, in terms of permeability for action potential generation?",
+    "options": {
+      "O1": "A is Na+, B is K+",
+      "O2": "A is Na+, B is Ca2+",
+      "O3": "A is K+, B is Ca2+",
+      "O4": "A is Ca2+, B is K+"
+    },
+    "answer": "O1",
+    "images": [],
+    "source_pdf": "Last-5-Year-PYQs-in-Physiology-for-INI-CET.pdf",
+    "page_number": 1
+  },
+  {
+    "id": "inicet-ef433e7c5c",
+    "exam": "inicet",
+    "question_no": "4",
+    "subject": "Physiology",
+    "topic": "Physiology",
+    "sub_topic": "",
+    "question": "What causes the detachment of myosin from actin filaments?",
+    "options": {
+      "O1": "Attachment of ATP to the myosin head",
+      "O2": "Cessation of calcium release from the sarcoplasm",
+      "O3": "Conformational change in Troponin T",
+      "O4": "Dissociation of ADP and Pi"
+    },
+    "answer": "O1",
+    "images": [],
+    "source_pdf": "Last-5-Year-PYQs-in-Physiology-for-INI-CET.pdf",
+    "page_number": 2
+  },
+  {
+    "id": "inicet-1758be6411",
+    "exam": "inicet",
+    "question_no": "5",
+    "subject": "Physiology",
+    "topic": "Physiology",
+    "sub_topic": "",
+    "question": "The correct sequence of events during vomiting are? 1. Relaxation of lower esophageal sphincter 2. Strong contractions in the stomach 3. Inspiration against a closed glottis 4. Relaxation of the pyloric sphincter 5. Relaxation of upper esophageal sphincter 6. Reverse peristalsis in the small intestine",
+    "options": {
+      "O1": "6,4,2,5,1,3",
+      "O2": "6,4,3,2,1,5",
+      "O3": "4,6,2,1,3,5",
+      "O4": "4,6,2,5,3,1"
+    },
+    "answer": "O2",
+    "images": [],
+    "source_pdf": "Last-5-Year-PYQs-in-Physiology-for-INI-CET.pdf",
+    "page_number": 3
+  },
+  {
+    "id": "inicet-d295ea8c82",
+    "exam": "inicet",
+    "question_no": "6",
+    "subject": "Physiology",
+    "topic": "Physiology",
+    "sub_topic": "",
+    "question": "What is the normal insensible water loss?",
+    "options": {
+      "O1": "100 mL/hour",
+      "O2": "150 mL/hour",
+      "O3": "50 mL/hour",
+      "O4": "200 mL/hour"
+    },
+    "answer": "O2",
+    "images": [],
+    "source_pdf": "Last-5-Year-PYQs-in-Physiology-for-INI-CET.pdf",
+    "page_number": 3
+  },
+  {
+    "id": "inicet-53fd37e95d",
+    "exam": "inicet",
+    "question_no": "7",
+    "subject": "Physiology",
+    "topic": "Physiology",
+    "sub_topic": "",
+    "question": "The signaling sequence in a type 2 membrane protein with N-terminal facing cytoplasm is located in?",
+    "options": {
+      "O1": "Inside the membrane",
+      "O2": "At the C-terminal",
+      "O3": "At the N-terminal",
+      "O4": "Both inside the membrane and at C-terminal"
+    },
+    "answer": "O1",
+    "images": [],
+    "source_pdf": "Last-5-Year-PYQs-in-Physiology-for-INI-CET.pdf",
+    "page_number": 3
+  },
+  {
+    "id": "inicet-1b4c98cb70",
+    "exam": "inicet",
+    "question_no": "8",
+    "subject": "Physiology",
+    "topic": "Physiology",
+    "sub_topic": "",
+    "question": "The image shows changes in membrane potential during an action potential. The region marked between 4 to 5 is due to",
+    "options": {
+      "O1": "Influx of Na+",
+      "O2": "Efflux of Na+",
+      "O3": "Influx of K+",
+      "O4": "Efflux of K+"
+    },
+    "answer": "O4",
+    "images": [
+      "images/inicet/Last-5-Year-PYQs-in-Physiology-for-INI-CET_page4_img1.jpeg",
+      "images/inicet/Last-5-Year-PYQs-in-Physiology-for-INI-CET_page4_img2.png"
+    ],
+    "source_pdf": "Last-5-Year-PYQs-in-Physiology-for-INI-CET.pdf",
+    "page_number": 4
+  },
+  {
+    "id": "inicet-87f21a6a2d",
+    "exam": "inicet",
+    "question_no": "9",
+    "subject": "Physiology",
+    "topic": "Physiology",
+    "sub_topic": "",
+    "question": "What is the cause of the relaxation of the intestinal segment following the segment containing the food bolus during peristalsis?",
+    "options": {
+      "O1": "VIP",
+      "O2": "Substances P",
+      "O3": "Dopamine from adrenergic fibers",
+      "O4": "Acetylcholine from myenteric fibers"
+    },
+    "answer": "O1",
+    "images": [],
+    "source_pdf": "Last-5-Year-PYQs-in-Physiology-for-INI-CET.pdf",
+    "page_number": 4
+  },
+  {
+    "id": "inicet-1558bb17fe",
+    "exam": "inicet",
+    "question_no": "10",
+    "subject": "Physiology",
+    "topic": "Physiology",
+    "sub_topic": "",
+    "question": "Which one of the following is not associated with renal auto-regulation?",
+    "options": {
+      "O1": "Tubuloglomerular feedback",
+      "O2": "Myogenic reflex",
+      "O3": "Calcium",
+      "O4": "Renal sympathetic system fibers"
+    },
+    "answer": "O4",
+    "images": [],
+    "source_pdf": "Last-5-Year-PYQs-in-Physiology-for-INI-CET.pdf",
+    "page_number": 4
+  },
+  {
+    "id": "inicet-a37ec8a2a8",
+    "exam": "inicet",
+    "question_no": "11",
+    "subject": "Physiology",
+    "topic": "Physiology",
+    "sub_topic": "",
+    "question": "What is the formula used to calculate Stroke Volume (SV) in the context of cardiac physiology?",
+    "options": {
+      "O1": "SV = Heart Rate (HR) × Ejection Fraction (EF)",
+      "O2": "SV = End-Diastolic Volume (EDV) - End-Systolic Volume (ESV)",
+      "O3": "SV = Cardiac Output (CO) / Heart Rate (HR)",
+      "O4": "SV = Preload × Afterload"
+    },
+    "answer": "O2",
+    "images": [],
+    "source_pdf": "Last-5-Year-PYQs-in-Physiology-for-INI-CET.pdf",
+    "page_number": 5
+  },
+  {
+    "id": "inicet-58eeb76776",
+    "exam": "inicet",
+    "question_no": "12",
+    "subject": "Physiology",
+    "topic": "Physiology",
+    "sub_topic": "",
+    "question": "Which lobe is affected by a lesion that results in a deficit in hand-eye coordination?",
+    "options": {
+      "O1": "Parietal lobe",
+      "O2": "Frontal lobe",
+      "O3": "Temporal lobe",
+      "O4": "Occipital lobe"
+    },
+    "answer": "O1",
+    "images": [],
+    "source_pdf": "Last-5-Year-PYQs-in-Physiology-for-INI-CET.pdf",
+    "page_number": 5
+  },
+  {
+    "id": "inicet-7f9dc732d0",
+    "exam": "inicet",
+    "question_no": "13",
+    "subject": "Physiology",
+    "topic": "Physiology",
+    "sub_topic": "",
+    "question": "Which of the following does not cause a right shift of the oxygen-hemoglobin dissociation curve?",
+    "options": {
+      "O1": "Increased HbF",
+      "O2": "Raised 2,3 DPG",
+      "O3": "Acidosis",
+      "O4": "Increased CO2"
+    },
+    "answer": "O1",
+    "images": [],
+    "source_pdf": "Last-5-Year-PYQs-in-Physiology-for-INI-CET.pdf",
+    "page_number": 5
+  },
+  {
+    "id": "inicet-ba81809290",
+    "exam": "inicet",
+    "question_no": "15",
+    "subject": "Physiology",
+    "topic": "Physiology",
+    "sub_topic": "",
+    "question": "Which of the following leads to a decrease in GFR?",
+    "options": {
+      "O1": "Increased RBF",
+      "O2": "Increased Glomerular hydrostatic pressure",
+      "O3": "Decreased Bowman's oncotic pressure",
+      "O4": "Decreased Glomerular oncotic pressure"
+    },
+    "answer": "O3",
+    "images": [],
+    "source_pdf": "Last-5-Year-PYQs-in-Physiology-for-INI-CET.pdf",
+    "page_number": 6
+  },
+  {
+    "id": "inicet-5d20280a30",
+    "exam": "inicet",
+    "question_no": "16",
+    "subject": "Physiology",
+    "topic": "Physiology",
+    "sub_topic": "",
+    "question": "Which of the following are properties of ventricular cardiac muscle? 1. All or none law 2. Length tension relationship 3. Long refractory period 4. Can be tetanized",
+    "options": {
+      "O1": "1 only",
+      "O2": "2 only",
+      "O3": "1 and 2",
+      "O4": "1,2,3"
+    },
+    "answer": "O4",
+    "images": [],
+    "source_pdf": "Last-5-Year-PYQs-in-Physiology-for-INI-CET.pdf",
+    "page_number": 7
+  },
+  {
+    "id": "inicet-dcc20af8d8",
+    "exam": "inicet",
+    "question_no": "17",
+    "subject": "Physiology",
+    "topic": "Physiology",
+    "sub_topic": "",
+    "question": "Spinal nucleus of the trigeminal is associated with which sensation?",
+    "options": {
+      "O1": "Vibration",
+      "O2": "Conscious proprioception",
+      "O3": "Pain",
+      "O4": "Two point discrimination"
+    },
+    "answer": "O3",
+    "images": [],
+    "source_pdf": "Last-5-Year-PYQs-in-Physiology-for-INI-CET.pdf",
+    "page_number": 7
+  },
+  {
+    "id": "inicet-c413d613e6",
+    "exam": "inicet",
+    "question_no": "18",
+    "subject": "Physiology",
+    "topic": "Physiology",
+    "sub_topic": "",
+    "question": "Which hormones possess receptors within the cell?",
+    "options": {
+      "O1": "Thyroxine",
+      "O2": "Epinephrine",
+      "O3": "Glucagon",
+      "O4": "Parathormone"
+    },
+    "answer": "O1",
+    "images": [],
+    "source_pdf": "Last-5-Year-PYQs-in-Physiology-for-INI-CET.pdf",
+    "page_number": 7
+  },
+  {
+    "id": "inicet-6ee80bca8c",
+    "exam": "inicet",
+    "question_no": "19",
+    "subject": "Physiology",
+    "topic": "Physiology",
+    "sub_topic": "",
+    "question": "Arrange the following in the sequence in which they occur, after the 'p wave' in ECG: A- 'a' wave B- 1st heart sound C- Rapid filling of ventricles D- 't' wave",
+    "options": {
+      "O1": "ABCD",
+      "O2": "ABDC",
+      "O3": "CABD",
+      "O4": "ACBD"
+    },
+    "answer": "O2",
+    "images": [
+      "images/inicet/Last-5-Year-PYQs-in-Physiology-for-INI-CET_page8_img1.jpeg"
+    ],
+    "source_pdf": "Last-5-Year-PYQs-in-Physiology-for-INI-CET.pdf",
+    "page_number": 8
+  },
+  {
+    "id": "inicet-5596fab56d",
+    "exam": "inicet",
+    "question_no": "20",
+    "subject": "Physiology",
+    "topic": "Physiology",
+    "sub_topic": "",
+    "question": "Which of the following factors is not necessary for determining creatinine clearance?",
+    "options": {
+      "O1": "Urine creatinine",
+      "O2": "Serum creatinine",
+      "O3": "Urine flow per unit time",
+      "O4": "The volume of serum passing through the kidney in 24 hours"
+    },
+    "answer": "O4",
+    "images": [],
+    "source_pdf": "Last-5-Year-PYQs-in-Physiology-for-INI-CET.pdf",
+    "page_number": 8
+  },
+  {
+    "id": "inicet-21d09b1d9a",
+    "exam": "inicet",
+    "question_no": "1",
+    "subject": "Psychiatry",
+    "topic": "Psychiatry",
+    "sub_topic": "",
+    "question": "A patient with a history of chronic alcohol use (24 units per day for the past 10 years) presents with seizures, altered mental status, auditory hallucinations, and secondary delusions. His last alcohol consumption was 2 days ago. What is the appropriate management for this patient? 1. Diazepam 2. Thiamine 3. Naltrexone 4. Flupenthixol depot injection",
+    "options": {
+      "O1": "1, 4",
+      "O2": "1, 2, 4",
+      "O3": "1, 3, 4",
+      "O4": "1, 2"
+    },
+    "answer": "O2",
+    "images": [],
+    "source_pdf": "Last-5-Year-PYQs-in-Psychiatry-for-INI-CET.pdf",
+    "page_number": 1
+  },
+  {
+    "id": "inicet-1345364a56",
+    "exam": "inicet",
+    "question_no": "3",
+    "subject": "Psychiatry",
+    "topic": "Psychiatry",
+    "sub_topic": "",
+    "question": "A pregnant mother was on SSRIs. Which of the following risks is increased in the newborn? 1. Low APGAR score 2. ADHD 3. Persistent pulmonary hypertension 4. Delayed developmental milestones",
+    "options": {
+      "O1": "A, C",
+      "O2": "A, B, C, D",
+      "O3": "B, C, D",
+      "O4": "A, B, C"
+    },
+    "answer": "O2",
+    "images": [],
+    "source_pdf": "Last-5-Year-PYQs-in-Psychiatry-for-INI-CET.pdf",
+    "page_number": 2
+  },
+  {
+    "id": "inicet-d3c700d880",
+    "exam": "inicet",
+    "question_no": "4",
+    "subject": "Psychiatry",
+    "topic": "Psychiatry",
+    "sub_topic": "",
+    "question": "Which of the following statements accurately describes Korsakoff syndrome?",
+    "options": {
+      "O1": "Triad of confusion, ophthalmoplegia, and ataxia",
+      "O2": "Loss of long-term memory but intact personality",
+      "O3": "Anterograde amnesia with loss of recent memory",
+      "O4": "Loss of implicit memory and immediate recall"
+    },
+    "answer": "O3",
+    "images": [],
+    "source_pdf": "Last-5-Year-PYQs-in-Psychiatry-for-INI-CET.pdf",
+    "page_number": 2
+  },
+  {
+    "id": "inicet-0cf3efca8d",
+    "exam": "inicet",
+    "question_no": "6",
+    "subject": "Psychiatry",
+    "topic": "Psychiatry",
+    "sub_topic": "",
+    "question": "Match the following",
+    "options": {
+      "O1": "Twilight state",
+      "O2": "Oneiroid state",
+      "O3": "Oligophrenia",
+      "O4": "Paranoid ideation"
+    },
+    "answer": "O4",
+    "images": [],
+    "source_pdf": "Last-5-Year-PYQs-in-Psychiatry-for-INI-CET.pdf",
+    "page_number": 3
+  },
+  {
+    "id": "inicet-06f8b66b32",
+    "exam": "inicet",
+    "question_no": "7",
+    "subject": "Psychiatry",
+    "topic": "Psychiatry",
+    "sub_topic": "",
+    "question": "A young male who is shy and prefers social isolation appears to be emotionally cold and resides alone. There is no history of hallucinations or delusions. The most likely diagnosis is?",
+    "options": {
+      "O1": "Paranoid personality disorder",
+      "O2": "Schizoid personality disorder",
+      "O3": "Antisocial personality disorder",
+      "O4": "Emotionally unstable personality"
+    },
+    "answer": "O2",
+    "images": [],
+    "source_pdf": "Last-5-Year-PYQs-in-Psychiatry-for-INI-CET.pdf",
+    "page_number": 4
+  },
+  {
+    "id": "inicet-31e90c2dd1",
+    "exam": "inicet",
+    "question_no": "8",
+    "subject": "Psychiatry",
+    "topic": "Psychiatry",
+    "sub_topic": "",
+    "question": "Among the following, what is the most common symptom of adult obsessive-compulsive disorder?",
+    "options": {
+      "O1": "Aggressive symptoms",
+      "O2": "Need for symmetry",
+      "O3": "Pathological doubt",
+      "O4": "Sexual symptom"
+    },
+    "answer": "O3",
+    "images": [],
+    "source_pdf": "Last-5-Year-PYQs-in-Psychiatry-for-INI-CET.pdf",
+    "page_number": 4
+  },
+  {
+    "id": "inicet-08b9240705",
+    "exam": "inicet",
+    "question_no": "10",
+    "subject": "Psychiatry",
+    "topic": "Psychiatry",
+    "sub_topic": "",
+    "question": "Abrupt stoppage of which of the following drugs causes irritability, rebound anxiety, and insomnia?",
+    "options": {
+      "O1": "Valproate",
+      "O2": "Fluoxetine",
+      "O3": "Olanzapine",
+      "O4": "Venlafaxine"
+    },
+    "answer": "O4",
+    "images": [],
+    "source_pdf": "Last-5-Year-PYQs-in-Psychiatry-for-INI-CET.pdf",
+    "page_number": 5
+  },
+  {
+    "id": "inicet-dbffc19c7a",
+    "exam": "inicet",
+    "question_no": "11",
+    "subject": "Psychiatry",
+    "topic": "Psychiatry",
+    "sub_topic": "",
+    "question": "Which of the following is not true about rapid cyclers in bipolar disorder?",
+    "options": {
+      "O1": "Occurs commonly in men",
+      "O2": "Commonly associated with concomitant hypothyroidism",
+      "O3": "At least 4 distinct episodes per year",
+      "O4": "Antidepressant’s use can increase the likelihood"
+    },
+    "answer": "O1",
+    "images": [],
+    "source_pdf": "Last-5-Year-PYQs-in-Psychiatry-for-INI-CET.pdf",
+    "page_number": 5
+  },
+  {
+    "id": "inicet-129365b420",
+    "exam": "inicet",
+    "question_no": "12",
+    "subject": "Psychiatry",
+    "topic": "Psychiatry",
+    "sub_topic": "",
+    "question": "Which of the following is not included in diagnosing autism spectrum disorder?",
+    "options": {
+      "O1": "Abnormalities in social communication",
+      "O2": "Cognitive dysfunction",
+      "O3": "Abnormality in socialization",
+      "O4": "Restricted pattern of behaviour and interest"
+    },
+    "answer": "O2",
+    "images": [],
+    "source_pdf": "Last-5-Year-PYQs-in-Psychiatry-for-INI-CET.pdf",
+    "page_number": 5
+  },
+  {
+    "id": "inicet-c133686c31",
+    "exam": "inicet",
+    "question_no": "13",
+    "subject": "Psychiatry",
+    "topic": "Psychiatry",
+    "sub_topic": "",
+    "question": "Which of the following is not a component of Beck's cognitive theory of depression?",
+    "options": {
+      "O1": "Cognitive distorsions",
+      "O2": "Automated thoughts",
+      "O3": "Introjection",
+      "O4": "Dysfunctional belief"
+    },
+    "answer": "O3",
+    "images": [],
+    "source_pdf": "Last-5-Year-PYQs-in-Psychiatry-for-INI-CET.pdf",
+    "page_number": 5
+  },
+  {
+    "id": "inicet-d62eb85c6e",
+    "exam": "inicet",
+    "question_no": "14",
+    "subject": "Psychiatry",
+    "topic": "Psychiatry",
+    "sub_topic": "",
+    "question": "Mental Health Gap Action Programme (mhGAP) includes all of the following disorders except?",
+    "options": {
+      "O1": "OCD",
+      "O2": "Depression",
+      "O3": "Schizophrenia",
+      "O4": "Childhood mental disorder"
+    },
+    "answer": "O1",
+    "images": [],
+    "source_pdf": "Last-5-Year-PYQs-in-Psychiatry-for-INI-CET.pdf",
+    "page_number": 6
+  },
+  {
+    "id": "inicet-2613ce7e19",
+    "exam": "inicet",
+    "question_no": "15",
+    "subject": "Psychiatry",
+    "topic": "Psychiatry",
+    "sub_topic": "",
+    "question": "A young male who is shy and prefers social isolation appears to be emotionally cold and resides alone. There is no history of hallucinations or delusions. The most likely diagnosis is?",
+    "options": {
+      "O1": "Paranoid personality disorder",
+      "O2": "Schizoid personality disorder",
+      "O3": "Antisocial personality disorder",
+      "O4": "Emotionally unstable personality disorder"
+    },
+    "answer": "O2",
+    "images": [],
+    "source_pdf": "Last-5-Year-PYQs-in-Psychiatry-for-INI-CET.pdf",
+    "page_number": 6
+  },
+  {
+    "id": "inicet-8278ecbc9c",
+    "exam": "inicet",
+    "question_no": "18",
+    "subject": "Psychiatry",
+    "topic": "Psychiatry",
+    "sub_topic": "",
+    "question": "Which one of the options below is not classified as a form of subcortical dementia?",
+    "options": {
+      "O1": "Pick’s disease",
+      "O2": "Parkinson’s disease",
+      "O3": "Huntington’s disease",
+      "O4": "Wilson’s disease"
+    },
+    "answer": "O1",
+    "images": [],
+    "source_pdf": "Last-5-Year-PYQs-in-Psychiatry-for-INI-CET.pdf",
+    "page_number": 7
+  },
+  {
+    "id": "inicet-d230aa0cd3",
+    "exam": "inicet",
+    "question_no": "19",
+    "subject": "Psychiatry",
+    "topic": "Psychiatry",
+    "sub_topic": "",
+    "question": "What should be the treatment approach for a 7-year-old child who has been experiencing bed-wetting about twice a week for the past year, following a thorough investigation to exclude any underlying organic cause?",
+    "options": {
+      "O1": "Pharmacotherapy with imipramine",
+      "O2": "Psychodynamic psychotherapy",
+      "O3": "Bladder training, with the reward for delaying micturition during daytime",
+      "O4": "Bell and pad-based classification conditioning"
+    },
+    "answer": "O4",
+    "images": [],
+    "source_pdf": "Last-5-Year-PYQs-in-Psychiatry-for-INI-CET.pdf",
+    "page_number": 7
+  },
+  {
+    "id": "inicet-88c90eaea3",
+    "exam": "inicet",
+    "question_no": "20",
+    "subject": "Psychiatry",
+    "topic": "Psychiatry",
+    "sub_topic": "",
+    "question": "What is the likely diagnosis for a 10-year-old child experiencing selective mutism?",
+    "options": {
+      "O1": "Childhood depression",
+      "O2": "Childhood psychosis",
+      "O3": "Childhood anxiety disorder",
+      "O4": "Hyperkinetic disorder"
+    },
+    "answer": "O3",
+    "images": [],
+    "source_pdf": "Last-5-Year-PYQs-in-Psychiatry-for-INI-CET.pdf",
+    "page_number": 7
+  },
+  {
+    "id": "inicet-bf42ecc4a3",
+    "exam": "inicet",
+    "question_no": "1",
+    "subject": "Radiology",
+    "topic": "Radiology",
+    "sub_topic": "",
+    "question": "What could be the most probable diagnosis for an elderly woman who is experiencing abdominal pain and swelling, considering her past medical history of scoliosis? Please refer to the provided X-ray image of the woman's upright abdomen for further information.",
+    "options": {
+      "O1": "Large bowel obstruction due to sigmoid volvulus",
+      "O2": "Large bowel obstruction due to faecolith",
+      "O3": "Cecal volvulus",
+      "O4": "Small bowel obstruction due to bowel perforation"
+    },
+    "answer": "O1",
+    "images": [
+      "images/inicet/Last-5-Year-PYQs-in-Radiology-for-INI-CET_page1_img1.jpeg",
+      "images/inicet/Last-5-Year-PYQs-in-Radiology-for-INI-CET_page1_img2.png"
+    ],
+    "source_pdf": "Last-5-Year-PYQs-in-Radiology-for-INI-CET.pdf",
+    "page_number": 1
+  },
+  {
+    "id": "inicet-08b327cb2e",
+    "exam": "inicet",
+    "question_no": "2",
+    "subject": "Radiology",
+    "topic": "Radiology",
+    "sub_topic": "",
+    "question": "Match the following: 1. Football sign a. Hypertrophic pyloric stenosis 2. String sign b. Achalasia cardia 3. Rat tail sign c. Ileocecal TB 4. Inverted umbrella sign d. Pneumoperitoneum",
+    "options": {
+      "O1": "1-b, 2-d, 3-a, 4-c",
+      "O2": "1-c, 2-a, 3-b, 4-d",
+      "O3": "1-d, 2-b, 3-a, 4-c",
+      "O4": "1-d, 2-a, 3-b, 4-c"
+    },
+    "answer": "O4",
+    "images": [],
+    "source_pdf": "Last-5-Year-PYQs-in-Radiology-for-INI-CET.pdf",
+    "page_number": 2
+  },
+  {
+    "id": "inicet-16eda7a3d0",
+    "exam": "inicet",
+    "question_no": "3",
+    "subject": "Radiology",
+    "topic": "Radiology",
+    "sub_topic": "",
+    "question": "Side effects of Pituitary irradiation?",
+    "options": {
+      "O1": "Hypopituitarism",
+      "O2": "Increased risk of cerebrovascular accident",
+      "O3": "Optic nerve damage",
+      "O4": "All of the above"
+    },
+    "answer": "O4",
+    "images": [],
+    "source_pdf": "Last-5-Year-PYQs-in-Radiology-for-INI-CET.pdf",
+    "page_number": 2
+  },
+  {
+    "id": "inicet-2692fe9cce",
+    "exam": "inicet",
+    "question_no": "4",
+    "subject": "Radiology",
+    "topic": "Radiology",
+    "sub_topic": "",
+    "question": "A 45-year-old patient presented with vague abdominal pain. What is the diagnosis?",
+    "options": {
+      "O1": "RCC",
+      "O2": "Renal oncocytoma",
+      "O3": "Renal Angiomyolipoma",
+      "O4": "Renal cyst"
+    },
+    "answer": "O3",
+    "images": [],
+    "source_pdf": "Last-5-Year-PYQs-in-Radiology-for-INI-CET.pdf",
+    "page_number": 2
+  },
+  {
+    "id": "inicet-34dada7e39",
+    "exam": "inicet",
+    "question_no": "5",
+    "subject": "Radiology",
+    "topic": "Radiology",
+    "sub_topic": "",
+    "question": "Identify the imaging modality given below.",
+    "options": {
+      "O1": "USG",
+      "O2": "Fluoroscopy",
+      "O3": "X-Ray",
+      "O4": "MRI"
+    },
+    "answer": "O1",
+    "images": [
+      "images/inicet/Last-5-Year-PYQs-in-Radiology-for-INI-CET_page3_img1.jpeg",
+      "images/inicet/Last-5-Year-PYQs-in-Radiology-for-INI-CET_page3_img2.png",
+      "images/inicet/Last-5-Year-PYQs-in-Radiology-for-INI-CET_page3_img3.png"
+    ],
+    "source_pdf": "Last-5-Year-PYQs-in-Radiology-for-INI-CET.pdf",
+    "page_number": 3
+  },
+  {
+    "id": "inicet-d0d88001d8",
+    "exam": "inicet",
+    "question_no": "7",
+    "subject": "Radiology",
+    "topic": "Radiology",
+    "sub_topic": "",
+    "question": "What is the cause of the double bleb sign observed during early pregnancy?",
+    "options": {
+      "O1": "Twin pregnancy",
+      "O2": "Amnion and chorion",
+      "O3": "Yolk sac and amniotic sac",
+      "O4": "Heterotopic pregnancy"
+    },
+    "answer": "O3",
+    "images": [],
+    "source_pdf": "Last-5-Year-PYQs-in-Radiology-for-INI-CET.pdf",
+    "page_number": 4
+  },
+  {
+    "id": "inicet-90526fc37a",
+    "exam": "inicet",
+    "question_no": "8",
+    "subject": "Radiology",
+    "topic": "Radiology",
+    "sub_topic": "",
+    "question": "Which of the following is true regarding CT scan?",
+    "options": {
+      "O1": "CT score of water is 0",
+      "O2": "CT consists of unfiltered X-ray beams",
+      "O3": "It is the investigation of choice for Gallstones",
+      "O4": "The typical effective dose for a NCCT head scan is 20mSv"
+    },
+    "answer": "O1",
+    "images": [
+      "images/inicet/Last-5-Year-PYQs-in-Radiology-for-INI-CET_page4_img1.jpeg",
+      "images/inicet/Last-5-Year-PYQs-in-Radiology-for-INI-CET_page4_img2.png"
+    ],
+    "source_pdf": "Last-5-Year-PYQs-in-Radiology-for-INI-CET.pdf",
+    "page_number": 4
+  },
+  {
+    "id": "inicet-fa88b4e336",
+    "exam": "inicet",
+    "question_no": "10",
+    "subject": "Radiology",
+    "topic": "Radiology",
+    "sub_topic": "",
+    "question": "Which of the following is the best management of aneurysm by interventional radiologist?",
+    "options": {
+      "O1": "Coiling",
+      "O2": "endothermal ablation",
+      "O3": "Bare stent placement",
+      "O4": "Sclerotherapy"
+    },
+    "answer": "O1",
+    "images": [],
+    "source_pdf": "Last-5-Year-PYQs-in-Radiology-for-INI-CET.pdf",
+    "page_number": 5
+  },
+  {
+    "id": "inicet-eadc4e74c3",
+    "exam": "inicet",
+    "question_no": "11",
+    "subject": "Radiology",
+    "topic": "Radiology",
+    "sub_topic": "",
+    "question": "A 46-year-old male presented with chronic back pain and neck stiffness. An X-ray cervical spine is given below. What is the diagnosis?",
+    "options": {
+      "O1": "Ankylosing spondylitis",
+      "O2": "Diffuse idiopathic skeletal hyperostosis",
+      "O3": "Klippel feil syndrome",
+      "O4": "Sprengel deformity"
+    },
+    "answer": "O2",
+    "images": [
+      "images/inicet/Last-5-Year-PYQs-in-Radiology-for-INI-CET_page5_img1.jpeg",
+      "images/inicet/Last-5-Year-PYQs-in-Radiology-for-INI-CET_page5_img2.png"
+    ],
+    "source_pdf": "Last-5-Year-PYQs-in-Radiology-for-INI-CET.pdf",
+    "page_number": 5
+  },
+  {
+    "id": "inicet-0fa128023a",
+    "exam": "inicet",
+    "question_no": "12",
+    "subject": "Radiology",
+    "topic": "Radiology",
+    "sub_topic": "",
+    "question": "Which of the options below represents a characteristic observed in cases of large bowel obstruction?",
+    "options": {
+      "O1": "Dilated loops of the intestine with plica circulars",
+      "O2": "Dilated loops with haustrations",
+      "O3": "String of pearls sign",
+      "O4": "Central dilated bowel loops"
+    },
+    "answer": "O2",
+    "images": [],
+    "source_pdf": "Last-5-Year-PYQs-in-Radiology-for-INI-CET.pdf",
+    "page_number": 6
+  },
+  {
+    "id": "inicet-3dac03152c",
+    "exam": "inicet",
+    "question_no": "13",
+    "subject": "Radiology",
+    "topic": "Radiology",
+    "sub_topic": "",
+    "question": "A 22-year-old male arrived at the emergency room after being involved in a car accident. During the examination, his Glasgow Coma Scale (GCS) score was E2M2V3, indicating a level of consciousness. No fractures, hydrocephalus, or increased pressure within the skull were detected. A non-contrast CT scan was conducted and showed no abnormalities. The probable diagnosis is-",
+    "options": {
+      "O1": "Diffuse axonal injury",
+      "O2": "Post-concussion syndrome",
+      "O3": "Extradural hemorrhage",
+      "O4": "Herniation of brain"
+    },
+    "answer": "O1",
+    "images": [
+      "images/inicet/Last-5-Year-PYQs-in-Radiology-for-INI-CET_page6_img1.jpeg"
+    ],
+    "source_pdf": "Last-5-Year-PYQs-in-Radiology-for-INI-CET.pdf",
+    "page_number": 6
+  },
+  {
+    "id": "inicet-cdca8440b5",
+    "exam": "inicet",
+    "question_no": "2",
+    "subject": "Surgery",
+    "topic": "Surgery",
+    "sub_topic": "",
+    "question": "Which of these is the most life-threatening injury that can be identified by assessing the breathing component of the patient?",
+    "options": {
+      "O1": "Cervical spine injury",
+      "O2": "Tension pneumothorax",
+      "O3": "Blunt cardiac injury",
+      "O4": "Laryngotracheal injury"
+    },
+    "answer": "O2",
+    "images": [],
+    "source_pdf": "Last-5-Year-PYQs-in-Surgery-for-INI-CET.pdf",
+    "page_number": 1
+  },
+  {
+    "id": "inicet-fe7c17de69",
+    "exam": "inicet",
+    "question_no": "3",
+    "subject": "Surgery",
+    "topic": "Surgery",
+    "sub_topic": "",
+    "question": "What preoperative intervention can be administered to minimise intraoperative bleeding in a 32-year-old female patient diagnosed with Grave's disease, presenting with eye symptoms and an enlarged thyroid, who is scheduled to undergo a total thyroidectomy?",
+    "options": {
+      "O1": "Potassium iodide",
+      "O2": "Propranolol",
+      "O3": "Propylthiouracil",
+      "O4": "Betamethasone"
+    },
+    "answer": "O1",
+    "images": [],
+    "source_pdf": "Last-5-Year-PYQs-in-Surgery-for-INI-CET.pdf",
+    "page_number": 1
+  },
+  {
+    "id": "inicet-c85034fa29",
+    "exam": "inicet",
+    "question_no": "4",
+    "subject": "Surgery",
+    "topic": "Surgery",
+    "sub_topic": "",
+    "question": "Hand rub can be utilised in accordance with the standard hand hygiene protocol in all locations listed below, with the exception of:",
+    "options": {
+      "O1": "If the hands are visibly soiled",
+      "O2": "While moving from a contaminated site to a clean site during patient care",
+      "O3": "After removing sterile gloves",
+      "O4": "During direct patient contact"
+    },
+    "answer": "O1",
+    "images": [],
+    "source_pdf": "Last-5-Year-PYQs-in-Surgery-for-INI-CET.pdf",
+    "page_number": 2
+  },
+  {
+    "id": "inicet-04a8ade3c0",
+    "exam": "inicet",
+    "question_no": "5",
+    "subject": "Surgery",
+    "topic": "Surgery",
+    "sub_topic": "",
+    "question": "In the case of a patient arriving at the emergency department with a road traffic accident (RTA), what is the appropriate order of steps in their management? 1. Cervial spine stabilisation 2. Intubation 3. IV cannulation 4. CECT",
+    "options": {
+      "O1": "1, 3, 2, 4",
+      "O2": "1, 2, 3, 4",
+      "O3": "2, 1, 3, 4",
+      "O4": "2, 1, 4, 3"
+    },
+    "answer": "O2",
+    "images": [],
+    "source_pdf": "Last-5-Year-PYQs-in-Surgery-for-INI-CET.pdf",
+    "page_number": 2
+  },
+  {
+    "id": "inicet-4f9c1287cd",
+    "exam": "inicet",
+    "question_no": "6",
+    "subject": "Surgery",
+    "topic": "Surgery",
+    "sub_topic": "",
+    "question": "Which of the following is the most common hernia in females?",
+    "options": {
+      "O1": "Direct Inguinal hernia",
+      "O2": "Indirect inguinal hernia",
+      "O3": "Femoral hernia",
+      "O4": "Obturator hernia"
+    },
+    "answer": "O1",
+    "images": [],
+    "source_pdf": "Last-5-Year-PYQs-in-Surgery-for-INI-CET.pdf",
+    "page_number": 2
+  },
+  {
+    "id": "inicet-4b51b8e3ce",
+    "exam": "inicet",
+    "question_no": "8",
+    "subject": "Surgery",
+    "topic": "Surgery",
+    "sub_topic": "",
+    "question": "All of the following statements regarding Wilms tumor are true, except?",
+    "options": {
+      "O1": "Presents as an abdominal mass",
+      "O2": "Most commonly seen <5yrs of age",
+      "O3": "Majority patients recover due to chemotherapy and radiotherapy",
+      "O4": "Lung involvement in uncommon and occurs late"
+    },
+    "answer": "O3",
+    "images": [],
+    "source_pdf": "Last-5-Year-PYQs-in-Surgery-for-INI-CET.pdf",
+    "page_number": 3
+  },
+  {
+    "id": "inicet-bfa6e51275",
+    "exam": "inicet",
+    "question_no": "9",
+    "subject": "Surgery",
+    "topic": "Surgery",
+    "sub_topic": "",
+    "question": "45-year-old female presents with recurrent episodes of right flank pain, hematuria, and a history of urinary tract infections. Urine analysis shows alkaline urine with a pH of 8.0. Microscopy revealed the following finding. Which of the following is the most likely underlying cause of this patient's condition?",
+    "options": {
+      "O1": "Triple phosphate stone",
+      "O2": "Ca Oxalate Stones",
+      "O3": "Uric Acid Stones",
+      "O4": "Cystine Stones"
+    },
+    "answer": "O1",
+    "images": [
+      "images/inicet/Last-5-Year-PYQs-in-Surgery-for-INI-CET_page3_img1.jpeg",
+      "images/inicet/Last-5-Year-PYQs-in-Surgery-for-INI-CET_page3_img2.png"
+    ],
+    "source_pdf": "Last-5-Year-PYQs-in-Surgery-for-INI-CET.pdf",
+    "page_number": 3
+  },
+  {
+    "id": "inicet-718fc054e8",
+    "exam": "inicet",
+    "question_no": "10",
+    "subject": "Surgery",
+    "topic": "Surgery",
+    "sub_topic": "",
+    "question": "A patient with invasive ductal carcinoma in situ presents with ulceration on skin and inflammatory signs. Nipple retraction was also present. What is the stage?",
+    "options": {
+      "O1": "Stage 3b",
+      "O2": "Stage 4 with node positivity",
+      "O3": "T4b",
+      "O4": "No metastasis"
+    },
+    "answer": "O1",
+    "images": [],
+    "source_pdf": "Last-5-Year-PYQs-in-Surgery-for-INI-CET.pdf",
+    "page_number": 4
+  },
+  {
+    "id": "inicet-de7b2645f9",
+    "exam": "inicet",
+    "question_no": "11",
+    "subject": "Surgery",
+    "topic": "Surgery",
+    "sub_topic": "",
+    "question": "A 35-year-old male sustained a head injury following a motorcycle accident. He experienced a brief loss of consciousness at the scene. Upon regaining consciousness, he developed a severe headache and began to feel drowsy. A CT scan of the head is performed. Which of the following should be the management for this patient?",
+    "options": {
+      "O1": "Anticoagulants",
+      "O2": "Immediate surgical decompression",
+      "O3": "Observation in ICU",
+      "O4": "Mannitol administration"
+    },
+    "answer": "O2",
+    "images": [
+      "images/inicet/Last-5-Year-PYQs-in-Surgery-for-INI-CET_page4_img1.jpeg",
+      "images/inicet/Last-5-Year-PYQs-in-Surgery-for-INI-CET_page4_img2.png"
+    ],
+    "source_pdf": "Last-5-Year-PYQs-in-Surgery-for-INI-CET.pdf",
+    "page_number": 4
+  },
+  {
+    "id": "inicet-80549cf5c5",
+    "exam": "inicet",
+    "question_no": "13",
+    "subject": "Surgery",
+    "topic": "Surgery",
+    "sub_topic": "",
+    "question": "A 20-year-old was brought to the ER after falling off his bicycle. His vitals were stable, but he had a bruise over the perineum, and he had not passed urine yet. Blood was seen at the meatus and the bladder was not palpable. How do you manage him?",
+    "options": {
+      "O1": "Wait and send him home",
+      "O2": "Immediate insertion of a Foley catheter",
+      "O3": "Suprapubic aspiration of urine",
+      "O4": "Wait for bladder to fill and urge to urinate"
+    },
+    "answer": "O4",
+    "images": [],
+    "source_pdf": "Last-5-Year-PYQs-in-Surgery-for-INI-CET.pdf",
+    "page_number": 5
+  },
+  {
+    "id": "inicet-bfc8256c92",
+    "exam": "inicet",
+    "question_no": "14",
+    "subject": "Surgery",
+    "topic": "Surgery",
+    "sub_topic": "",
+    "question": "What is the size of the cannula gauge used in this picture?",
+    "options": {
+      "O1": "14",
+      "O2": "16",
+      "O3": "18",
+      "O4": "20"
+    },
+    "answer": "O3",
+    "images": [],
+    "source_pdf": "Last-5-Year-PYQs-in-Surgery-for-INI-CET.pdf",
+    "page_number": 5
+  },
+  {
+    "id": "inicet-3625e5ad91",
+    "exam": "inicet",
+    "question_no": "15",
+    "subject": "Surgery",
+    "topic": "Surgery",
+    "sub_topic": "",
+    "question": "What is the most appropriate next step in the management of a female patient who has abdominal pain, multiple gallstones with no thickening of the gallbladder wall as seen on ultrasound, a common bile duct diameter of 12mm, serum bilirubin level of 0.8, alkaline phosphatase level of 380, and a 5-fold increase in GGT?",
+    "options": {
+      "O1": "MRCP",
+      "O2": "ERCP",
+      "O3": "Endoscopic ultrasound",
+      "O4": "Laparoscopic cholecystectomy"
+    },
+    "answer": "O1",
+    "images": [],
+    "source_pdf": "Last-5-Year-PYQs-in-Surgery-for-INI-CET.pdf",
+    "page_number": 6
+  },
+  {
+    "id": "inicet-db7bf4db8c",
+    "exam": "inicet",
+    "question_no": "16",
+    "subject": "Surgery",
+    "topic": "Surgery",
+    "sub_topic": "",
+    "question": "What will be the most likely associated condition with increased TSH and low T4 levels?",
+    "options": {
+      "O1": "Hypoparathyroidism",
+      "O2": "Pituitary Adenoma",
+      "O3": "Grave's disease",
+      "O4": "Hashimoto's thyroiditis"
+    },
+    "answer": "O4",
+    "images": [],
+    "source_pdf": "Last-5-Year-PYQs-in-Surgery-for-INI-CET.pdf",
+    "page_number": 6
+  },
+  {
+    "id": "inicet-1ada829afc",
+    "exam": "inicet",
+    "question_no": "17",
+    "subject": "Surgery",
+    "topic": "Surgery",
+    "sub_topic": "",
+    "question": "What is the probable diagnosis for a girl who has experienced continuous urinary dribbling and persistent bladder fullness since birth?",
+    "options": {
+      "O1": "Stress incontinence",
+      "O2": "Ureterocele",
+      "O3": "Ectopic ureter",
+      "O4": "Vesicovaginal fistula"
+    },
+    "answer": "O3",
+    "images": [],
+    "source_pdf": "Last-5-Year-PYQs-in-Surgery-for-INI-CET.pdf",
+    "page_number": 6
+  },
+  {
+    "id": "inicet-6df15d638e",
+    "exam": "inicet",
+    "question_no": "18",
+    "subject": "Surgery",
+    "topic": "Surgery",
+    "sub_topic": "",
+    "question": "What is the most likely primary site of origin for metastatic liver adenocarcinoma with CK 7 (-), CK 20 (+), and CDX-1 (+) IHC markers?",
+    "options": {
+      "O1": "Colon carcinoma",
+      "O2": "Breast carcinoma",
+      "O3": "Pancreatic carcinoma",
+      "O4": "Ovarian carcinoma"
+    },
+    "answer": "O1",
+    "images": [],
+    "source_pdf": "Last-5-Year-PYQs-in-Surgery-for-INI-CET.pdf",
+    "page_number": 6
+  },
+  {
+    "id": "inicet-a4d04c653d",
+    "exam": "inicet",
+    "question_no": "19",
+    "subject": "Surgery",
+    "topic": "Surgery",
+    "sub_topic": "",
+    "question": "A patient presents with pain in the right upper quadrant on the second postoperative day following a cholecystectomy. Evaluation reveals a collection in the subhepatic space. A bile leak is suspected. Which of the following is the best investigation for this patient?",
+    "options": {
+      "O1": "MRCP",
+      "O2": "ERCP",
+      "O3": "HIDA",
+      "O4": "CECT"
+    },
+    "answer": "O2",
+    "images": [],
+    "source_pdf": "Last-5-Year-PYQs-in-Surgery-for-INI-CET.pdf",
+    "page_number": 7
+  },
+  {
+    "id": "inicet-1dabc90214",
+    "exam": "inicet",
+    "question_no": "1",
+    "subject": "Biochemistry",
+    "topic": "Biochemistry",
+    "sub_topic": "",
+    "question": "What is true about the Hayflick limit?",
+    "options": {
+      "O1": "Human cells can divide a finite number of times only",
+      "O2": "Free radical oxidation level is unrestricted",
+      "O3": "Telomerase activity is restricted.",
+      "O4": "RNA polymerase can function for a finite amount of time only"
+    },
+    "answer": "O1",
+    "images": [],
+    "source_pdf": "Last-5-Years-PYQs-INI-CET-Biochemistry.pdf",
+    "page_number": 1
+  },
+  {
+    "id": "inicet-078b084047",
+    "exam": "inicet",
+    "question_no": "2",
+    "subject": "Biochemistry",
+    "topic": "Biochemistry",
+    "sub_topic": "",
+    "question": "DNA methylation not related to?",
+    "options": {
+      "O1": "Mismatch repair",
+      "O2": "Chromatin remodeling",
+      "O3": "DNA replication",
+      "O4": "Gene silencing"
+    },
+    "answer": "O3",
+    "images": [],
+    "source_pdf": "Last-5-Years-PYQs-INI-CET-Biochemistry.pdf",
+    "page_number": 1
+  },
+  {
+    "id": "inicet-61b439a0a1",
+    "exam": "inicet",
+    "question_no": "3",
+    "subject": "Biochemistry",
+    "topic": "Biochemistry",
+    "sub_topic": "",
+    "question": "The correct order of steps in a polymerase chain reaction (PCR) is:",
+    "options": {
+      "O1": "Hybridization, annealing, elongation, denaturation",
+      "O2": "Elongation, denaturation, Hybridization, annealing,",
+      "O3": "Denaturation, annealing, extension.",
+      "O4": "Annealing, extension, denaturation"
+    },
+    "answer": "O3",
+    "images": [],
+    "source_pdf": "Last-5-Years-PYQs-INI-CET-Biochemistry.pdf",
+    "page_number": 1
+  },
+  {
+    "id": "inicet-1eabd7b8ba",
+    "exam": "inicet",
+    "question_no": "4",
+    "subject": "Biochemistry",
+    "topic": "Biochemistry",
+    "sub_topic": "",
+    "question": "The meal that exhibits the highest thermic effect is characterized by",
+    "options": {
+      "O1": "Protein",
+      "O2": "Fat",
+      "O3": "Carbohydrates",
+      "O4": "Mixed meal having all 3 in equal amount"
+    },
+    "answer": "O1",
+    "images": [],
+    "source_pdf": "Last-5-Years-PYQs-INI-CET-Biochemistry.pdf",
+    "page_number": 2
+  },
+  {
+    "id": "inicet-ce36547861",
+    "exam": "inicet",
+    "question_no": "5",
+    "subject": "Biochemistry",
+    "topic": "Biochemistry",
+    "sub_topic": "",
+    "question": "The sequence of vitamin D synthesis is?",
+    "options": {
+      "O1": "Liver-skin-kidney",
+      "O2": "Skin-liver-kidney",
+      "O3": "Skin-kidney-liver",
+      "O4": "Liver-kidney-skin"
+    },
+    "answer": "O2",
+    "images": [],
+    "source_pdf": "Last-5-Years-PYQs-INI-CET-Biochemistry.pdf",
+    "page_number": 2
+  },
+  {
+    "id": "inicet-07ece77fb8",
+    "exam": "inicet",
+    "question_no": "6",
+    "subject": "Biochemistry",
+    "topic": "Biochemistry",
+    "sub_topic": "",
+    "question": "How does RNAi impact gene expression?",
+    "options": {
+      "O1": "Knock out",
+      "O2": "Knockdown",
+      "O3": "Knock up",
+      "O4": "Knock in"
+    },
+    "answer": "O2",
+    "images": [],
+    "source_pdf": "Last-5-Years-PYQs-INI-CET-Biochemistry.pdf",
+    "page_number": 3
+  },
+  {
+    "id": "inicet-85c0a0c345",
+    "exam": "inicet",
+    "question_no": "7",
+    "subject": "Biochemistry",
+    "topic": "Biochemistry",
+    "sub_topic": "",
+    "question": "Which of the following poisoning agents does not inhibit cytochrome oxidase?",
+    "options": {
+      "O1": "Hydrogen sulfide",
+      "O2": "Carbon monoxide",
+      "O3": "Methane",
+      "O4": "Cyanide"
+    },
+    "answer": "O2",
+    "images": [],
+    "source_pdf": "Last-5-Years-PYQs-INI-CET-Biochemistry.pdf",
+    "page_number": 3
+  },
+  {
+    "id": "inicet-c9fa3be4ff",
+    "exam": "inicet",
+    "question_no": "8",
+    "subject": "Biochemistry",
+    "topic": "Biochemistry",
+    "sub_topic": "",
+    "question": "Which of the following lipase enzymes is inhibited by the insulin?",
+    "options": {
+      "O1": "Lipoprotein lipase",
+      "O2": "Pancreatic lipase",
+      "O3": "Gastric lipase",
+      "O4": "Hormone-sensitive lipase"
+    },
+    "answer": "O4",
+    "images": [],
+    "source_pdf": "Last-5-Years-PYQs-INI-CET-Biochemistry.pdf",
+    "page_number": 4
+  },
+  {
+    "id": "inicet-4b97d2b7be",
+    "exam": "inicet",
+    "question_no": "9",
+    "subject": "Biochemistry",
+    "topic": "Biochemistry",
+    "sub_topic": "",
+    "question": "What is the main substrate and metabolic fuel used by RBCs during fasting period?",
+    "options": {
+      "O1": "Ketone bodies",
+      "O2": "Glucose",
+      "O3": "Free fatty acids",
+      "O4": "Amino acids"
+    },
+    "answer": "O2",
+    "images": [],
+    "source_pdf": "Last-5-Years-PYQs-INI-CET-Biochemistry.pdf",
+    "page_number": 4
+  },
+  {
+    "id": "inicet-17b737962d",
+    "exam": "inicet",
+    "question_no": "11",
+    "subject": "Biochemistry",
+    "topic": "Biochemistry",
+    "sub_topic": "",
+    "question": "In a patient with maple syrup urine disease, all of the following amino acids should be restricted in diet, except?",
+    "options": {
+      "O1": "Methionine",
+      "O2": "Valine",
+      "O3": "Leucine",
+      "O4": "Isoleucine"
+    },
+    "answer": "O1",
+    "images": [],
+    "source_pdf": "Last-5-Years-PYQs-INI-CET-Biochemistry.pdf",
+    "page_number": 5
+  },
+  {
+    "id": "inicet-0279464668",
+    "exam": "inicet",
+    "question_no": "12",
+    "subject": "Biochemistry",
+    "topic": "Biochemistry",
+    "sub_topic": "",
+    "question": "Affinity maturation of antibodies is because of ____.",
+    "options": {
+      "O1": "Somatic hypermutation",
+      "O2": "Differential mRNA processing",
+      "O3": "CD40",
+      "O4": "Gene rearrangements"
+    },
+    "answer": "O1",
+    "images": [],
+    "source_pdf": "Last-5-Years-PYQs-INI-CET-Biochemistry.pdf",
+    "page_number": 5
+  },
+  {
+    "id": "inicet-3cac9c20a8",
+    "exam": "inicet",
+    "question_no": "13",
+    "subject": "Biochemistry",
+    "topic": "Biochemistry",
+    "sub_topic": "",
+    "question": "The best method for the detection of mutations with low allele frequency is:",
+    "options": {
+      "O1": "Droplet digital PCR",
+      "O2": "FISH",
+      "O3": "Nested PCR",
+      "O4": "Sanger sequencing"
+    },
+    "answer": "O1",
+    "images": [],
+    "source_pdf": "Last-5-Years-PYQs-INI-CET-Biochemistry.pdf",
+    "page_number": 6
+  },
+  {
+    "id": "inicet-91de4465b8",
+    "exam": "inicet",
+    "question_no": "14",
+    "subject": "Biochemistry",
+    "topic": "Biochemistry",
+    "sub_topic": "",
+    "question": "Deamination of methylated cytosine forms which of the following?",
+    "options": {
+      "O1": "Uracil",
+      "O2": "Cytosine",
+      "O3": "Guanine",
+      "O4": "Thymine"
+    },
+    "answer": "O4",
+    "images": [],
+    "source_pdf": "Last-5-Years-PYQs-INI-CET-Biochemistry.pdf",
+    "page_number": 6
+  },
+  {
+    "id": "inicet-2cdae38c25",
+    "exam": "inicet",
+    "question_no": "15",
+    "subject": "Biochemistry",
+    "topic": "Biochemistry",
+    "sub_topic": "",
+    "question": "Which of the following options best describes the mutation seen in patients with cystic fibrosis?",
+    "options": {
+      "O1": "Tryptophan at 708 position, chloride channel",
+      "O2": "Phenylalanine at 708 position, calcium channel",
+      "O3": "Phenylalanine at 508 position, chloride channel",
+      "O4": "Tryptophan at 508 position, calcium channel"
+    },
+    "answer": "O3",
+    "images": [],
+    "source_pdf": "Last-5-Years-PYQs-INI-CET-Biochemistry.pdf",
+    "page_number": 7
+  },
+  {
+    "id": "inicet-63bb4ad4cb",
+    "exam": "inicet",
+    "question_no": "16",
+    "subject": "Biochemistry",
+    "topic": "Biochemistry",
+    "sub_topic": "",
+    "question": "Which of the following enzyme defect leads to Pompe’s disease?",
+    "options": {
+      "O1": "Lysosomal acid alpha glucosidase",
+      "O2": "β-hexosaminidase-A",
+      "O3": "Β–galactocerebrosidase",
+      "O4": "β-glucocerebrosidase"
+    },
+    "answer": "O1",
+    "images": [],
+    "source_pdf": "Last-5-Years-PYQs-INI-CET-Biochemistry.pdf",
+    "page_number": 7
+  },
+  {
+    "id": "inicet-3e43411a29",
+    "exam": "inicet",
+    "question_no": "17",
+    "subject": "Biochemistry",
+    "topic": "Biochemistry",
+    "sub_topic": "",
+    "question": "Xanthurenic aciduria may be treated with high does of which vitamin",
+    "options": {
+      "O1": "Vitamin B6",
+      "O2": "Vitamin B12",
+      "O3": "Vitamin B5",
+      "O4": "Vitamin B7"
+    },
+    "answer": "O1",
+    "images": [],
+    "source_pdf": "Last-5-Years-PYQs-INI-CET-Biochemistry.pdf",
+    "page_number": 8
+  },
+  {
+    "id": "inicet-8035cb28d2",
+    "exam": "inicet",
+    "question_no": "18",
+    "subject": "Biochemistry",
+    "topic": "Biochemistry",
+    "sub_topic": "",
+    "question": "Deficiency of which of the following causes Barth syndrome?",
+    "options": {
+      "O1": "Cardiolipin",
+      "O2": "Sphingomyelin",
+      "O3": "Glycolipids",
+      "O4": "Cerebroside"
+    },
+    "answer": "O1",
+    "images": [],
+    "source_pdf": "Last-5-Years-PYQs-INI-CET-Biochemistry.pdf",
+    "page_number": 8
+  },
+  {
+    "id": "inicet-66d320b886",
+    "exam": "inicet",
+    "question_no": "19",
+    "subject": "Biochemistry",
+    "topic": "Biochemistry",
+    "sub_topic": "",
+    "question": "What determines the DNA sequence?",
+    "options": {
+      "O1": "Flow cytometry",
+      "O2": "FISH",
+      "O3": "RFLP",
+      "O4": "PCR"
+    },
+    "answer": "O4",
+    "images": [],
+    "source_pdf": "Last-5-Years-PYQs-INI-CET-Biochemistry.pdf",
+    "page_number": 8
+  },
+  {
+    "id": "inicet-b09d221af9",
+    "exam": "inicet",
+    "question_no": "20",
+    "subject": "Biochemistry",
+    "topic": "Biochemistry",
+    "sub_topic": "",
+    "question": "Calculate Anion Gap ? Na: 145 mmol/L K: 4 mmol/L CI: 90 mmol/L HCO3 : 15mmol/L",
+    "options": {
+      "O1": "35",
+      "O2": "40",
+      "O3": "28",
+      "O4": "12"
+    },
+    "answer": "O2",
+    "images": [],
+    "source_pdf": "Last-5-Years-PYQs-INI-CET-Biochemistry.pdf",
+    "page_number": 9
+  },
+  {
+    "id": "inicet-8c8b6bb692",
+    "exam": "inicet",
+    "question_no": "21",
+    "subject": "Biochemistry",
+    "topic": "Biochemistry",
+    "sub_topic": "",
+    "question": "Ketosis is common in type 1 DM due to: Decreased beta-oxidation of fatty acids Increased mobilization of fat from the adipose cell Decreased acetyl CoA in TCA cycle Increase beta-hydroxy butyryl synthase",
+    "options": {
+      "O1": "1, 2, and 3",
+      "O2": "1, 2, 3, and 4",
+      "O3": "4 only",
+      "O4": "1 and 2 only"
+    },
+    "answer": "O1",
+    "images": [],
+    "source_pdf": "Last-5-Years-PYQs-INI-CET-Biochemistry.pdf",
+    "page_number": 10
+  },
+  {
+    "id": "inicet-3455bab76f",
+    "exam": "inicet",
+    "question_no": "22",
+    "subject": "Biochemistry",
+    "topic": "Biochemistry",
+    "sub_topic": "",
+    "question": "Which type of DNA repair mechanism involves the removal and replacement of a damaged DNA strand with the help of an undamaged complementary strand as a template?",
+    "options": {
+      "O1": "Base Excision Repair",
+      "O2": "Nucleotide Excision Repair",
+      "O3": "Mismatch Repair",
+      "O4": "Homologous Recombination"
+    },
+    "answer": "O4",
+    "images": [],
+    "source_pdf": "Last-5-Years-PYQs-INI-CET-Biochemistry.pdf",
+    "page_number": 10
+  },
+  {
+    "id": "inicet-644badc3a2",
+    "exam": "inicet",
+    "question_no": "23",
+    "subject": "Biochemistry",
+    "topic": "Biochemistry",
+    "sub_topic": "",
+    "question": "What is the enzyme that is shared by both glycolysis and gluconeogenesis?",
+    "options": {
+      "O1": "Pyruvate kinase",
+      "O2": "Phosphofructokinase",
+      "O3": "Phosphoenolpyruvate carboxy kinase",
+      "O4": "Phosphoglycerate kinase"
+    },
+    "answer": "O4",
+    "images": [],
+    "source_pdf": "Last-5-Years-PYQs-INI-CET-Biochemistry.pdf",
+    "page_number": 11
+  },
+  {
+    "id": "inicet-c0354ca6f4",
+    "exam": "inicet",
+    "question_no": "24",
+    "subject": "Biochemistry",
+    "topic": "Biochemistry",
+    "sub_topic": "",
+    "question": "Out of the enzymes listed below, which one exhibits the greatest catalytic efficiency?",
+    "options": {
+      "O1": "Km of an enzyme = 10 micromole and Kcat = 20 per sec",
+      "O2": "Km of an enzyme = 2000 nanomole and Kcat = 50 per sec",
+      "O3": "Km of an enzyme = 2 micromole and Kcat = 200 per sec",
+      "O4": "Km of an enzyme = 4 micromole and Kcat = 200 per sec"
+    },
+    "answer": "O3",
+    "images": [],
+    "source_pdf": "Last-5-Years-PYQs-INI-CET-Biochemistry.pdf",
+    "page_number": 11
+  },
+  {
+    "id": "inicet-5887fed97c",
+    "exam": "inicet",
+    "question_no": "2",
+    "subject": "Anatomy",
+    "topic": "Anatomy",
+    "sub_topic": "",
+    "question": "Decussation of the superior cerebellar peduncle occurs at which level?",
+    "options": {
+      "O1": "Pons",
+      "O2": "Midbrain",
+      "O3": "Diencephalon",
+      "O4": "Medulla"
+    },
+    "answer": "O2",
+    "images": [],
+    "source_pdf": "Last-5-Years-PYQs-of-INI-CET-Anatomy.pdf",
+    "page_number": 1
+  },
+  {
+    "id": "inicet-551ef24c5a",
+    "exam": "inicet",
+    "question_no": "3",
+    "subject": "Anatomy",
+    "topic": "Anatomy",
+    "sub_topic": "",
+    "question": "All of the following are the contents of the carotid sheath except?",
+    "options": {
+      "O1": "Sympathetic chain",
+      "O2": "Carotid artery",
+      "O3": "Internal jugular vein",
+      "O4": "10th cranial nerve"
+    },
+    "answer": "O1",
+    "images": [],
+    "source_pdf": "Last-5-Years-PYQs-of-INI-CET-Anatomy.pdf",
+    "page_number": 1
+  },
+  {
+    "id": "inicet-a51afbda3a",
+    "exam": "inicet",
+    "question_no": "4",
+    "subject": "Anatomy",
+    "topic": "Anatomy",
+    "sub_topic": "",
+    "question": "What structure develops from the region labeled as \"A\" in the model of embryological heart development?",
+    "options": {
+      "O1": "Atria",
+      "O2": "Left ventricle",
+      "O3": "Infundibulum",
+      "O4": "Interventricular septum"
+    },
+    "answer": "O3",
+    "images": [],
+    "source_pdf": "Last-5-Years-PYQs-of-INI-CET-Anatomy.pdf",
+    "page_number": 2
+  },
+  {
+    "id": "inicet-5e0e4c62a6",
+    "exam": "inicet",
+    "question_no": "5",
+    "subject": "Anatomy",
+    "topic": "Anatomy",
+    "sub_topic": "",
+    "question": "Which of the following branches of the anterior division of the internal iliac artery?",
+    "options": {
+      "O1": "Superior gluteal artery",
+      "O2": "Inferior gluteal artery",
+      "O3": "Superior vesical artery",
+      "O4": "Middle rectal artery"
+    },
+    "answer": "O3",
+    "images": [],
+    "source_pdf": "Last-5-Years-PYQs-of-INI-CET-Anatomy.pdf",
+    "page_number": 3
+  },
+  {
+    "id": "inicet-4f5a0e7ad5",
+    "exam": "inicet",
+    "question_no": "7",
+    "subject": "Anatomy",
+    "topic": "Anatomy",
+    "sub_topic": "",
+    "question": "A 25 year old male presented with symptoms of inability to flex the distal interphalangeal joint of the 4th and 5th digits. He was also not able to hold a piece of paper between his fingers. What is the likely site of injury?",
+    "options": {
+      "O1": "A",
+      "O2": "B",
+      "O3": "C",
+      "O4": "D"
+    },
+    "answer": "O3",
+    "images": [],
+    "source_pdf": "Last-5-Years-PYQs-of-INI-CET-Anatomy.pdf",
+    "page_number": 5
+  },
+  {
+    "id": "inicet-15e8b151a0",
+    "exam": "inicet",
+    "question_no": "9",
+    "subject": "Anatomy",
+    "topic": "Anatomy",
+    "sub_topic": "",
+    "question": "Arrange in sequence the structures involved in the direct pathway of the basal ganglia:-",
+    "options": {
+      "O1": "Striatum",
+      "O2": "Globus pallidus",
+      "O3": "Substantia nigra",
+      "O4": "Thalamus"
+    },
+    "answer": "O3",
+    "images": [],
+    "source_pdf": "Last-5-Years-PYQs-of-INI-CET-Anatomy.pdf",
+    "page_number": 7
+  },
+  {
+    "id": "inicet-434354bea2",
+    "exam": "inicet",
+    "question_no": "10",
+    "subject": "Anatomy",
+    "topic": "Anatomy",
+    "sub_topic": "",
+    "question": "What is the volume of the prostate in healthy adult males?",
+    "options": {
+      "O1": "20cc",
+      "O2": "50cc",
+      "O3": "75cc",
+      "O4": "100cc"
+    },
+    "answer": "O1",
+    "images": [],
+    "source_pdf": "Last-5-Years-PYQs-of-INI-CET-Anatomy.pdf",
+    "page_number": 7
+  },
+  {
+    "id": "inicet-4ecd0b2233",
+    "exam": "inicet",
+    "question_no": "12",
+    "subject": "Anatomy",
+    "topic": "Anatomy",
+    "sub_topic": "",
+    "question": "Which of the following muscles is involved in smiling and grimacing?",
+    "options": {
+      "O1": "Lateral rectus",
+      "O2": "Superior oblique",
+      "O3": "Risorius",
+      "O4": "Levator palpebrae superioris"
+    },
+    "answer": "O3",
+    "images": [],
+    "source_pdf": "Last-5-Years-PYQs-of-INI-CET-Anatomy.pdf",
+    "page_number": 8
+  },
+  {
+    "id": "inicet-8fcaf08366",
+    "exam": "inicet",
+    "question_no": "13",
+    "subject": "Anatomy",
+    "topic": "Anatomy",
+    "sub_topic": "",
+    "question": "Which nerve supplies the Gluteus maximus?",
+    "options": {
+      "O1": "Femoral nerve",
+      "O2": "Inferior gluteal nerve",
+      "O3": "Obturator nerve",
+      "O4": "Superior gluteal nerve"
+    },
+    "answer": "O2",
+    "images": [],
+    "source_pdf": "Last-5-Years-PYQs-of-INI-CET-Anatomy.pdf",
+    "page_number": 8
+  },
+  {
+    "id": "inicet-60bc0b1d09",
+    "exam": "inicet",
+    "question_no": "14",
+    "subject": "Anatomy",
+    "topic": "Anatomy",
+    "sub_topic": "",
+    "question": "On what is the SRY gene located?",
+    "options": {
+      "O1": "Y chromosome short arm",
+      "O2": "Y chromosome long arm",
+      "O3": "X chromosome short arm",
+      "O4": "X chromosome long arm"
+    },
+    "answer": "O1",
+    "images": [],
+    "source_pdf": "Last-5-Years-PYQs-of-INI-CET-Anatomy.pdf",
+    "page_number": 9
+  },
+  {
+    "id": "inicet-e44aea193a",
+    "exam": "inicet",
+    "question_no": "16",
+    "subject": "Anatomy",
+    "topic": "Anatomy",
+    "sub_topic": "",
+    "question": "Match the following:",
+    "options": {
+      "O1": "Glossopharyngeal",
+      "O2": "Spinal accessory",
+      "O3": "Facial nerve",
+      "O4": "Mandibular nerve"
+    },
+    "answer": "O1",
+    "images": [],
+    "source_pdf": "Last-5-Years-PYQs-of-INI-CET-Anatomy.pdf",
+    "page_number": 10
+  },
+  {
+    "id": "inicet-e1308e4c74",
+    "exam": "inicet",
+    "question_no": "17",
+    "subject": "Anatomy",
+    "topic": "Anatomy",
+    "sub_topic": "",
+    "question": "A patient presents with abnormal sensations in the little finger and part of the ring finger with weakness of the hand. Also, there is a loss of coordination in the fingers. What Is the nerve-injured in the given scenario?",
+    "options": {
+      "O1": "Ulnar nerve",
+      "O2": "Radial nerve",
+      "O3": "Median nerve",
+      "O4": "Axillary nerve"
+    },
+    "answer": "O1",
+    "images": [],
+    "source_pdf": "Last-5-Years-PYQs-of-INI-CET-Anatomy.pdf",
+    "page_number": 11
+  },
+  {
+    "id": "inicet-ffc02cc843",
+    "exam": "inicet",
+    "question_no": "18",
+    "subject": "Anatomy",
+    "topic": "Anatomy",
+    "sub_topic": "",
+    "question": "Arrange lung hilar structures from anterior to posterior:-",
+    "options": {
+      "O1": "Primary bronchus",
+      "O2": "Bronchial artery",
+      "O3": "Pulmonary vein",
+      "O4": "Pulmonary artery"
+    },
+    "answer": "O3",
+    "images": [],
+    "source_pdf": "Last-5-Years-PYQs-of-INI-CET-Anatomy.pdf",
+    "page_number": 12
+  },
+  {
+    "id": "inicet-a2915bc06d",
+    "exam": "inicet",
+    "question_no": "19",
+    "subject": "Anatomy",
+    "topic": "Anatomy",
+    "sub_topic": "",
+    "question": "The para-sagittal section of the abdomen is given below. What is the superior border of the marked structure?",
+    "options": {
+      "O1": "Caudate lobe of liver",
+      "O2": "Duodenum",
+      "O3": "Lesser omentum",
+      "O4": "Inferior vena cava"
+    },
+    "answer": "O1",
+    "images": [
+      "images/inicet/Last-5-Years-PYQs-of-INI-CET-Anatomy_page13_img1.png",
+      "images/inicet/Last-5-Years-PYQs-of-INI-CET-Anatomy_page13_img2.png"
+    ],
+    "source_pdf": "Last-5-Years-PYQs-of-INI-CET-Anatomy.pdf",
+    "page_number": 13
+  },
+  {
+    "id": "inicet-4d6844879d",
+    "exam": "inicet",
+    "question_no": "20",
+    "subject": "Anatomy",
+    "topic": "Anatomy",
+    "sub_topic": "",
+    "question": "A muscle is attached to the area marked in the given Image. What is the action of this muscle on the hip joint?",
+    "options": {
+      "O1": "Flexion and medial rotation",
+      "O2": "Adduction and lateral rotation",
+      "O3": "Abduction and medial rotation",
+      "O4": "Extension and lateral rotation"
+    },
+    "answer": "O4",
+    "images": [
+      "images/inicet/Last-5-Years-PYQs-of-INI-CET-Anatomy_page14_img1.png",
+      "images/inicet/Last-5-Years-PYQs-of-INI-CET-Anatomy_page14_img2.png"
+    ],
+    "source_pdf": "Last-5-Years-PYQs-of-INI-CET-Anatomy.pdf",
+    "page_number": 14
+  },
+  {
+    "id": "inicet-2cd5e0a087",
+    "exam": "inicet",
+    "question_no": "1",
+    "subject": "Anesthesia",
+    "topic": "Anesthesia",
+    "sub_topic": "",
+    "question": "A 42-year-old male who had tested positive for COVID-19 and was isolated at home presents to the emergency room with difficulty breathing. The patient is conscious and responsive but has an increased breathing rate. An oxygen saturation (SpO2) measurement reveals a reading of 86%. The patient is given oxygen through a face mask equipped with a reservoir bag at a flow rate of 10 L/min. Following an hour-long trial, the SpO2 level improves to 88%. What is the subsequent course of action in managing this patient?",
+    "options": {
+      "O1": "Increase flow rate to 15 L/min",
+      "O2": "High-flow nasal cannula oxygen therapy",
+      "O3": "Endotracheal intubation",
+      "O4": "No specific intervention necessary"
+    },
+    "answer": "O2",
+    "images": [
+      "images/inicet/Last-5-Years-PYQs-of-INI-CET-Anesthesia_page1_img1.jpeg"
+    ],
+    "source_pdf": "Last-5-Years-PYQs-of-INI-CET-Anesthesia.pdf",
+    "page_number": 1
+  },
+  {
+    "id": "inicet-1dc4dd464f",
+    "exam": "inicet",
+    "question_no": "3",
+    "subject": "Anesthesia",
+    "topic": "Anesthesia",
+    "sub_topic": "",
+    "question": "In neuromuscular monitoring, what is the frequency at which tetanic stimulation is typically applied?",
+    "options": {
+      "O1": "0.2 Hz",
+      "O2": "2 Hz",
+      "O3": "20 Hz",
+      "O4": "50 Hz"
+    },
+    "answer": "O4",
+    "images": [],
+    "source_pdf": "Last-5-Years-PYQs-of-INI-CET-Anesthesia.pdf",
+    "page_number": 2
+  },
+  {
+    "id": "inicet-cbf4745cd2",
+    "exam": "inicet",
+    "question_no": "6",
+    "subject": "Anesthesia",
+    "topic": "Anesthesia",
+    "sub_topic": "",
+    "question": "During resuscitation, a patient received a 20% intralipid injection. What could have been the most probable diagnosis?",
+    "options": {
+      "O1": "Local anaesthesia toxicity",
+      "O2": "Asphyxia due to drowning",
+      "O3": "Electrocution",
+      "O4": "Pulseless electrical activity"
+    },
+    "answer": "O1",
+    "images": [],
+    "source_pdf": "Last-5-Years-PYQs-of-INI-CET-Anesthesia.pdf",
+    "page_number": 4
+  },
+  {
+    "id": "inicet-e7fb8fd8f8",
+    "exam": "inicet",
+    "question_no": "7",
+    "subject": "Anesthesia",
+    "topic": "Anesthesia",
+    "sub_topic": "",
+    "question": "Which of the following post-bronchodilator pulmonary function test (PFT) results would necessitate a further assessment of lung function in a 50-year-old male patient with grade 3 American Society of Anesthesiology (ASA) status?",
+    "options": {
+      "O1": "FEV1<0.85 and FEV1/FVC<0.8",
+      "O2": "FEV1<0.85 and FEV1/FVC<0.75",
+      "O3": "FEV1<0.85 and FEV1/FVC<0.7",
+      "O4": "FEV1<0.8 and FEV1/FVC<0.75"
+    },
+    "answer": "O2",
+    "images": [],
+    "source_pdf": "Last-5-Years-PYQs-of-INI-CET-Anesthesia.pdf",
+    "page_number": 4
+  },
+  {
+    "id": "inicet-ff9131e062",
+    "exam": "inicet",
+    "question_no": "9",
+    "subject": "Anesthesia",
+    "topic": "Anesthesia",
+    "sub_topic": "",
+    "question": "Which of the following methods cannot be used to determine cardiac output?",
+    "options": {
+      "O1": "Thermal dilution technique",
+      "O2": "Capnography",
+      "O3": "Esophageal doppler",
+      "O4": "Echocardiography"
+    },
+    "answer": "O2",
+    "images": [],
+    "source_pdf": "Last-5-Years-PYQs-of-INI-CET-Anesthesia.pdf",
+    "page_number": 5
+  },
+  {
+    "id": "inicet-977970336a",
+    "exam": "inicet",
+    "question_no": "10",
+    "subject": "Anesthesia",
+    "topic": "Anesthesia",
+    "sub_topic": "",
+    "question": "Which of the following gases is delivered through the blue pipeline in the operation theatre?",
+    "options": {
+      "O1": "Oxygen",
+      "O2": "Nitrous oxide",
+      "O3": "Air",
+      "O4": "Vacuum"
+    },
+    "answer": "O2",
+    "images": [],
+    "source_pdf": "Last-5-Years-PYQs-of-INI-CET-Anesthesia.pdf",
+    "page_number": 5
+  },
+  {
+    "id": "inicet-43a20b5bab",
+    "exam": "inicet",
+    "question_no": "11",
+    "subject": "Anesthesia",
+    "topic": "Anesthesia",
+    "sub_topic": "",
+    "question": "While taking your morning stroll in the park, you come across an individual who is unconscious and lying on the ground. What would be the most appropriate course of action to take next from the given choices?",
+    "options": {
+      "O1": "Check carotid pulse, start CPR, and call for help; Defibrillate if no pulse",
+      "O2": "Call for help, check pulse, do CPR, defibrillate if no pulse",
+      "O3": "Observe",
+      "O4": "Ignore and continue to walk"
+    },
+    "answer": "O2",
+    "images": [
+      "images/inicet/Last-5-Years-PYQs-of-INI-CET-Anesthesia_page6_img1.jpeg"
+    ],
+    "source_pdf": "Last-5-Years-PYQs-of-INI-CET-Anesthesia.pdf",
+    "page_number": 6
+  },
+  {
+    "id": "inicet-6e45001e45",
+    "exam": "inicet",
+    "question_no": "12",
+    "subject": "Anesthesia",
+    "topic": "Anesthesia",
+    "sub_topic": "",
+    "question": "Which of the following statements given below is incorrect regarding CPR in adults?",
+    "options": {
+      "O1": "Depth of chest compression up to 5-6 cm",
+      "O2": "Allow adequate chest recoil",
+      "O3": "Ventilation: 22-25 breaths/ min",
+      "O4": "Chest compression rate 100-120/min"
+    },
+    "answer": "O3",
+    "images": [
+      "images/inicet/Last-5-Years-PYQs-of-INI-CET-Anesthesia_page6_img1.jpeg"
+    ],
+    "source_pdf": "Last-5-Years-PYQs-of-INI-CET-Anesthesia.pdf",
+    "page_number": 6
+  },
+  {
+    "id": "inicet-4344153185",
+    "exam": "inicet",
+    "question_no": "13",
+    "subject": "Anesthesia",
+    "topic": "Anesthesia",
+    "sub_topic": "",
+    "question": "What should be the next course of action in managing a patient with pneumonia who is on a ventilator, weighs 50 kg, has a respiratory rate of 14 breaths per minute, a bicarbonate level of 18, a pH of 7.33, a paCO2 level of 48 mmHg, a paO2 level of 110 mmHg, a PEEP of 12 cm H2O, a tidal volume of 420 mL, and a SpO2 level of 100% with an FiO2 of 90%?",
+    "options": {
+      "O1": "Increase PEEP",
+      "O2": "Decrease fiO2",
+      "O3": "Decrease RR",
+      "O4": "Increase tidal volume"
+    },
+    "answer": "O2",
+    "images": [],
+    "source_pdf": "Last-5-Years-PYQs-of-INI-CET-Anesthesia.pdf",
+    "page_number": 7
+  },
+  {
+    "id": "inicet-39aea3f69a",
+    "exam": "inicet",
+    "question_no": "14",
+    "subject": "Anesthesia",
+    "topic": "Anesthesia",
+    "sub_topic": "",
+    "question": "Which of the following is the most potent local anesthetic agent?",
+    "options": {
+      "O1": "Halothane",
+      "O2": "Isoflurane",
+      "O3": "Lidocaine",
+      "O4": "Bupivacaine"
+    },
+    "answer": "O4",
+    "images": [],
+    "source_pdf": "Last-5-Years-PYQs-of-INI-CET-Anesthesia.pdf",
+    "page_number": 8
+  },
+  {
+    "id": "inicet-3d54fa23b7",
+    "exam": "inicet",
+    "question_no": "15",
+    "subject": "Anesthesia",
+    "topic": "Anesthesia",
+    "sub_topic": "",
+    "question": "A neonate is brought to the pediatric ER in acute respiratory distress. On examination, the abdomen is scaphoid. Which of the following should not be performed in this patient?",
+    "options": {
+      "O1": "PPV",
+      "O2": "Bag and mask ventilation",
+      "O3": "Oxygen therapy",
+      "O4": "Intubation"
+    },
+    "answer": "O2",
+    "images": [],
+    "source_pdf": "Last-5-Years-PYQs-of-INI-CET-Anesthesia.pdf",
+    "page_number": 8
+  },
+  {
+    "id": "inicet-590eaf2941",
+    "exam": "inicet",
+    "question_no": "16",
+    "subject": "Anesthesia",
+    "topic": "Anesthesia",
+    "sub_topic": "",
+    "question": "A 60-year-old male patient is undergoing laparoscopic cholecystectomy. During the surgery, a sudden decrease in etCO2 to 8 mm Hg was observed. The patient's SpO2 was 90% and peak airway pressure was 18 mm Hg. His blood pressure also dropped to 80/50 mm Hg. dWhich of the following is the most probable diagnosis?",
+    "options": {
+      "O1": "Pneumothorax",
+      "O2": "CO2 embolism",
+      "O3": "Endobronchial intubation",
+      "O4": "Bronchospasm"
+    },
+    "answer": "O2",
+    "images": [],
+    "source_pdf": "Last-5-Years-PYQs-of-INI-CET-Anesthesia.pdf",
+    "page_number": 9
+  },
+  {
+    "id": "inicet-c532552538",
+    "exam": "inicet",
+    "question_no": "17",
+    "subject": "Anesthesia",
+    "topic": "Anesthesia",
+    "sub_topic": "",
+    "question": "Which of the following corresponds to ASA grade III?",
+    "options": {
+      "O1": "Moribund patient",
+      "O2": "Patient having systemic illness which is under control or without any functional limitations",
+      "O3": "Patient having systemic illness which is not under control or with functional limitations"
+    },
+    "answer": "O3",
+    "images": [],
+    "source_pdf": "Last-5-Years-PYQs-of-INI-CET-Anesthesia.pdf",
+    "page_number": 9
+  },
+  {
+    "id": "inicet-ef8da726e4",
+    "exam": "inicet",
+    "question_no": "18",
+    "subject": "Anesthesia",
+    "topic": "Anesthesia",
+    "sub_topic": "",
+    "question": "A child was being delivered oxygen by nasal cannula at 3L/min. What is the FiO2 being delivered?",
+    "options": {
+      "O1": "24%",
+      "O2": "30%",
+      "O3": "44%",
+      "O4": "40%"
+    },
+    "answer": "O2",
+    "images": [],
+    "source_pdf": "Last-5-Years-PYQs-of-INI-CET-Anesthesia.pdf",
+    "page_number": 10
+  },
+  {
+    "id": "inicet-3e2402516c",
+    "exam": "inicet",
+    "question_no": "19",
+    "subject": "Anesthesia",
+    "topic": "Anesthesia",
+    "sub_topic": "",
+    "question": "Steps of intubation sequence are: a. Flexion of lower cervical spine and extension of Atlanto-occipital joint b. Inflate cuff of endotracheal tube c. Introduce a laryngoscope from the right side of mouth d. Confirm the position of tube",
+    "options": {
+      "O1": "a, b, c,",
+      "O2": "a, b, d, c",
+      "O3": "b, a, c, d",
+      "O4": "a, c, b, d"
+    },
+    "answer": "O4",
+    "images": [],
+    "source_pdf": "Last-5-Years-PYQs-of-INI-CET-Anesthesia.pdf",
+    "page_number": 11
+  },
+  {
+    "id": "inicet-b5636689fd",
+    "exam": "inicet",
+    "question_no": "2",
+    "subject": "Dermatology",
+    "topic": "Dermatology",
+    "sub_topic": "",
+    "question": "What could be the potential cause of the following lesions in a gardener who has a history of thorn prick?",
+    "options": {
+      "O1": "Streptococcus pyogenes",
+      "O2": "Sporothrix schenckii",
+      "O3": "Stronglyoides stercoralis",
+      "O4": "Staphylococcus aureus"
+    },
+    "answer": "O2",
+    "images": [],
+    "source_pdf": "Last-5-Years-PYQs-of-INI-CET-Dermatology.pdf",
+    "page_number": 1
+  },
+  {
+    "id": "inicet-205b1a0a83",
+    "exam": "inicet",
+    "question_no": "3",
+    "subject": "Dermatology",
+    "topic": "Dermatology",
+    "sub_topic": "",
+    "question": "What is the diagnosis for a 40-year-old woman who experienced fever and joint pain and subsequently developed a lesion on her nose a few days after taking NSAIDs?",
+    "options": {
+      "O1": "Dengue",
+      "O2": "Chikungunya",
+      "O3": "Melasma",
+      "O4": "Fixed drug eruption"
+    },
+    "answer": "O2",
+    "images": [],
+    "source_pdf": "Last-5-Years-PYQs-of-INI-CET-Dermatology.pdf",
+    "page_number": 2
+  },
+  {
+    "id": "inicet-dc00e04896",
+    "exam": "inicet",
+    "question_no": "4",
+    "subject": "Dermatology",
+    "topic": "Dermatology",
+    "sub_topic": "",
+    "question": "The given condition is caused by which drug ?",
+    "options": {
+      "O1": "Actinomycin",
+      "O2": "Bleomycin",
+      "O3": "Mitomycin C",
+      "O4": "Doxorubicin"
+    },
+    "answer": "O2",
+    "images": [
+      "images/inicet/Last-5-Years-PYQs-of-INI-CET-Dermatology_page3_img1.jpeg",
+      "images/inicet/Last-5-Years-PYQs-of-INI-CET-Dermatology_page3_img2.png",
+      "images/inicet/Last-5-Years-PYQs-of-INI-CET-Dermatology_page3_img3.png"
+    ],
+    "source_pdf": "Last-5-Years-PYQs-of-INI-CET-Dermatology.pdf",
+    "page_number": 3
+  },
+  {
+    "id": "inicet-d836900615",
+    "exam": "inicet",
+    "question_no": "5",
+    "subject": "Dermatology",
+    "topic": "Dermatology",
+    "sub_topic": "",
+    "question": "A child presents to OPD with tense bullae over the torso. A biopsy of the lesion showed a subepidermal level of blistering and neutrophil infiltration. What is the drug of choice?",
+    "options": {
+      "O1": "Rituximab",
+      "O2": "Dapsone",
+      "O3": "Cyclosporine",
+      "O4": "Azathioprine"
+    },
+    "answer": "O2",
+    "images": [],
+    "source_pdf": "Last-5-Years-PYQs-of-INI-CET-Dermatology.pdf",
+    "page_number": 4
+  },
+  {
+    "id": "inicet-0f5a236b80",
+    "exam": "inicet",
+    "question_no": "6",
+    "subject": "Dermatology",
+    "topic": "Dermatology",
+    "sub_topic": "",
+    "question": "A patient presents with the following lesions on the genitals. Scrapings from the lesion would show?",
+    "options": {
+      "O1": "Tzanck cells",
+      "O2": "Cells with clear halo around the nucleus",
+      "O3": "Molluscum bodies",
+      "O4": "HP bodies"
+    },
+    "answer": "O1",
+    "images": [],
+    "source_pdf": "Last-5-Years-PYQs-of-INI-CET-Dermatology.pdf",
+    "page_number": 5
+  },
+  {
+    "id": "inicet-64fee518a6",
+    "exam": "inicet",
+    "question_no": "7",
+    "subject": "Dermatology",
+    "topic": "Dermatology",
+    "sub_topic": "",
+    "question": "In a 17-year-old patient, the most distinctive and characteristic indicator of juvenile dermatomyositis is",
+    "options": {
+      "O1": "Photosensitive skin rash.",
+      "O2": "Nail bed capillary changes",
+      "O3": "Gottron’s papules",
+      "O4": "Malar rash"
+    },
+    "answer": "O3",
+    "images": [],
+    "source_pdf": "Last-5-Years-PYQs-of-INI-CET-Dermatology.pdf",
+    "page_number": 5
+  },
+  {
+    "id": "inicet-6a1d5e8c2a",
+    "exam": "inicet",
+    "question_no": "8",
+    "subject": "Dermatology",
+    "topic": "Dermatology",
+    "sub_topic": "",
+    "question": "The image given below is characteristically seen in which of the following types of leprosy?",
+    "options": {
+      "O1": "Borderline lepromatous leprosy",
+      "O2": "Lepromatous leprosy",
+      "O3": "Borderline leprosy",
+      "O4": "Histoid leprosy"
+    },
+    "answer": "O3",
+    "images": [
+      "images/inicet/Last-5-Years-PYQs-of-INI-CET-Dermatology_page6_img1.jpeg",
+      "images/inicet/Last-5-Years-PYQs-of-INI-CET-Dermatology_page6_img2.png"
+    ],
+    "source_pdf": "Last-5-Years-PYQs-of-INI-CET-Dermatology.pdf",
+    "page_number": 6
+  },
+  {
+    "id": "inicet-7039c3fad4",
+    "exam": "inicet",
+    "question_no": "10",
+    "subject": "Dermatology",
+    "topic": "Dermatology",
+    "sub_topic": "",
+    "question": "A 45-year-old male patient from Bihar presented with a normoanesthetic hypopigmented lesion as shown below. He had a history of fever for a long duration in his childhood. No thickened nerves were present. What is the probable diagnosis?",
+    "options": {
+      "O1": "Tuberculoid leprosy",
+      "O2": "Lepromatous leprosy",
+      "O3": "Mycosis fungoides",
+      "O4": "Post-kala-azar dermal leishmaniasis"
+    },
+    "answer": "O4",
+    "images": [
+      "images/inicet/Last-5-Years-PYQs-of-INI-CET-Dermatology_page8_img1.jpeg",
+      "images/inicet/Last-5-Years-PYQs-of-INI-CET-Dermatology_page8_img2.png",
+      "images/inicet/Last-5-Years-PYQs-of-INI-CET-Dermatology_page8_img3.png"
+    ],
+    "source_pdf": "Last-5-Years-PYQs-of-INI-CET-Dermatology.pdf",
+    "page_number": 8
+  },
+  {
+    "id": "inicet-84ed3c286a",
+    "exam": "inicet",
+    "question_no": "11",
+    "subject": "Dermatology",
+    "topic": "Dermatology",
+    "sub_topic": "",
+    "question": "A 10-year-old male child visits with symptoms of fever, joint pain, and a visible skin abnormality on his hand, as depicted in the provided image. Please identify the clinical observation and suggest a probable diagnosis.",
+    "options": {
+      "O1": "Gottron’s papules – Juvenile dermatomyositis",
+      "O2": "Rheumatoid nodules – Juvenile rheumatic arthritis",
+      "O3": "Sclerodactyly-Systemic sclerosis",
+      "O4": "Mechanic’s hand – Systemic lupus erythematosus"
+    },
+    "answer": "O1",
+    "images": [
+      "images/inicet/Last-5-Years-PYQs-of-INI-CET-Dermatology_page9_img1.jpeg",
+      "images/inicet/Last-5-Years-PYQs-of-INI-CET-Dermatology_page9_img2.png",
+      "images/inicet/Last-5-Years-PYQs-of-INI-CET-Dermatology_page9_img3.png"
+    ],
+    "source_pdf": "Last-5-Years-PYQs-of-INI-CET-Dermatology.pdf",
+    "page_number": 9
+  },
+  {
+    "id": "inicet-847884ac05",
+    "exam": "inicet",
+    "question_no": "12",
+    "subject": "Dermatology",
+    "topic": "Dermatology",
+    "sub_topic": "",
+    "question": "What is the preferred treatment for a pregnant woman who is 12 weeks pregnant and undergoing multidrug therapy for leprosy but is now experiencing a type 2 lepra reaction?",
+    "options": {
+      "O1": "Stop MDT and start oral steroids.",
+      "O2": "Antibiotics",
+      "O3": "Thalidomide",
+      "O4": "Continue MDT and add oral steroids"
+    },
+    "answer": "O4",
+    "images": [],
+    "source_pdf": "Last-5-Years-PYQs-of-INI-CET-Dermatology.pdf",
+    "page_number": 9
+  },
+  {
+    "id": "inicet-b9859cfc77",
+    "exam": "inicet",
+    "question_no": "13",
+    "subject": "Dermatology",
+    "topic": "Dermatology",
+    "sub_topic": "",
+    "question": "A 60-year-old patient presents with the lesion given in the image below. He also mentions experiencing sensations like a spider crawling in the area of the lesion. Which of the following is the most likely diagnosis?",
+    "options": {
+      "O1": "Herpes zoster infection",
+      "O2": "Irritant contact dermatitis",
+      "O3": "Allergic contact dermatitis",
+      "O4": "Herpes simplex infection"
+    },
+    "answer": "O1",
+    "images": [
+      "images/inicet/Last-5-Years-PYQs-of-INI-CET-Dermatology_page10_img1.jpeg",
+      "images/inicet/Last-5-Years-PYQs-of-INI-CET-Dermatology_page10_img2.png",
+      "images/inicet/Last-5-Years-PYQs-of-INI-CET-Dermatology_page10_img3.png"
+    ],
+    "source_pdf": "Last-5-Years-PYQs-of-INI-CET-Dermatology.pdf",
+    "page_number": 10
+  },
+  {
+    "id": "inicet-41ffa02ace",
+    "exam": "inicet",
+    "question_no": "14",
+    "subject": "Dermatology",
+    "topic": "Dermatology",
+    "sub_topic": "",
+    "question": "Which of the following factors is responsible for non-scarring alopecia in patients?",
+    "options": {
+      "O1": "Alopecia areata",
+      "O2": "Telogen effluvium",
+      "O3": "Androgenic alopecia",
+      "O4": "Frontal fibrosing alopecia"
+    },
+    "answer": "O2",
+    "images": [],
+    "source_pdf": "Last-5-Years-PYQs-of-INI-CET-Dermatology.pdf",
+    "page_number": 11
+  },
+  {
+    "id": "inicet-169f1285b7",
+    "exam": "inicet",
+    "question_no": "1",
+    "subject": "ENT (1)",
+    "topic": "ENT (1)",
+    "sub_topic": "",
+    "question": "What is the probable diagnosis for a person who has facial swelling and orbital edema on the left side of their face after a minor trauma involving a piece of wood 20 days ago? The CT scan showed no abnormalities in the sinuses but revealed subcutaneous nodules. Microscopic examination of tissue sections showed positivity for PAS stain and Grocott's methenamine silver stain.",
+    "options": {
+      "O1": "Phycomycosis",
+      "O2": "Midline lethal granuloma",
+      "O3": "Foreign body granuloma",
+      "O4": "IgG4 granuloma"
+    },
+    "answer": "O1",
+    "images": [
+      "images/inicet/Last-5-year-PYQs-in-ENT-for-INICET_1__page1_img1.jpeg",
+      "images/inicet/Last-5-year-PYQs-in-ENT-for-INICET_1__page1_img2.png"
+    ],
+    "source_pdf": "Last-5-year-PYQs-in-ENT-for-INICET (1).pdf",
+    "page_number": 1
+  },
+  {
+    "id": "inicet-97c56a196b",
+    "exam": "inicet",
+    "question_no": "2",
+    "subject": "ENT (1)",
+    "topic": "ENT (1)",
+    "sub_topic": "",
+    "question": "Which of the following is not considered a major diagnostic criterion for allergic fungal sinusitis?",
+    "options": {
+      "O1": "Elevated Serum IgA level",
+      "O2": "Presence of Allergic Mucin",
+      "O3": "Characteristic CT findings :Double Density",
+      "O4": "Positive KOH stain"
+    },
+    "answer": "O1",
+    "images": [],
+    "source_pdf": "Last-5-year-PYQs-in-ENT-for-INICET (1).pdf",
+    "page_number": 2
+  },
+  {
+    "id": "inicet-270627ff74",
+    "exam": "inicet",
+    "question_no": "3",
+    "subject": "ENT (1)",
+    "topic": "ENT (1)",
+    "sub_topic": "",
+    "question": "A 65-year-old patient presents with right-sided nasal obstruction and occasional blood-stained nasal discharge. His CT and endoscopy findings are shown in the below image. What could be the underlying cause?",
+    "options": {
+      "O1": "Inverted papilloma",
+      "O2": "Carcinoma maxilla",
+      "O3": "Esthesioneuroblastoma",
+      "O4": "Nasopharyngeal angiofibroma"
+    },
+    "answer": "O1",
+    "images": [
+      "images/inicet/Last-5-year-PYQs-in-ENT-for-INICET_1__page2_img1.jpeg",
+      "images/inicet/Last-5-year-PYQs-in-ENT-for-INICET_1__page2_img2.png",
+      "images/inicet/Last-5-year-PYQs-in-ENT-for-INICET_1__page2_img3.png"
+    ],
+    "source_pdf": "Last-5-year-PYQs-in-ENT-for-INICET (1).pdf",
+    "page_number": 2
+  },
+  {
+    "id": "inicet-ffdf682dd9",
+    "exam": "inicet",
+    "question_no": "4",
+    "subject": "ENT (1)",
+    "topic": "ENT (1)",
+    "sub_topic": "",
+    "question": "A young man presented with hearing loss and tinnitus. Histology image is shown below. What is the diagnosis?",
+    "options": {
+      "O1": "Neurofibroma",
+      "O2": "Schwannoma",
+      "O3": "Leiomyoma",
+      "O4": "Rhabdomyoma"
+    },
+    "answer": "O2",
+    "images": [
+      "images/inicet/Last-5-year-PYQs-in-ENT-for-INICET_1__page3_img1.jpeg",
+      "images/inicet/Last-5-year-PYQs-in-ENT-for-INICET_1__page3_img2.png"
+    ],
+    "source_pdf": "Last-5-year-PYQs-in-ENT-for-INICET (1).pdf",
+    "page_number": 3
+  },
+  {
+    "id": "inicet-48cf3a2d53",
+    "exam": "inicet",
+    "question_no": "5",
+    "subject": "ENT (1)",
+    "topic": "ENT (1)",
+    "sub_topic": "",
+    "question": "Which of the following devices can be used in a patient with bilateral external auditory atresia?",
+    "options": {
+      "O1": "1",
+      "O2": "2",
+      "O3": "3",
+      "O4": "4"
+    },
+    "answer": "O1",
+    "images": [],
+    "source_pdf": "Last-5-year-PYQs-in-ENT-for-INICET (1).pdf",
+    "page_number": 4
+  },
+  {
+    "id": "inicet-9afd304854",
+    "exam": "inicet",
+    "question_no": "6",
+    "subject": "ENT (1)",
+    "topic": "ENT (1)",
+    "sub_topic": "",
+    "question": "Choose the best description for the structure marked in the CT given below.",
+    "options": {
+      "O1": "Agger nasi cell",
+      "O2": "Pneumatised superior turbinate",
+      "O3": "Onodi cell",
+      "O4": "Haller cell"
+    },
+    "answer": "O2",
+    "images": [
+      "images/inicet/Last-5-year-PYQs-in-ENT-for-INICET_1__page5_img1.jpeg",
+      "images/inicet/Last-5-year-PYQs-in-ENT-for-INICET_1__page5_img2.png",
+      "images/inicet/Last-5-year-PYQs-in-ENT-for-INICET_1__page5_img3.png"
+    ],
+    "source_pdf": "Last-5-year-PYQs-in-ENT-for-INICET (1).pdf",
+    "page_number": 5
+  },
+  {
+    "id": "inicet-e8d42857ef",
+    "exam": "inicet",
+    "question_no": "7",
+    "subject": "ENT (1)",
+    "topic": "ENT (1)",
+    "sub_topic": "",
+    "question": "A CT scan of a patient with laryngeal carcinoma is shown below. What is the staging?",
+    "options": {
+      "O1": "T1N0M0",
+      "O2": "T4N1M0",
+      "O3": "T2N1M0",
+      "O4": "T3N0M0"
+    },
+    "answer": "O2",
+    "images": [
+      "images/inicet/Last-5-year-PYQs-in-ENT-for-INICET_1__page6_img1.jpeg",
+      "images/inicet/Last-5-year-PYQs-in-ENT-for-INICET_1__page6_img2.png",
+      "images/inicet/Last-5-year-PYQs-in-ENT-for-INICET_1__page6_img3.png",
+      "images/inicet/Last-5-year-PYQs-in-ENT-for-INICET_1__page6_img4.png",
+      "images/inicet/Last-5-year-PYQs-in-ENT-for-INICET_1__page6_img5.png"
+    ],
+    "source_pdf": "Last-5-year-PYQs-in-ENT-for-INICET (1).pdf",
+    "page_number": 6
+  },
+  {
+    "id": "inicet-5e8da5eab8",
+    "exam": "inicet",
+    "question_no": "8",
+    "subject": "ENT (1)",
+    "topic": "ENT (1)",
+    "sub_topic": "",
+    "question": "Arrange the following in the sequence of auditory pathway:",
+    "options": {
+      "O1": "Cochlear nucleus",
+      "O2": "Spiral ganglion",
+      "O3": "Superior olivary nucleus",
+      "O4": "Inferior colliculus"
+    },
+    "answer": "O3",
+    "images": [],
+    "source_pdf": "Last-5-year-PYQs-in-ENT-for-INICET (1).pdf",
+    "page_number": 7
+  },
+  {
+    "id": "inicet-5475958fe6",
+    "exam": "inicet",
+    "question_no": "9",
+    "subject": "ENT (1)",
+    "topic": "ENT (1)",
+    "sub_topic": "",
+    "question": "A male patient presents to the OPD with a saddle nose deformity. He gives a history of cough, on-and-off fever, and hemoptysis. On examination, septal perforation is present with pale granuloma. His chest X-ray showed multiple cavitary lesions, and the biopsy showed granuloma, multinucleated giant cells, and caseous necrosis. What is the probable cause?",
+    "options": {
+      "O1": "Wegener’s granulomatosis",
+      "O2": "Tuberculosis",
+      "O3": "Syphilis",
+      "O4": "Sarcoidosis"
+    },
+    "answer": "O2",
+    "images": [
+      "images/inicet/Last-5-year-PYQs-in-ENT-for-INICET_1__page7_img1.jpeg"
+    ],
+    "source_pdf": "Last-5-year-PYQs-in-ENT-for-INICET (1).pdf",
+    "page_number": 7
+  },
+  {
+    "id": "inicet-14d21f0cd6",
+    "exam": "inicet",
+    "question_no": "10",
+    "subject": "ENT (1)",
+    "topic": "ENT (1)",
+    "sub_topic": "",
+    "question": "A 35-year-old female presents with nasal obstruction and post-nasal drip. She has a history of FESS following failed conservative management 5 years ago. Post-surgical notes mentioned that uncinectomy and maxillary ostium dilation were done during the previous FESS. DNE currently shows patent ostia and mucosal edema of the maxillary sinus lining. What is the next best step in management?",
+    "options": {
+      "O1": "Repeat surgery",
+      "O2": "Macrolides for 4 months",
+      "O3": "Steroid irrigation and antihistamine",
+      "O4": "Biological therapy"
+    },
+    "answer": "O3",
+    "images": [],
+    "source_pdf": "Last-5-year-PYQs-in-ENT-for-INICET (1).pdf",
+    "page_number": 8
+  },
+  {
+    "id": "inicet-193c65856a",
+    "exam": "inicet",
+    "question_no": "11",
+    "subject": "ENT (1)",
+    "topic": "ENT (1)",
+    "sub_topic": "",
+    "question": "Of the following tests, which is not used for testing olfaction?",
+    "options": {
+      "O1": "Smell diskettes",
+      "O2": "Arnold stick test",
+      "O3": "UPSIT",
+      "O4": "CC-SIT"
+    },
+    "answer": "O2",
+    "images": [],
+    "source_pdf": "Last-5-year-PYQs-in-ENT-for-INICET (1).pdf",
+    "page_number": 8
+  },
+  {
+    "id": "inicet-2cd60ba28d",
+    "exam": "inicet",
+    "question_no": "12",
+    "subject": "ENT (1)",
+    "topic": "ENT (1)",
+    "sub_topic": "",
+    "question": "A South Indian male farmer presents to the ENT OPD with complaints of reddish mass coming out from the nose and histopathology image as given below. What is the likely diagnosis?",
+    "options": {
+      "O1": "Rhinosporidiosis",
+      "O2": "Rhinoscleroma",
+      "O3": "Rhinophyma",
+      "O4": "Nasal polyp"
+    },
+    "answer": "O1",
+    "images": [
+      "images/inicet/Last-5-year-PYQs-in-ENT-for-INICET_1__page9_img1.jpeg",
+      "images/inicet/Last-5-year-PYQs-in-ENT-for-INICET_1__page9_img2.png",
+      "images/inicet/Last-5-year-PYQs-in-ENT-for-INICET_1__page9_img3.png"
+    ],
+    "source_pdf": "Last-5-year-PYQs-in-ENT-for-INICET (1).pdf",
+    "page_number": 9
+  },
+  {
+    "id": "inicet-ecd35f93f1",
+    "exam": "inicet",
+    "question_no": "13",
+    "subject": "ENT (1)",
+    "topic": "ENT (1)",
+    "sub_topic": "",
+    "question": "Which of the following symptoms is a 27-year-old female patient presenting with thyroid swelling is unlikely due to compression of adjacent structures?",
+    "options": {
+      "O1": "Hoarseness of voice due to recurrent laryngeal nerve compression",
+      "O2": "Dysphagia due to oesophagus compression.",
+      "O3": "Superior vena cava syndrome",
+      "O4": "None of the above"
+    },
+    "answer": "O3",
+    "images": [],
+    "source_pdf": "Last-5-year-PYQs-in-ENT-for-INICET (1).pdf",
+    "page_number": 9
+  },
+  {
+    "id": "inicet-f55fb36213",
+    "exam": "inicet",
+    "question_no": "14",
+    "subject": "ENT (1)",
+    "topic": "ENT (1)",
+    "sub_topic": "",
+    "question": "Identify the accurate sequence of the Auditory pathway.",
+    "options": {
+      "O1": "Eight nerve → cochlear nuclei → superior olivary nucleus → lateral lemniscus → inferior",
+      "O2": "Eight nerve →Cochlear nuclei → lateral lemniscus → superior olivary nucleus → inferior",
+      "O3": "Eight nerve →Superior olivary nucleus → lateral lemniscus → inferior colliculus →",
+      "O4": "Eight nerve →Superior olivary nucleus → inferior colliculus → medial geniculate body →"
+    },
+    "answer": "O1",
+    "images": [
+      "images/inicet/Last-5-year-PYQs-in-ENT-for-INICET_1__page10_img1.jpeg"
+    ],
+    "source_pdf": "Last-5-year-PYQs-in-ENT-for-INICET (1).pdf",
+    "page_number": 10
+  },
+  {
+    "id": "inicet-a8a9a8614f",
+    "exam": "inicet",
+    "question_no": "15",
+    "subject": "ENT (1)",
+    "topic": "ENT (1)",
+    "sub_topic": "",
+    "question": "A 64-year-old female patient is brought to the ENT OPD with difficulties in comprehension. On examination, her fluency is found to be intact with poor comprehension and repetition. Her Pure tone audiometry and ABR is normal. What is the likely diagnosis in this patient?",
+    "options": {
+      "O1": "Malingering",
+      "O2": "Auditory cortex lesion",
+      "O3": "Broca's aphasia",
+      "O4": "Wernicke’s aphasia"
+    },
+    "answer": "O4",
+    "images": [],
+    "source_pdf": "Last-5-year-PYQs-in-ENT-for-INICET (1).pdf",
+    "page_number": 10
+  },
+  {
+    "id": "inicet-7de50d9b94",
+    "exam": "inicet",
+    "question_no": "16",
+    "subject": "ENT (1)",
+    "topic": "ENT (1)",
+    "sub_topic": "",
+    "question": "What is the likely diagnosis of the image given below?",
+    "options": {
+      "O1": "Ranula",
+      "O2": "Pleomorphic adenoma",
+      "O3": "Ludwig angina",
+      "O4": "Dermoid cyst"
+    },
+    "answer": "O1",
+    "images": [
+      "images/inicet/Last-5-year-PYQs-in-ENT-for-INICET_1__page11_img1.jpeg",
+      "images/inicet/Last-5-year-PYQs-in-ENT-for-INICET_1__page11_img2.png",
+      "images/inicet/Last-5-year-PYQs-in-ENT-for-INICET_1__page11_img3.png",
+      "images/inicet/Last-5-year-PYQs-in-ENT-for-INICET_1__page11_img4.png"
+    ],
+    "source_pdf": "Last-5-year-PYQs-in-ENT-for-INICET (1).pdf",
+    "page_number": 11
+  },
+  {
+    "id": "inicet-ab47bb1bd3",
+    "exam": "inicet",
+    "question_no": "18",
+    "subject": "ENT (1)",
+    "topic": "ENT (1)",
+    "sub_topic": "",
+    "question": "A patient presents to the OPD with complaints of bilateral hearing loss with worse right ear hearing loss. On examination, the doctor diagnoses Otosclerosis and recommends stapedectomy as a final resort to the problem. What would be the findings of Tuning fork tests based on which Doctor recommends Stapedectomy?",
+    "options": {
+      "O1": "Renne’s Test - positive; Weber’s Test - lateralized to left ear",
+      "O2": "Renne’s Test - positive; Weber’s Test - lateralized to right ear",
+      "O3": "Renne’s Test - negative; Weber’s Test - lateralized to left ear",
+      "O4": "Renne’s Test - negative; Weber’s Test - lateralized to right ear"
+    },
+    "answer": "O4",
+    "images": [],
+    "source_pdf": "Last-5-year-PYQs-in-ENT-for-INICET (1).pdf",
+    "page_number": 12
+  },
+  {
+    "id": "inicet-42c0004f64",
+    "exam": "inicet",
+    "question_no": "1",
+    "subject": "Forensic Medicine",
+    "topic": "Forensic Medicine",
+    "sub_topic": "",
+    "question": "Please rearrange the following options to reflect the correct sequence of symptoms observed in cases of iron toxicity.",
+    "options": {
+      "O1": "Healing with scaring",
+      "O2": "Latent phase",
+      "O3": "Gastrointestinal Irritation",
+      "O4": "Liver failure and hypoglycemia"
+    },
+    "answer": "O3",
+    "images": [],
+    "source_pdf": "Last-5-year-PYQs-in-Forensic-Medicine-for-INI-CET.pdf",
+    "page_number": 1
+  },
+  {
+    "id": "inicet-2601852675",
+    "exam": "inicet",
+    "question_no": "2",
+    "subject": "Forensic Medicine",
+    "topic": "Forensic Medicine",
+    "sub_topic": "",
+    "question": "A 24-year-old man who was accused of murder was taken into police custody. As a part of the interrogation, the prisoner was kept in a prone position with both his wrists and ankles bound behind his back and secured with a rope. What is this method known as ?",
+    "options": {
+      "O1": "Choke/ Carotid hold",
+      "O2": "Carotid steeper hold",
+      "O3": "Hog tie",
+      "O4": "Bar arm"
+    },
+    "answer": "O3",
+    "images": [],
+    "source_pdf": "Last-5-year-PYQs-in-Forensic-Medicine-for-INI-CET.pdf",
+    "page_number": 2
+  },
+  {
+    "id": "inicet-59141427aa",
+    "exam": "inicet",
+    "question_no": "3",
+    "subject": "Forensic Medicine",
+    "topic": "Forensic Medicine",
+    "sub_topic": "",
+    "question": "Match the following with the respective ages of fusion : 1. Medial end of clavicle 2. Sacrum as a single bone 3. Crista scapulae 4. Lambdoid suture",
+    "options": {
+      "O1": "21-25 years",
+      "O2": "2-50 years",
+      "O3": "50-70 years",
+      "O4": "20-25 years"
+    },
+    "answer": "O2",
+    "images": [],
+    "source_pdf": "Last-5-year-PYQs-in-Forensic-Medicine-for-INI-CET.pdf",
+    "page_number": 2
+  },
+  {
+    "id": "inicet-75243acc9a",
+    "exam": "inicet",
+    "question_no": "4",
+    "subject": "Forensic Medicine",
+    "topic": "Forensic Medicine",
+    "sub_topic": "",
+    "question": "Rearrange the following to correspond with alterations in fingerprints.: 1. Incomplete atrophy of ridges 2. Less of pattern with ridge atrophy 3. Altered ridges 4. Permanent loss of fingerprints 5. Distance between ridges changed but pattern retained",
+    "options": {
+      "O1": "Radiation",
+      "O2": "Scleroderma",
+      "O3": "Celiac disease",
+      "O4": "Acromegaly"
+    },
+    "answer": "O1",
+    "images": [],
+    "source_pdf": "Last-5-year-PYQs-in-Forensic-Medicine-for-INI-CET.pdf",
+    "page_number": 3
+  },
+  {
+    "id": "inicet-764e39a87f",
+    "exam": "inicet",
+    "question_no": "5",
+    "subject": "Forensic Medicine",
+    "topic": "Forensic Medicine",
+    "sub_topic": "",
+    "question": "A patient came to the casualty after a road traffic accident. A lacerated wound of 4x1 cm, which is bone – deep, is noted over the scalp of the forehead. Which of the following is the correct mechanism of this lacerated wound?",
+    "options": {
+      "O1": "Shearing force",
+      "O2": "Impact of a semi sharp-edged object",
+      "O3": "Overstretching of skin and subcutaneous tissue",
+      "O4": "Tissue crushed between weapon and underlying bone"
+    },
+    "answer": "O4",
+    "images": [],
+    "source_pdf": "Last-5-year-PYQs-in-Forensic-Medicine-for-INI-CET.pdf",
+    "page_number": 4
+  },
+  {
+    "id": "inicet-ef3130ed78",
+    "exam": "inicet",
+    "question_no": "7",
+    "subject": "Forensic Medicine",
+    "topic": "Forensic Medicine",
+    "sub_topic": "",
+    "question": "Identify the given plant.:",
+    "options": {
+      "O1": "Datura Alba",
+      "O2": "Argemone Mexicana",
+      "O3": "Nerium Odorum",
+      "O4": "Papaver Somniferum"
+    },
+    "answer": "O2",
+    "images": [
+      "images/inicet/Last-5-year-PYQs-in-Forensic-Medicine-for-INI-CET_page5_img1.jpeg",
+      "images/inicet/Last-5-year-PYQs-in-Forensic-Medicine-for-INI-CET_page5_img2.png"
+    ],
+    "source_pdf": "Last-5-year-PYQs-in-Forensic-Medicine-for-INI-CET.pdf",
+    "page_number": 5
+  },
+  {
+    "id": "inicet-1c6b1cddf8",
+    "exam": "inicet",
+    "question_no": "8",
+    "subject": "Forensic Medicine",
+    "topic": "Forensic Medicine",
+    "sub_topic": "",
+    "question": "Post-mortem examination of a patient reveals the following:. What is this finding known as?",
+    "options": {
+      "O1": "Hesitation cuts",
+      "O2": "Grazed abrasion",
+      "O3": "Laceration",
+      "O4": "Patterned bruise"
+    },
+    "answer": "O1",
+    "images": [],
+    "source_pdf": "Last-5-year-PYQs-in-Forensic-Medicine-for-INI-CET.pdf",
+    "page_number": 6
+  },
+  {
+    "id": "inicet-08eed7a5bc",
+    "exam": "inicet",
+    "question_no": "9",
+    "subject": "Forensic Medicine",
+    "topic": "Forensic Medicine",
+    "sub_topic": "",
+    "question": "What is the preferred treatment for acute arsenic poisoning?",
+    "options": {
+      "O1": "Ipecac",
+      "O2": "Penicillamine",
+      "O3": "Activated charcoal",
+      "O4": "Dimercaprol"
+    },
+    "answer": "O4",
+    "images": [],
+    "source_pdf": "Last-5-year-PYQs-in-Forensic-Medicine-for-INI-CET.pdf",
+    "page_number": 6
+  },
+  {
+    "id": "inicet-a823bb06ef",
+    "exam": "inicet",
+    "question_no": "10",
+    "subject": "Forensic Medicine",
+    "topic": "Forensic Medicine",
+    "sub_topic": "",
+    "question": "Which of these is not a cardiac poison?",
+    "options": {
+      "O1": "Aconite",
+      "O2": "Cerbera thevetia",
+      "O3": "Nicotiana tabacum",
+      "O4": "Atropa belladonna"
+    },
+    "answer": "O4",
+    "images": [],
+    "source_pdf": "Last-5-year-PYQs-in-Forensic-Medicine-for-INI-CET.pdf",
+    "page_number": 7
+  },
+  {
+    "id": "inicet-d104cd83bc",
+    "exam": "inicet",
+    "question_no": "12",
+    "subject": "Forensic Medicine",
+    "topic": "Forensic Medicine",
+    "sub_topic": "",
+    "question": "A girl was found deceased in a lake and her body was retrieved. Which of the following is false regarding ante mortem drowning?",
+    "options": {
+      "O1": "Water in the stomach",
+      "O2": "Froth on nose and mouth",
+      "O3": "No Mud and vegetation in respiratory tract",
+      "O4": "Cadaveric spasm in hand muscle"
+    },
+    "answer": "O3",
+    "images": [],
+    "source_pdf": "Last-5-year-PYQs-in-Forensic-Medicine-for-INI-CET.pdf",
+    "page_number": 8
+  },
+  {
+    "id": "inicet-7b548008b0",
+    "exam": "inicet",
+    "question_no": "13",
+    "subject": "Forensic Medicine",
+    "topic": "Forensic Medicine",
+    "sub_topic": "",
+    "question": "Which of the following is correct regarding sample collection in the case of alcohol intoxication?",
+    "options": {
+      "O1": "Sample area cleaned with spirit",
+      "O2": "Sample area cleaned with soap and water",
+      "O3": "Samples should be preserved without preservatives.",
+      "O4": "Only one urine sample is required"
+    },
+    "answer": "O2",
+    "images": [],
+    "source_pdf": "Last-5-year-PYQs-in-Forensic-Medicine-for-INI-CET.pdf",
+    "page_number": 8
+  },
+  {
+    "id": "inicet-7c2b87253d",
+    "exam": "inicet",
+    "question_no": "14",
+    "subject": "Forensic Medicine",
+    "topic": "Forensic Medicine",
+    "sub_topic": "",
+    "question": "Identify the following image?",
+    "options": {
+      "O1": "Hinderers line",
+      "O2": "Langers lines",
+      "O3": "Blaschko lines",
+      "O4": "Dermatomes"
+    },
+    "answer": "O2",
+    "images": [
+      "images/inicet/Last-5-year-PYQs-in-Forensic-Medicine-for-INI-CET_page9_img1.jpeg",
+      "images/inicet/Last-5-year-PYQs-in-Forensic-Medicine-for-INI-CET_page9_img2.png",
+      "images/inicet/Last-5-year-PYQs-in-Forensic-Medicine-for-INI-CET_page9_img3.png",
+      "images/inicet/Last-5-year-PYQs-in-Forensic-Medicine-for-INI-CET_page9_img4.png",
+      "images/inicet/Last-5-year-PYQs-in-Forensic-Medicine-for-INI-CET_page9_img5.png"
+    ],
+    "source_pdf": "Last-5-year-PYQs-in-Forensic-Medicine-for-INI-CET.pdf",
+    "page_number": 9
+  },
+  {
+    "id": "inicet-7e5485c41c",
+    "exam": "inicet",
+    "question_no": "15",
+    "subject": "Forensic Medicine",
+    "topic": "Forensic Medicine",
+    "sub_topic": "",
+    "question": "Black foot disease with peripheral neuropathy is seen in which metal poisoning?",
+    "options": {
+      "O1": "Arsenic",
+      "O2": "Lead",
+      "O3": "Mercury",
+      "O4": "Cadmium"
+    },
+    "answer": "O1",
+    "images": [],
+    "source_pdf": "Last-5-year-PYQs-in-Forensic-Medicine-for-INI-CET.pdf",
+    "page_number": 10
+  },
+  {
+    "id": "inicet-c845a1088b",
+    "exam": "inicet",
+    "question_no": "16",
+    "subject": "Forensic Medicine",
+    "topic": "Forensic Medicine",
+    "sub_topic": "",
+    "question": "A female was given morphine sulfate during labor for pain following which she developed respiratory distress. Which of the following will be the correct antidote?",
+    "options": {
+      "O1": "Naloxone",
+      "O2": "Atropine",
+      "O3": "Pralidoxime",
+      "O4": "Epinephrine"
+    },
+    "answer": "O1",
+    "images": [
+      "images/inicet/Last-5-year-PYQs-in-Forensic-Medicine-for-INI-CET_page10_img1.jpeg"
+    ],
+    "source_pdf": "Last-5-year-PYQs-in-Forensic-Medicine-for-INI-CET.pdf",
+    "page_number": 10
+  },
+  {
+    "id": "inicet-fd2045bfad",
+    "exam": "inicet",
+    "question_no": "17",
+    "subject": "Forensic Medicine",
+    "topic": "Forensic Medicine",
+    "sub_topic": "",
+    "question": "Identify the option that does not correspond to a grievous hurt according to Section 320 of the Indian Penal Code (IPC).",
+    "options": {
+      "O1": "Emasculation",
+      "O2": "Fracture of femur",
+      "O3": "Permanent privation of hearing",
+      "O4": "7 days hospital admission"
+    },
+    "answer": "O4",
+    "images": [
+      "images/inicet/Last-5-year-PYQs-in-Forensic-Medicine-for-INI-CET_page10_img1.jpeg"
+    ],
+    "source_pdf": "Last-5-year-PYQs-in-Forensic-Medicine-for-INI-CET.pdf",
+    "page_number": 10
+  },
+  {
+    "id": "inicet-a28703a8c4",
+    "exam": "inicet",
+    "question_no": "18",
+    "subject": "Forensic Medicine",
+    "topic": "Forensic Medicine",
+    "sub_topic": "",
+    "question": "What causes the blackening around a gunshot entry wound?",
+    "options": {
+      "O1": "Smoke particles",
+      "O2": "Unburned gunpowder",
+      "O3": "Muzzle of firearm",
+      "O4": "Fire effect"
+    },
+    "answer": "O1",
+    "images": [],
+    "source_pdf": "Last-5-year-PYQs-in-Forensic-Medicine-for-INI-CET.pdf",
+    "page_number": 11
+  },
+  {
+    "id": "inicet-c49fbb1d87",
+    "exam": "inicet",
+    "question_no": "1",
+    "subject": "Medicine",
+    "topic": "Medicine",
+    "sub_topic": "",
+    "question": "A 40-year-old man presents with daytime sleepiness and impaired concentration and memory. On examination, his BMI is 41 kg/m2, and his BP is 160/100 mm Hg. His awake ABG analysis is given: PaO2 = 66 mm Hg, PaCO2 = 50 mm Hg, and HCO3 = 28 mEq/L. What is the most likely diagnosis?",
+    "options": {
+      "O1": "Obstructive sleep apnea",
+      "O2": "Narcolepsy",
+      "O3": "Obesity hypo-ventilation syndrome",
+      "O4": "Central sleep apnea"
+    },
+    "answer": "O3",
+    "images": [
+      "images/inicet/Last-5-year-PYQs-in-Medicine-for-INI-CET_page1_img1.jpeg"
+    ],
+    "source_pdf": "Last-5-year-PYQs-in-Medicine-for-INI-CET.pdf",
+    "page_number": 1
+  },
+  {
+    "id": "inicet-9d028ac1bb",
+    "exam": "inicet",
+    "question_no": "2",
+    "subject": "Medicine",
+    "topic": "Medicine",
+    "sub_topic": "",
+    "question": "What is the antibody linked to the condition in which a 35-year-old woman experiences skin thickening, muscle weakness, pale peripheries upon cold exposure, increased creatine kinase with positive ANA, and biopsy revealing scl-70 positivity and perifascicular infiltration?",
+    "options": {
+      "O1": "Anti PM scl antibody",
+      "O2": "Anti Jo1 antibody",
+      "O3": "Anti centromere antibody",
+      "O4": "Antinuclear antibody"
+    },
+    "answer": "O1",
+    "images": [],
+    "source_pdf": "Last-5-year-PYQs-in-Medicine-for-INI-CET.pdf",
+    "page_number": 1
+  },
+  {
+    "id": "inicet-66d4be1668",
+    "exam": "inicet",
+    "question_no": "3",
+    "subject": "Medicine",
+    "topic": "Medicine",
+    "sub_topic": "",
+    "question": "An elderly patient was brought to the OPD with complaints of tremors, stoop posture and slow movements. His son also gives a history of forgetting day-to-day activities. What is the possible cause of this condition?",
+    "options": {
+      "O1": "NPH",
+      "O2": "Hypothyroidism",
+      "O3": "Lewy body",
+      "O4": "Vitamin B12 deficiency"
+    },
+    "answer": "O3",
+    "images": [],
+    "source_pdf": "Last-5-year-PYQs-in-Medicine-for-INI-CET.pdf",
+    "page_number": 2
+  },
+  {
+    "id": "inicet-603d8752fc",
+    "exam": "inicet",
+    "question_no": "4",
+    "subject": "Medicine",
+    "topic": "Medicine",
+    "sub_topic": "",
+    "question": "All of the following are tests done for screening in patients with Turner's syndrome, except?",
+    "options": {
+      "O1": "ANA",
+      "O2": "Audiometry",
+      "O3": "Echocardiography",
+      "O4": "Fasting blood glucose"
+    },
+    "answer": "O1",
+    "images": [],
+    "source_pdf": "Last-5-year-PYQs-in-Medicine-for-INI-CET.pdf",
+    "page_number": 2
+  },
+  {
+    "id": "inicet-a56d20494f",
+    "exam": "inicet",
+    "question_no": "6",
+    "subject": "Medicine",
+    "topic": "Medicine",
+    "sub_topic": "",
+    "question": "What recommendations would you give to a diabetic patient with a fasting blood glucose level of 160 mg/dL in terms of non-pharmacological management?",
+    "options": {
+      "O1": "At least 80 mg of dietary fibre",
+      "O2": "<5 g sodium intake every day",
+      "O3": "<30% of the calories should come from fat",
+      "O4": "Cholesterol <100 mg"
+    },
+    "answer": "O3",
+    "images": [],
+    "source_pdf": "Last-5-year-PYQs-in-Medicine-for-INI-CET.pdf",
+    "page_number": 3
+  },
+  {
+    "id": "inicet-a4313228ea",
+    "exam": "inicet",
+    "question_no": "8",
+    "subject": "Medicine",
+    "topic": "Medicine",
+    "sub_topic": "",
+    "question": "Which of the following is not a first-line drug for the management of a patient with rheumatoid arthritis?",
+    "options": {
+      "O1": "Sulfasalazine",
+      "O2": "Hydroxychloroquine",
+      "O3": "Methotrexate",
+      "O4": "Azathioprine"
+    },
+    "answer": "O4",
+    "images": [],
+    "source_pdf": "Last-5-year-PYQs-in-Medicine-for-INI-CET.pdf",
+    "page_number": 4
+  },
+  {
+    "id": "inicet-e058b1dfb1",
+    "exam": "inicet",
+    "question_no": "10",
+    "subject": "Medicine",
+    "topic": "Medicine",
+    "sub_topic": "",
+    "question": "A patient arrives at the hospital with symptoms of fever and chills. A fever profile test is conducted, which rules out malaria and dengue as the cause. However, the rK39 test comes back positive. What is the preferred treatment for this condition?",
+    "options": {
+      "O1": "Amphotericin B",
+      "O2": "Griseofulvin",
+      "O3": "Dapsone",
+      "O4": "Hydroxychloroquine"
+    },
+    "answer": "O1",
+    "images": [],
+    "source_pdf": "Last-5-year-PYQs-in-Medicine-for-INI-CET.pdf",
+    "page_number": 5
+  },
+  {
+    "id": "inicet-4708505073",
+    "exam": "inicet",
+    "question_no": "11",
+    "subject": "Medicine",
+    "topic": "Medicine",
+    "sub_topic": "",
+    "question": "For hairy cell leukemia, which drug is considered the preferred choice?",
+    "options": {
+      "O1": "Rituximab",
+      "O2": "Vemurafenib",
+      "O3": "Cladribine",
+      "O4": "Interferon-alpha"
+    },
+    "answer": "O3",
+    "images": [],
+    "source_pdf": "Last-5-year-PYQs-in-Medicine-for-INI-CET.pdf",
+    "page_number": 5
+  },
+  {
+    "id": "inicet-1c4015c476",
+    "exam": "inicet",
+    "question_no": "12",
+    "subject": "Medicine",
+    "topic": "Medicine",
+    "sub_topic": "",
+    "question": "Following is a graphic representation of a patient admitted in the medicine ward with a fever. What could be the possible diagnosis?",
+    "options": {
+      "O1": "Cerebral malaria",
+      "O2": "Brucellosis",
+      "O3": "Leptospirosis",
+      "O4": "Typhoid"
+    },
+    "answer": "O3",
+    "images": [],
+    "source_pdf": "Last-5-year-PYQs-in-Medicine-for-INI-CET.pdf",
+    "page_number": 6
+  },
+  {
+    "id": "inicet-57f97c5b4c",
+    "exam": "inicet",
+    "question_no": "14",
+    "subject": "Medicine",
+    "topic": "Medicine",
+    "sub_topic": "",
+    "question": "A diabetic patient walks into your clinic and does \"namaste.\". The image is given below. What could be the probable cause?",
+    "options": {
+      "O1": "Flexor tenosynovitis",
+      "O2": "Cheiroarthropathy",
+      "O3": "Dupuytrens contracture",
+      "O4": "Ankyloses"
+    },
+    "answer": "O2",
+    "images": [
+      "images/inicet/Last-5-year-PYQs-in-Medicine-for-INI-CET_page7_img1.jpeg",
+      "images/inicet/Last-5-year-PYQs-in-Medicine-for-INI-CET_page7_img2.png"
+    ],
+    "source_pdf": "Last-5-year-PYQs-in-Medicine-for-INI-CET.pdf",
+    "page_number": 7
+  },
+  {
+    "id": "inicet-5f3cbe1686",
+    "exam": "inicet",
+    "question_no": "16",
+    "subject": "Medicine",
+    "topic": "Medicine",
+    "sub_topic": "",
+    "question": "What is not a characteristic feature of Wilson's disease?",
+    "options": {
+      "O1": "Autosomal recessive disease",
+      "O2": "No free radical injury",
+      "O3": "ATP7B gene involved",
+      "O4": "Presents before age 40 with liver disease"
+    },
+    "answer": "O2",
+    "images": [],
+    "source_pdf": "Last-5-year-PYQs-in-Medicine-for-INI-CET.pdf",
+    "page_number": 8
+  },
+  {
+    "id": "inicet-a944e187af",
+    "exam": "inicet",
+    "question_no": "17",
+    "subject": "Medicine",
+    "topic": "Medicine",
+    "sub_topic": "",
+    "question": "In a patient with HIV, the incorrect statement regarding prophylaxis for various organisms is: PCP-Pneumocystis pneumonia",
+    "options": {
+      "O1": "MAC-Mycobacterium avium complex",
+      "O2": "Prophylaxis for PCP is indicated when CD4 count is <200 cells/µL",
+      "O3": "Stop prophylaxis for Coccidioides if CD4 count is >250 cells/µL for 6 months",
+      "O4": "Prophylaxis for MAC is indicated when CD4 count is <50 cells/µL."
+    },
+    "answer": "O4",
+    "images": [],
+    "source_pdf": "Last-5-year-PYQs-in-Medicine-for-INI-CET.pdf",
+    "page_number": 8
+  },
+  {
+    "id": "inicet-bc64667282",
+    "exam": "inicet",
+    "question_no": "1",
+    "subject": "OBG",
+    "topic": "OBG",
+    "sub_topic": "",
+    "question": "Who should be screened for cervical cancer are the following groups of individuals:",
+    "options": {
+      "O1": "More than 65 years old",
+      "O2": "Less than 21 years, old",
+      "O3": "21 to 65 year old females",
+      "O4": "Teenagers"
+    },
+    "answer": "O3",
+    "images": [],
+    "source_pdf": "Last-5-year-PYQs-in-OBG-for-INI-CET.pdf",
+    "page_number": 1
+  },
+  {
+    "id": "inicet-eca1fbed0e",
+    "exam": "inicet",
+    "question_no": "2",
+    "subject": "OBG",
+    "topic": "OBG",
+    "sub_topic": "",
+    "question": "Which of the following mechanisms is not involved in the action of oral contraceptives?",
+    "options": {
+      "O1": "Inhibit implantation",
+      "O2": "Cervical mucus thickening",
+      "O3": "Inhibit ovulation",
+      "O4": "Increase GnRH release"
+    },
+    "answer": "O4",
+    "images": [],
+    "source_pdf": "Last-5-year-PYQs-in-OBG-for-INI-CET.pdf",
+    "page_number": 1
+  },
+  {
+    "id": "inicet-515c9038cf",
+    "exam": "inicet",
+    "question_no": "3",
+    "subject": "OBG",
+    "topic": "OBG",
+    "sub_topic": "",
+    "question": "What is the appropriate evaluation for a 30-year-old woman who visits an infertility clinic and has a consistent 28-day menstrual cycle?",
+    "options": {
+      "O1": "Serum progesterone on 14",
+      "O2": "Serum progesterone day 21",
+      "O3": "Serum LH on day 10",
+      "O4": "Serum LH on day 21"
+    },
+    "answer": "O2",
+    "images": [],
+    "source_pdf": "Last-5-year-PYQs-in-OBG-for-INI-CET.pdf",
+    "page_number": 1
+  },
+  {
+    "id": "inicet-a25916bde0",
+    "exam": "inicet",
+    "question_no": "4",
+    "subject": "OBG",
+    "topic": "OBG",
+    "sub_topic": "",
+    "question": "A patient with 12 weeks of amenorrhea presents with vaginal bleeding. On examination, the Cervix is favorable. USG shows a snowstorm appearance. The next best step in the management is?",
+    "options": {
+      "O1": "Medical management",
+      "O2": "Follow up with beta-hCG",
+      "O3": "Suction and evacuation",
+      "O4": "Hysterectomy"
+    },
+    "answer": "O3",
+    "images": [],
+    "source_pdf": "Last-5-year-PYQs-in-OBG-for-INI-CET.pdf",
+    "page_number": 2
+  },
+  {
+    "id": "inicet-d0b3d7c279",
+    "exam": "inicet",
+    "question_no": "6",
+    "subject": "OBG",
+    "topic": "OBG",
+    "sub_topic": "",
+    "question": "Based on the provided clinical image, what would be the most likely diagnosis?",
+    "options": {
+      "O1": "Cervical carcinoma",
+      "O2": "Uterine inversion",
+      "O3": "Uterocervical prolapse",
+      "O4": "Fibroid polyp"
+    },
+    "answer": "O3",
+    "images": [
+      "images/inicet/Last-5-year-PYQs-in-OBG-for-INI-CET_page3_img1.jpeg",
+      "images/inicet/Last-5-year-PYQs-in-OBG-for-INI-CET_page3_img2.png"
+    ],
+    "source_pdf": "Last-5-year-PYQs-in-OBG-for-INI-CET.pdf",
+    "page_number": 3
+  },
+  {
+    "id": "inicet-e2bfba326f",
+    "exam": "inicet",
+    "question_no": "7",
+    "subject": "OBG",
+    "topic": "OBG",
+    "sub_topic": "",
+    "question": "What should be the subsequent course of action for a 26-year-old woman with a history of two vaginal deliveries, complaining of a persistent dull ache in the abdomen, irregular menstrual cycles, and a palpable mass detected during a vaginal examination, which was confirmed by a 5 x 5 cm ovarian cyst on ultrasound?",
+    "options": {
+      "O1": "Measure CA 125 levels",
+      "O2": "Follow up after 6 weeks",
+      "O3": "Laparoscopy",
+      "O4": "CT pelvis"
+    },
+    "answer": "O2",
+    "images": [],
+    "source_pdf": "Last-5-year-PYQs-in-OBG-for-INI-CET.pdf",
+    "page_number": 3
+  },
+  {
+    "id": "inicet-390485e32a",
+    "exam": "inicet",
+    "question_no": "8",
+    "subject": "OBG",
+    "topic": "OBG",
+    "sub_topic": "",
+    "question": "Which of the options is not a part of the quadruple screening test?",
+    "options": {
+      "O1": "Inhibin B",
+      "O2": "Unconjugated Estriol (E3)",
+      "O3": "AFP",
+      "O4": "hCG"
+    },
+    "answer": "O1",
+    "images": [],
+    "source_pdf": "Last-5-year-PYQs-in-OBG-for-INI-CET.pdf",
+    "page_number": 4
+  },
+  {
+    "id": "inicet-cc6b63b5c7",
+    "exam": "inicet",
+    "question_no": "9",
+    "subject": "OBG",
+    "topic": "OBG",
+    "sub_topic": "",
+    "question": "Which fixative is employed for a pap smear?",
+    "options": {
+      "O1": "Formalin",
+      "O2": "Air dried",
+      "O3": "Normal saline",
+      "O4": "95% ethanol"
+    },
+    "answer": "O4",
+    "images": [],
+    "source_pdf": "Last-5-year-PYQs-in-OBG-for-INI-CET.pdf",
+    "page_number": 4
+  },
+  {
+    "id": "inicet-a1533fe76b",
+    "exam": "inicet",
+    "question_no": "11",
+    "subject": "OBG",
+    "topic": "OBG",
+    "sub_topic": "",
+    "question": "Which of the statements below is not accurate regarding lupus nephritis during pregnancy?",
+    "options": {
+      "O1": "Immunosuppression can be continued during pregnancy",
+      "O2": "Pregnancy to be planned once the disease has been quiescent for at least 6 months and",
+      "O3": "High dose corticosteroids for lupus flare in pregnancy is safe",
+      "O4": "Ecosprin, methotrexate, cyclophosphamide, corticosteroids, and azathioprine are safe in"
+    },
+    "answer": "O4",
+    "images": [],
+    "source_pdf": "Last-5-year-PYQs-in-OBG-for-INI-CET.pdf",
+    "page_number": 5
+  },
+  {
+    "id": "inicet-ebf27a1428",
+    "exam": "inicet",
+    "question_no": "12",
+    "subject": "OBG",
+    "topic": "OBG",
+    "sub_topic": "",
+    "question": "Which of the statements below is not true regarding the management of diabetes during pregnancy?",
+    "options": {
+      "O1": "Insulin must be recommended in case of small for gestational age infant",
+      "O2": "In a patient being planned for induction of labor, the night dose of intermediate insulin is",
+      "O3": "In active labor, if RBS <70 mg%, D5 is started at 100-150 ml/hr till the RBS is >100 mg%",
+      "O4": "Capillary blood glucose monitoring levels are kept at fasting: 95 mg%; 1 hr postprandial-"
+    },
+    "answer": "O1",
+    "images": [],
+    "source_pdf": "Last-5-year-PYQs-in-OBG-for-INI-CET.pdf",
+    "page_number": 6
+  },
+  {
+    "id": "inicet-f490e6b956",
+    "exam": "inicet",
+    "question_no": "13",
+    "subject": "OBG",
+    "topic": "OBG",
+    "sub_topic": "",
+    "question": "Which of the following investigations is NOT routinely recommended for screening antenatal mothers due to its cost-effectiveness?",
+    "options": {
+      "O1": "Echocardiography for cardiac disease",
+      "O2": "Urine analysis for bacteriuria",
+      "O3": "Blood sugar levels for GDM",
+      "O4": "VDRL for syphilis"
+    },
+    "answer": "O1",
+    "images": [],
+    "source_pdf": "Last-5-year-PYQs-in-OBG-for-INI-CET.pdf",
+    "page_number": 6
+  },
+  {
+    "id": "inicet-c8e31a37f4",
+    "exam": "inicet",
+    "question_no": "14",
+    "subject": "OBG",
+    "topic": "OBG",
+    "sub_topic": "",
+    "question": "In which of the following conditions would the absence of seminal vesicles and vas deferens be a congenital bilateral occurrence?",
+    "options": {
+      "O1": "Cystic fibrosis",
+      "O2": "Klinefelter syndrome",
+      "O3": "Kallmann syndrome",
+      "O4": "Kartagener syndrome"
+    },
+    "answer": "O1",
+    "images": [],
+    "source_pdf": "Last-5-year-PYQs-in-OBG-for-INI-CET.pdf",
+    "page_number": 6
+  },
+  {
+    "id": "inicet-1224f9c08c",
+    "exam": "inicet",
+    "question_no": "15",
+    "subject": "OBG",
+    "topic": "OBG",
+    "sub_topic": "",
+    "question": "The Kassowitz rule is related to which of the following?",
+    "options": {
+      "O1": "Primary syphilis",
+      "O2": "Congenital syphilis",
+      "O3": "Secondary syphilis",
+      "O4": "Latent syphilis"
+    },
+    "answer": "O2",
+    "images": [],
+    "source_pdf": "Last-5-year-PYQs-in-OBG-for-INI-CET.pdf",
+    "page_number": 7
+  },
+  {
+    "id": "inicet-695a94dd35",
+    "exam": "inicet",
+    "question_no": "16",
+    "subject": "OBG",
+    "topic": "OBG",
+    "sub_topic": "",
+    "question": "Which hormone is secreted by the human placenta?",
+    "options": {
+      "O1": "LH",
+      "O2": "hCG",
+      "O3": "FSH",
+      "O4": "GnRH"
+    },
+    "answer": "O2",
+    "images": [],
+    "source_pdf": "Last-5-year-PYQs-in-OBG-for-INI-CET.pdf",
+    "page_number": 7
+  },
+  {
+    "id": "inicet-d0fcd06b7b",
+    "exam": "inicet",
+    "question_no": "17",
+    "subject": "OBG",
+    "topic": "OBG",
+    "sub_topic": "",
+    "question": "In puberty, what is the most common cause of menorrhagia?",
+    "options": {
+      "O1": "Endometriosis",
+      "O2": "Anovulation",
+      "O3": "Malignancy",
+      "O4": "Adenomyosis"
+    },
+    "answer": "O2",
+    "images": [],
+    "source_pdf": "Last-5-year-PYQs-in-OBG-for-INI-CET.pdf",
+    "page_number": 8
+  },
+  {
+    "id": "inicet-0ec45654f8",
+    "exam": "inicet",
+    "question_no": "18",
+    "subject": "OBG",
+    "topic": "OBG",
+    "sub_topic": "",
+    "question": "A 30-year-old pregnant female, G2P1, at 28 weeks gestation presents to the emergency department with complaints of fever, mild leukocytosis, and lower abdominal pain. She has a history of uterine fibroids diagnosed during her previous pregnancy. On examination, she has tenderness over the lower abdomen, and the uterus feels enlarged. Fetal heart rate monitoring shows no abnormalities. What is the most likely cause of her symptoms?",
+    "options": {
+      "O1": "Red degeneration of fibroid",
+      "O2": "Fibroid torsion",
+      "O3": "Fibroid infection",
+      "O4": "Labor pain"
+    },
+    "answer": "O1",
+    "images": [],
+    "source_pdf": "Last-5-year-PYQs-in-OBG-for-INI-CET.pdf",
+    "page_number": 8
+  },
+  {
+    "id": "inicet-00eb1b7b8c",
+    "exam": "inicet",
+    "question_no": "1",
+    "subject": "Ophthalmology",
+    "topic": "Ophthalmology",
+    "sub_topic": "",
+    "question": "What is the probable diagnosis based on the observed blanching of vascularity following the administration of 10 % phenylephrine, as depicted in the provided image?",
+    "options": {
+      "O1": "Nodular episcleritis",
+      "O2": "Nodular scleritis",
+      "O3": "Nodular phlycten",
+      "O4": "Scleral ectasia"
+    },
+    "answer": "O1",
+    "images": [
+      "images/inicet/Last-5-year-PYQs-in-Ophthalmology-for-INI-CET_page1_img1.jpeg",
+      "images/inicet/Last-5-year-PYQs-in-Ophthalmology-for-INI-CET_page1_img2.png"
+    ],
+    "source_pdf": "Last-5-year-PYQs-in-Ophthalmology-for-INI-CET.pdf",
+    "page_number": 1
+  },
+  {
+    "id": "inicet-6d8a33dde3",
+    "exam": "inicet",
+    "question_no": "2",
+    "subject": "Ophthalmology",
+    "topic": "Ophthalmology",
+    "sub_topic": "",
+    "question": "Which lens is utilized in direct gonioscopy?",
+    "options": {
+      "O1": "Goldmann",
+      "O2": "Koeppe",
+      "O3": "Zeiss",
+      "O4": "Sussman"
+    },
+    "answer": "O2",
+    "images": [],
+    "source_pdf": "Last-5-year-PYQs-in-Ophthalmology-for-INI-CET.pdf",
+    "page_number": 1
+  },
+  {
+    "id": "inicet-1e18d3c3cf",
+    "exam": "inicet",
+    "question_no": "3",
+    "subject": "Ophthalmology",
+    "topic": "Ophthalmology",
+    "sub_topic": "",
+    "question": "Please identify the structure that is indicated.",
+    "options": {
+      "O1": "Canal of petit",
+      "O2": "Canal of hannover",
+      "O3": "Hyaloid canal",
+      "O4": "Pars plana"
+    },
+    "answer": "O1",
+    "images": [
+      "images/inicet/Last-5-year-PYQs-in-Ophthalmology-for-INI-CET_page2_img1.jpeg",
+      "images/inicet/Last-5-year-PYQs-in-Ophthalmology-for-INI-CET_page2_img2.png",
+      "images/inicet/Last-5-year-PYQs-in-Ophthalmology-for-INI-CET_page2_img3.png"
+    ],
+    "source_pdf": "Last-5-year-PYQs-in-Ophthalmology-for-INI-CET.pdf",
+    "page_number": 2
+  },
+  {
+    "id": "inicet-1968d5cd7d",
+    "exam": "inicet",
+    "question_no": "5",
+    "subject": "Ophthalmology",
+    "topic": "Ophthalmology",
+    "sub_topic": "",
+    "question": "What is the accurate order of staining in patients with dry eyes?",
+    "options": {
+      "O1": "Fluorescein stain",
+      "O2": "Lissamine green",
+      "O3": "Rose Bengal stain",
+      "O4": "1, 3, 2"
+    },
+    "answer": "O2",
+    "images": [],
+    "source_pdf": "Last-5-year-PYQs-in-Ophthalmology-for-INI-CET.pdf",
+    "page_number": 3
+  },
+  {
+    "id": "inicet-20f41211c3",
+    "exam": "inicet",
+    "question_no": "7",
+    "subject": "Ophthalmology",
+    "topic": "Ophthalmology",
+    "sub_topic": "",
+    "question": "After an acute episode of angle-closure glaucoma, which triad of symptoms is typically observed?",
+    "options": {
+      "O1": "Vogt’s triad",
+      "O2": "Virchow triad",
+      "O3": "Hutchinson’s triad",
+      "O4": "Gaucher triad"
+    },
+    "answer": "O1",
+    "images": [],
+    "source_pdf": "Last-5-year-PYQs-in-Ophthalmology-for-INI-CET.pdf",
+    "page_number": 4
+  },
+  {
+    "id": "inicet-4b79c4159f",
+    "exam": "inicet",
+    "question_no": "8",
+    "subject": "Ophthalmology",
+    "topic": "Ophthalmology",
+    "sub_topic": "",
+    "question": "Which of the listed conditions is associated with the presence of punched-out lesions on the retina?",
+    "options": {
+      "O1": "Posterior staphyloma",
+      "O2": "Fundal coloboma",
+      "O3": "Congenital Rubella",
+      "O4": "Toxoplasmosis"
+    },
+    "answer": "O4",
+    "images": [],
+    "source_pdf": "Last-5-year-PYQs-in-Ophthalmology-for-INI-CET.pdf",
+    "page_number": 4
+  },
+  {
+    "id": "inicet-32e1e4e16f",
+    "exam": "inicet",
+    "question_no": "9",
+    "subject": "Ophthalmology",
+    "topic": "Ophthalmology",
+    "sub_topic": "",
+    "question": "What would be the next investigative step for a 27-year-old female patient who presents with sudden vision loss accompanied by a relative afferent pupillary defect in her right eye, while her left eye appears normal on examination?",
+    "options": {
+      "O1": "MRI brain & orbit",
+      "O2": "Myelin oligodendrocyte glycoprotein (MOG) and neuromyelitis optica (NMO) antibodies",
+      "O3": "Blood sugar",
+      "O4": "Thyroid profile"
+    },
+    "answer": "O1",
+    "images": [],
+    "source_pdf": "Last-5-year-PYQs-in-Ophthalmology-for-INI-CET.pdf",
+    "page_number": 5
+  },
+  {
+    "id": "inicet-57fe45c9d7",
+    "exam": "inicet",
+    "question_no": "11",
+    "subject": "Ophthalmology",
+    "topic": "Ophthalmology",
+    "sub_topic": "",
+    "question": "What is the most frequently occurring tumor found in the lacrimal gland?",
+    "options": {
+      "O1": "Adenoid cystic carcinoma",
+      "O2": "Lymphoma",
+      "O3": "Pleomorphic adenoma",
+      "O4": "Mucoepidermoid carcinoma"
+    },
+    "answer": "O3",
+    "images": [],
+    "source_pdf": "Last-5-year-PYQs-in-Ophthalmology-for-INI-CET.pdf",
+    "page_number": 6
+  },
+  {
+    "id": "inicet-59a1f914ea",
+    "exam": "inicet",
+    "question_no": "12",
+    "subject": "Ophthalmology",
+    "topic": "Ophthalmology",
+    "sub_topic": "",
+    "question": "What is the most frequently observed eye symptom of COVID-19?",
+    "options": {
+      "O1": "A retinal vein thrombosis",
+      "O2": "Viral keratouveitis",
+      "O3": "Follicular conjunctivitis",
+      "O4": "Pseudomembranous conjunctivitis"
+    },
+    "answer": "O3",
+    "images": [],
+    "source_pdf": "Last-5-year-PYQs-in-Ophthalmology-for-INI-CET.pdf",
+    "page_number": 6
+  },
+  {
+    "id": "inicet-d957e13ab2",
+    "exam": "inicet",
+    "question_no": "13",
+    "subject": "Ophthalmology",
+    "topic": "Ophthalmology",
+    "sub_topic": "",
+    "question": "Which of the following medications should not be administered to a patient with a known case of angle closure glaucoma who has also been diagnosed with major depressive disorder?",
+    "options": {
+      "O1": "Amitriptyline",
+      "O2": "Sertraline",
+      "O3": "Mirtazapine",
+      "O4": "Fluvoxamine"
+    },
+    "answer": "O1",
+    "images": [],
+    "source_pdf": "Last-5-year-PYQs-in-Ophthalmology-for-INI-CET.pdf",
+    "page_number": 7
+  },
+  {
+    "id": "inicet-16ac90ba32",
+    "exam": "inicet",
+    "question_no": "15",
+    "subject": "Ophthalmology",
+    "topic": "Ophthalmology",
+    "sub_topic": "",
+    "question": "Which muscle is paralyzed in a patient who has left-sided head tilt resulting in right hypotropia that worsens with right head tilt and dextroversion?",
+    "options": {
+      "O1": "Right superior oblique",
+      "O2": "Right superior rectus",
+      "O3": "Right inferior oblique",
+      "O4": "Left inferior oblique"
+    },
+    "answer": "O2",
+    "images": [],
+    "source_pdf": "Last-5-year-PYQs-in-Ophthalmology-for-INI-CET.pdf",
+    "page_number": 8
+  },
+  {
+    "id": "inicet-d58c81e347",
+    "exam": "inicet",
+    "question_no": "16",
+    "subject": "Ophthalmology",
+    "topic": "Ophthalmology",
+    "sub_topic": "",
+    "question": "What is the procedure depicted in the provided image?",
+    "options": {
+      "O1": "Nasolacrimal duct syringing",
+      "O2": "Anterior ethmoidal nerve block",
+      "O3": "Infraorbital nerve block",
+      "O4": "Trephination of frontal sinus"
+    },
+    "answer": "O2",
+    "images": [
+      "images/inicet/Last-5-year-PYQs-in-Ophthalmology-for-INI-CET_page9_img1.jpeg",
+      "images/inicet/Last-5-year-PYQs-in-Ophthalmology-for-INI-CET_page9_img2.png"
+    ],
+    "source_pdf": "Last-5-year-PYQs-in-Ophthalmology-for-INI-CET.pdf",
+    "page_number": 9
+  },
+  {
+    "id": "inicet-1073cebeb6",
+    "exam": "inicet",
+    "question_no": "17",
+    "subject": "Ophthalmology",
+    "topic": "Ophthalmology",
+    "sub_topic": "",
+    "question": "What is the proper sequence for administering eye drops and eye ointment?",
+    "options": {
+      "O1": "Eye drops first, ointment 15 min later",
+      "O2": "Ointment first, eye drops 15 min later",
+      "O3": "Eye drops first, then ointment immediately",
+      "O4": "Ointment first, then eye drops immediately."
+    },
+    "answer": "O1",
+    "images": [],
+    "source_pdf": "Last-5-year-PYQs-in-Ophthalmology-for-INI-CET.pdf",
+    "page_number": 9
+  }
+]

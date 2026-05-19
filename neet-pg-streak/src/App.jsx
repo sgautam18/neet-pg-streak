@@ -1,68 +1,148 @@
-import { useEffect, useMemo, useState } from 'react';
+import { useCallback, useEffect, useMemo, useState } from 'react';
 import {
   ArrowRight,
+  BarChart3,
   BookOpenCheck,
+  Bookmark,
   CheckCircle2,
   ChevronDown,
   Flame,
   Layers3,
   Loader2,
-  RotateCcw,
+  RefreshCcw,
+  Search,
   Shuffle,
   Target,
   Trophy,
+  UserRound,
   XCircle,
 } from 'lucide-react';
 import './App.css';
 
-const STORAGE_KEY = 'neet-pg-streak-stats';
+const DEVICE_KEY = 'neet-pg-device-id';
+const EXAM_KEY = 'neet-pg-selected-exam';
 const BASE_URL = import.meta.env.BASE_URL;
 
 const defaultStats = {
   streak: 0,
   maxStreak: 0,
+  bestScore: 0,
   totalSolved: 0,
   correctSolved: 0,
 };
 
 function App() {
+  const [config, setConfig] = useState({ exams: [] });
+  const [selectedExam, setSelectedExam] = useState(
+    () => localStorage.getItem(EXAM_KEY) || 'neet-pg',
+  );
   const [questions, setQuestions] = useState([]);
   const [currentQuestion, setCurrentQuestion] = useState(null);
-  const [stats, setStats] = useState(() => loadSavedStats());
+  const [profile, setProfile] = useState(null);
+  const [leaderboard, setLeaderboard] = useState([]);
+  const [wrongQuestions, setWrongQuestions] = useState([]);
+  const [wrongSearch, setWrongSearch] = useState('');
+  const [wrongSubject, setWrongSubject] = useState('All');
   const [selectedOption, setSelectedOption] = useState('');
   const [showResult, setShowResult] = useState(false);
   const [selectedSubject, setSelectedSubject] = useState('All');
   const [selectedSource, setSelectedSource] = useState('All');
+  const [registrationRequired, setRegistrationRequired] = useState(false);
+  const [nameInput, setNameInput] = useState('');
   const [loading, setLoading] = useState(true);
+  const [saving, setSaving] = useState(false);
   const [error, setError] = useState('');
 
-  useEffect(() => {
-    fetch(`${BASE_URL}questions.json`)
-      .then((res) => {
-        if (!res.ok) throw new Error('questions.json could not be loaded');
-        return res.json();
-      })
-      .then((data) => {
-        const validQuestions = data.map(normalizeQuestion).filter(
-          (question) =>
-            question?.question &&
-            question?.options &&
-            Object.keys(question.options).length > 0 &&
-            getCorrectOptionKey(question),
-        );
+  const refreshUserData = useCallback(async (deviceId, exam) => {
+    const suffix = `exam=${encodeURIComponent(exam)}`;
+    const [profilePayload, leaderboardPayload, wrongPayload] = await Promise.all([
+      apiGet(`/api/profile?deviceId=${encodeURIComponent(deviceId)}&${suffix}`),
+      apiGet(`/api/leaderboard?${suffix}`),
+      apiGet(`/api/wrong?deviceId=${encodeURIComponent(deviceId)}&${suffix}`),
+    ]);
 
-        setQuestions(validQuestions);
-        setCurrentQuestion(selectRandomQuestion(validQuestions));
-      })
-      .catch(() => {
-        setError('Questions could not be loaded. Make sure public/questions.json exists.');
-      })
-      .finally(() => setLoading(false));
+    setProfile(profilePayload.profile);
+    setLeaderboard(leaderboardPayload.leaderboard || []);
+    setWrongQuestions(wrongPayload.wrongQuestions || []);
+    setRegistrationRequired(false);
   }, []);
 
   useEffect(() => {
-    localStorage.setItem(STORAGE_KEY, JSON.stringify(stats));
-  }, [stats]);
+    let mounted = true;
+
+    const loadExam = async () => {
+      setLoading(true);
+      setError('');
+      setSelectedSubject('All');
+      setSelectedSource('All');
+      setSelectedOption('');
+      setShowResult(false);
+      localStorage.setItem(EXAM_KEY, selectedExam);
+
+      try {
+        const deviceId = getDeviceId();
+        const suffix = `exam=${encodeURIComponent(selectedExam)}`;
+        const appConfig = await apiGet(`/api/config?${suffix}`);
+        const questionPayload = await apiGet(`/api/questions?${suffix}`);
+        const examQuestions = (questionPayload.questions || [])
+          .map((question, index) => normalizeQuestion(question, index, selectedExam))
+          .filter(
+            (question) =>
+              question?.question &&
+              question?.options &&
+              Object.keys(question.options).length > 0 &&
+              getCorrectOptionKey(question),
+          );
+
+        if (!mounted) return;
+        setConfig(appConfig);
+        setQuestions(examQuestions);
+        setCurrentQuestion(selectRandomQuestion(examQuestions));
+
+        try {
+          await refreshUserData(deviceId, selectedExam);
+          apiPost('/api/event', {
+            deviceId,
+            exam: selectedExam,
+            event: 'session_open',
+          }).catch(() => {});
+        } catch (profileError) {
+          if (profileError.status === 404) {
+            setProfile(null);
+            setLeaderboard([]);
+            setWrongQuestions([]);
+            setRegistrationRequired(true);
+          } else {
+            throw profileError;
+          }
+        }
+      } catch (loadError) {
+        setError(
+          loadError.message ||
+            'Practice could not start. Make sure the backend is running with python3 main.py.',
+        );
+      } finally {
+        if (mounted) setLoading(false);
+      }
+    };
+
+    loadExam();
+
+    return () => {
+      mounted = false;
+    };
+  }, [selectedExam, refreshUserData]);
+
+  const stats = profile?.stats || defaultStats;
+  const accuracy =
+    stats.totalSolved > 0
+      ? Math.round((stats.correctSolved / stats.totalSolved) * 100)
+      : 0;
+
+  const activeExamLabel =
+    config.exams.find((exam) => exam.id === selectedExam)?.label ||
+    config.label ||
+    'Question Bank';
 
   const subjects = useMemo(() => {
     const uniqueSubjects = new Set(
@@ -79,6 +159,31 @@ function App() {
 
     return ['All', ...Array.from(uniqueSources).sort()];
   }, [questions]);
+
+  const wrongSubjects = useMemo(() => {
+    const uniqueSubjects = new Set(
+      wrongQuestions.map((item) => item.question.subject).filter(Boolean),
+    );
+
+    return ['All', ...Array.from(uniqueSubjects).sort()];
+  }, [wrongQuestions]);
+
+  const filteredWrongQuestions = useMemo(() => {
+    const search = normalizeForMatch(wrongSearch);
+
+    return wrongQuestions.filter((item) => {
+      const question = item.question;
+      const subjectMatches =
+        wrongSubject === 'All' || question.subject === wrongSubject;
+      const searchable = normalizeForMatch(
+        `${question.question} ${question.subject} ${question.topic} ${sourceLabel(
+          question.source_pdf,
+        )} ${question.question_no}`,
+      );
+
+      return subjectMatches && (!search || searchable.includes(search));
+    });
+  }, [wrongQuestions, wrongSearch, wrongSubject]);
 
   const filteredQuestions = useMemo(
     () =>
@@ -102,10 +207,33 @@ function App() {
     return getCorrectOptionKey(currentQuestion);
   }, [currentQuestion]);
 
-  const accuracy =
-    stats.totalSolved > 0
-      ? Math.round((stats.correctSolved / stats.totalSolved) * 100)
-      : 0;
+  const changeExam = (examId) => {
+    if (examId === selectedExam) return;
+    setSelectedExam(examId);
+  };
+
+  const registerDevice = async (event) => {
+    event.preventDefault();
+    const name = nameInput.trim();
+    if (!name) return;
+
+    setSaving(true);
+    setError('');
+    try {
+      const payload = await apiPost('/api/device/register', {
+        deviceId: getDeviceId(),
+        exam: selectedExam,
+        name,
+      });
+      setProfile(payload.profile);
+      setRegistrationRequired(false);
+      await refreshUserData(getDeviceId(), selectedExam);
+    } catch (registerError) {
+      setError(registerError.message || 'Could not register this device.');
+    } finally {
+      setSaving(false);
+    }
+  };
 
   const pickQuestion = (pool = filteredQuestions) => {
     if (!pool.length) return;
@@ -113,7 +241,7 @@ function App() {
     let nextQuestion = selectRandomQuestion(pool);
 
     if (pool.length > 1 && currentQuestion) {
-      while (nextQuestion === currentQuestion) {
+      while (nextQuestion?.id === currentQuestion.id) {
         nextQuestion = selectRandomQuestion(pool);
       }
     }
@@ -149,27 +277,53 @@ function App() {
     pickQuestion(nextPool);
   };
 
-  const handleAnswer = (optionKey) => {
-    if (showResult) return;
+  const handleAnswer = async (optionKey) => {
+    if (showResult || !profile) return;
 
     const isCorrect = optionKey === correctOptionKey;
-
     setSelectedOption(optionKey);
     setShowResult(true);
-    setStats((previousStats) => {
-      const nextStreak = isCorrect ? previousStats.streak + 1 : 0;
 
-      return {
-        streak: nextStreak,
-        maxStreak: Math.max(previousStats.maxStreak, nextStreak),
-        totalSolved: previousStats.totalSolved + 1,
-        correctSolved: previousStats.correctSolved + (isCorrect ? 1 : 0),
-      };
-    });
+    try {
+      const payload = await apiPost('/api/attempt', {
+        deviceId: getDeviceId(),
+        exam: selectedExam,
+        questionId: currentQuestion.id,
+        question: currentQuestion,
+        selectedOption: optionKey,
+        correct: isCorrect,
+      });
+
+      setProfile(payload.profile);
+      setLeaderboard(payload.leaderboard || []);
+      const wrongPayload = await apiGet(
+        `/api/wrong?deviceId=${encodeURIComponent(getDeviceId())}&exam=${encodeURIComponent(
+          selectedExam,
+        )}`,
+      );
+      setWrongQuestions(wrongPayload.wrongQuestions || []);
+    } catch (attemptError) {
+      setError(attemptError.message || 'Your answer could not be saved.');
+    }
   };
 
-  const resetStats = () => {
-    setStats(defaultStats);
+  const revisitWrongQuestion = (item) => {
+    const question =
+      questions.find((candidate) => candidate.id === item.questionId) ||
+      normalizeQuestion(item.question, 0, selectedExam);
+
+    setCurrentQuestion(question);
+    setSelectedOption('');
+    setShowResult(false);
+  };
+
+  const removeWrongQuestion = async (questionId) => {
+    await apiPost('/api/wrong/remove', {
+      deviceId: getDeviceId(),
+      exam: selectedExam,
+      questionId,
+    });
+    setWrongQuestions((items) => items.filter((item) => item.questionId !== questionId));
   };
 
   if (loading) {
@@ -187,7 +341,7 @@ function App() {
         <div className="message-panel">
           <XCircle aria-hidden="true" />
           <h1>Practice cannot start</h1>
-          <p>{error || 'No usable questions were found in the JSON file.'}</p>
+          <p>{error || 'No usable questions were found.'}</p>
         </div>
       </main>
     );
@@ -201,16 +355,123 @@ function App() {
             <BookOpenCheck aria-hidden="true" />
           </div>
           <div>
-            <p className="eyebrow">NEET PG</p>
+            <p className="eyebrow">{activeExamLabel}</p>
             <h1>Streak Practice</h1>
           </div>
         </div>
 
+        {config.exams.length > 0 && (
+          <div className="exam-switcher" aria-label="Exam selector">
+            {config.exams.map((exam) => (
+              <button
+                className={exam.id === selectedExam ? 'is-active' : ''}
+                type="button"
+                key={exam.id}
+                onClick={() => changeExam(exam.id)}
+              >
+                {exam.label}
+              </button>
+            ))}
+          </div>
+        )}
+
+        {profile && (
+          <div className="user-chip">
+            <UserRound aria-hidden="true" />
+            <span>{profile.name}</span>
+          </div>
+        )}
+
         <div className="stats-grid" aria-label="Practice stats">
           <StatTile icon={Flame} label="Current" value={stats.streak} tone="heat" />
-          <StatTile icon={Trophy} label="Best" value={stats.maxStreak} tone="gold" />
+          <StatTile icon={Trophy} label="Best" value={stats.bestScore} tone="gold" />
           <StatTile icon={Target} label="Accuracy" value={`${accuracy}%`} tone="aqua" />
         </div>
+
+        <section className="leaderboard-panel" aria-label="Leaderboard">
+          <div className="panel-title">
+            <BarChart3 aria-hidden="true" />
+            <span>Leaderboard</span>
+          </div>
+          {leaderboard.length ? (
+            <ol className="leaderboard-list">
+              {leaderboard.slice(0, 5).map((entry) => (
+                <li key={`${entry.name}-${entry.bestScore}-${entry.correctSolved}`}>
+                  <span>{entry.name}</span>
+                  <strong>{entry.bestScore}</strong>
+                </li>
+              ))}
+            </ol>
+          ) : (
+            <p className="empty-copy">No scores yet.</p>
+          )}
+        </section>
+
+        <section className="wrong-panel" aria-label="Wrong questions">
+          <div className="panel-title">
+            <Bookmark aria-hidden="true" />
+            <span>Wrong Questions</span>
+            <strong>{wrongQuestions.length}</strong>
+          </div>
+
+          {wrongQuestions.length ? (
+            <>
+              <div className="wrong-tools">
+                <label className="search-wrap" htmlFor="wrong-search">
+                  <Search aria-hidden="true" />
+                  <input
+                    id="wrong-search"
+                    type="search"
+                    value={wrongSearch}
+                    onChange={(event) => setWrongSearch(event.target.value)}
+                    placeholder="Search"
+                  />
+                </label>
+                <div className="select-wrap">
+                  <select
+                    aria-label="Wrong question subject"
+                    value={wrongSubject}
+                    onChange={(event) => setWrongSubject(event.target.value)}
+                  >
+                    {wrongSubjects.map((subject) => (
+                      <option key={subject} value={subject}>
+                        {subject}
+                      </option>
+                    ))}
+                  </select>
+                  <ChevronDown aria-hidden="true" />
+                </div>
+              </div>
+
+              {filteredWrongQuestions.length ? (
+                <div className="wrong-list">
+                  {filteredWrongQuestions.map((item, index) => (
+                    <div className="wrong-item" key={item.questionId}>
+                      <button type="button" onClick={() => revisitWrongQuestion(item)}>
+                        <span>Q{item.question.question_no || index + 1}</span>
+                        <strong>{item.question.subject || 'Mixed'}</strong>
+                        <small>{truncate(item.question.question, 86)}</small>
+                        <em>{item.misses} miss{item.misses === 1 ? '' : 'es'}</em>
+                      </button>
+                      <button
+                        className="icon-button"
+                        type="button"
+                        aria-label="Remove from wrong questions"
+                        onClick={() => removeWrongQuestion(item.questionId)}
+                      >
+                        <XCircle aria-hidden="true" />
+                      </button>
+                    </div>
+                  ))}
+                </div>
+              ) : (
+                <p className="empty-copy">No match found.</p>
+              )}
+            </>
+          ) : (
+            <p className="empty-copy">No misses yet.</p>
+          )}
+        </section>
 
         <section className="control-panel" aria-label="Question filters">
           <label className="field-label" htmlFor="subject-filter">
@@ -255,9 +516,13 @@ function App() {
             <Shuffle aria-hidden="true" />
             Random
           </button>
-          <button className="ghost-button" type="button" onClick={resetStats}>
-            <RotateCcw aria-hidden="true" />
-            Reset
+          <button
+            className="ghost-button"
+            type="button"
+            onClick={() => refreshUserData(getDeviceId(), selectedExam)}
+          >
+            <RefreshCcw aria-hidden="true" />
+            Refresh
           </button>
         </div>
       </aside>
@@ -306,7 +571,7 @@ function App() {
                   type="button"
                   key={key}
                   onClick={() => handleAnswer(key)}
-                  disabled={showResult}
+                  disabled={showResult || registrationRequired}
                 >
                   <span className="option-index">{String.fromCharCode(65 + index)}</span>
                   <span className="option-copy">{text}</span>
@@ -330,7 +595,7 @@ function App() {
                   {selectedOption === correctOptionKey
                     ? `Correct. Streak ${stats.streak}.`
                     : correctOptionKey
-                      ? `Wrong. Correct option is ${correctOptionKey.replace('O', '')}.`
+                      ? `Wrong. Correct option is ${correctOptionKey.replace('O', '')}. Added to revisit list.`
                       : 'Answer key unavailable for this question.'}
                 </div>
                 <button className="primary-button" type="button" onClick={() => pickQuestion()}>
@@ -340,13 +605,39 @@ function App() {
               </>
             ) : (
               <>
-                <span className="helper-text">Pick one option to lock your answer.</span>
+                <span className="helper-text">
+                  {profile ? 'Pick one option to lock your answer.' : 'Register this device to start.'}
+                </span>
                 <span className="solved-count">{stats.totalSolved} solved</span>
               </>
             )}
           </footer>
         </article>
       </section>
+
+      {registrationRequired && (
+        <div className="modal-backdrop" role="presentation">
+          <form className="register-panel" onSubmit={registerDevice}>
+            <div className="brand-mark">
+              <UserRound aria-hidden="true" />
+            </div>
+            <h2>Register this device</h2>
+            <label htmlFor="name-input">Name</label>
+            <input
+              id="name-input"
+              type="text"
+              value={nameInput}
+              onChange={(event) => setNameInput(event.target.value)}
+              autoFocus
+              maxLength={40}
+            />
+            <button className="primary-button" type="submit" disabled={saving || !nameInput.trim()}>
+              {saving ? 'Saving' : 'Start Practice'}
+            </button>
+          </form>
+        </div>
+      )}
+
       <span className="corner-note">for you baby</span>
     </main>
   );
@@ -364,15 +655,37 @@ function StatTile({ icon: Icon, label, value, tone }) {
   );
 }
 
-function loadSavedStats() {
-  try {
-    return {
-      ...defaultStats,
-      ...JSON.parse(localStorage.getItem(STORAGE_KEY) || '{}'),
-    };
-  } catch {
-    return defaultStats;
+async function apiGet(path) {
+  const response = await fetch(path);
+  return readApiResponse(response);
+}
+
+async function apiPost(path, payload) {
+  const response = await fetch(path, {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify(payload),
+  });
+  return readApiResponse(response);
+}
+
+async function readApiResponse(response) {
+  const payload = await response.json().catch(() => ({}));
+  if (!response.ok) {
+    const error = new Error(payload.error || 'Request failed');
+    error.status = response.status;
+    throw error;
   }
+  return payload;
+}
+
+function getDeviceId() {
+  let deviceId = localStorage.getItem(DEVICE_KEY);
+  if (!deviceId) {
+    deviceId = crypto.randomUUID();
+    localStorage.setItem(DEVICE_KEY, deviceId);
+  }
+  return deviceId;
 }
 
 function selectRandomQuestion(pool) {
@@ -381,12 +694,12 @@ function selectRandomQuestion(pool) {
   return pool[Math.floor(Math.random() * pool.length)];
 }
 
-function normalizeQuestion(question) {
+function normalizeQuestion(question, index = 0, exam = 'neet-pg') {
   const options = {};
   let extractedAnswer = '';
 
   Object.entries(question.options || {}).forEach(([key, value]) => {
-    const baseIndex = Number(key.replace('O', ''));
+    const baseIndex = Number(String(key).replace(/[^\d]/g, '')) || 1;
     const cleanValue = cleanCopy(value);
     const answerMatch = cleanValue.match(/Correct\s*Answer\s*:\s*(.*?)(?=\s+Topic\s*:|$)/i);
 
@@ -404,7 +717,10 @@ function normalizeQuestion(question) {
       .map((piece) => piece.trim())
       .filter(Boolean);
 
-    if (!pieces.length) return;
+    if (!pieces.length) {
+      options[`O${baseIndex}`] = withoutAnswer;
+      return;
+    }
 
     pieces.forEach((piece, pieceIndex) => {
       const markerMatch = piece.match(/^([1-4])[.)]\s+(.*)$/);
@@ -419,6 +735,8 @@ function normalizeQuestion(question) {
 
   return {
     ...question,
+    id: question.id || `${exam}:${question.source_pdf || 'source'}:${question.question_no || index}:${question.page_number || 0}`,
+    exam,
     question: cleanCopy(question.question)
       .replace(/^\d+[.)]\s*/, '')
       .trim(),
@@ -479,6 +797,12 @@ function sourceLabel(source = '') {
   if (year) return year;
 
   return source.replace(/\.pdf$/i, '').replaceAll('-', ' ');
+}
+
+function truncate(value, length) {
+  const text = cleanCopy(value);
+  if (text.length <= length) return text;
+  return `${text.slice(0, length - 3)}...`;
 }
 
 export default App;
