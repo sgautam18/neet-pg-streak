@@ -21,7 +21,13 @@ import './App.css';
 
 const DEVICE_KEY = 'neet-pg-device-id';
 const EXAM_KEY = 'neet-pg-selected-exam';
+const STATIC_STATE_KEY = 'neet-pg-static-state';
 const BASE_URL = import.meta.env.BASE_URL;
+const STATIC_EXAMS = [
+  { id: 'neet-pg', label: 'NEET PG', file: 'questions.json' },
+  { id: 'inicet', label: 'INI-CET', file: 'inicet_questions.json' },
+];
+const memoryStorage = new Map();
 
 const defaultStats = {
   streak: 0,
@@ -34,7 +40,7 @@ const defaultStats = {
 function App() {
   const [config, setConfig] = useState({ exams: [] });
   const [selectedExam, setSelectedExam] = useState(
-    () => localStorage.getItem(EXAM_KEY) || 'neet-pg',
+    () => storageGet(EXAM_KEY) || 'neet-pg',
   );
   const [questions, setQuestions] = useState([]);
   const [currentQuestion, setCurrentQuestion] = useState(null);
@@ -77,7 +83,7 @@ function App() {
       setSelectedSource('All');
       setSelectedOption('');
       setShowResult(false);
-      localStorage.setItem(EXAM_KEY, selectedExam);
+      storageSet(EXAM_KEY, selectedExam);
 
       try {
         const deviceId = getDeviceId();
@@ -140,7 +146,7 @@ function App() {
       : 0;
 
   const activeExamLabel =
-    config.exams.find((exam) => exam.id === selectedExam)?.label ||
+    config.exams?.find((exam) => exam.id === selectedExam)?.label ||
     config.label ||
     'Question Bank';
 
@@ -360,7 +366,7 @@ function App() {
           </div>
         </div>
 
-        {config.exams.length > 0 && (
+        {config.exams?.length > 0 && (
           <div className="exam-switcher" aria-label="Exam selector">
             {config.exams.map((exam) => (
               <button
@@ -656,17 +662,45 @@ function StatTile({ icon: Icon, label, value, tone }) {
 }
 
 async function apiGet(path) {
-  const response = await fetch(path);
-  return readApiResponse(response);
+  if (prefersStaticApi(path)) {
+    return staticApiGet(path);
+  }
+
+  try {
+    const response = await fetch(path);
+    if (shouldFallbackToStaticApi(path, response)) {
+      return staticApiGet(path);
+    }
+    return readApiResponse(response);
+  } catch (error) {
+    if (canUseStaticApi(path)) {
+      return staticApiGet(path);
+    }
+    throw error;
+  }
 }
 
 async function apiPost(path, payload) {
-  const response = await fetch(path, {
-    method: 'POST',
-    headers: { 'Content-Type': 'application/json' },
-    body: JSON.stringify(payload),
-  });
-  return readApiResponse(response);
+  if (prefersStaticApi(path)) {
+    return staticApiPost(path, payload);
+  }
+
+  try {
+    const response = await fetch(path, {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify(payload),
+    });
+    if (shouldFallbackToStaticApi(path, response)) {
+      return staticApiPost(path, payload);
+    }
+    return readApiResponse(response);
+  } catch (error) {
+    if (canUseStaticApi(path)) {
+      return staticApiPost(path, payload);
+    }
+    throw error;
+  }
 }
 
 async function readApiResponse(response) {
@@ -679,13 +713,244 @@ async function readApiResponse(response) {
   return payload;
 }
 
+function prefersStaticApi(path) {
+  const hostname = window.location.hostname;
+  return canUseStaticApi(path) && hostname.endsWith('github.io');
+}
+
+function shouldFallbackToStaticApi(path, response) {
+  if (!canUseStaticApi(path)) return false;
+
+  const contentType = response.headers.get('Content-Type') || '';
+  return !contentType.includes('application/json');
+}
+
+function canUseStaticApi(path) {
+  return path.startsWith('/api/');
+}
+
+async function staticApiGet(path) {
+  const url = new URL(path, window.location.origin);
+  const exam = staticExamFromValue(url.searchParams.get('exam'));
+  const deviceId = url.searchParams.get('deviceId') || '';
+
+  if (url.pathname === '/api/config') {
+    return {
+      exam: exam.id,
+      label: exam.label,
+      exams: STATIC_EXAMS.map(({ id, label }) => ({ id, label })),
+    };
+  }
+
+  if (url.pathname === '/api/questions') {
+    const response = await fetch(`${BASE_URL}${exam.file}`);
+    if (!response.ok) {
+      throw new Error(`Could not load ${exam.label} questions.`);
+    }
+    return { questions: await response.json() };
+  }
+
+  if (url.pathname === '/api/profile') {
+    const state = readStaticState();
+    const profile = staticProfileFor(state, deviceId, exam.id);
+    if (!profile) {
+      const error = new Error('Device is not registered');
+      error.status = 404;
+      throw error;
+    }
+    return { registered: true, profile };
+  }
+
+  if (url.pathname === '/api/leaderboard') {
+    return { leaderboard: staticLeaderboard(exam.id) };
+  }
+
+  if (url.pathname === '/api/wrong') {
+    return { wrongQuestions: staticWrongQuestions(deviceId, exam.id) };
+  }
+
+  throw new Error('Static API route not found');
+}
+
+async function staticApiPost(path, payload = {}) {
+  const url = new URL(path, window.location.origin);
+  const exam = staticExamFromValue(payload.exam);
+  const deviceId = payload.deviceId || '';
+
+  if (url.pathname === '/api/device/register') {
+    const name = cleanCopy(payload.name);
+    if (!deviceId || !name) {
+      throw new Error('deviceId and name are required');
+    }
+
+    const state = readStaticState();
+    const timestamp = nowSeconds();
+    state.profiles[deviceId] = {
+      name,
+      createdAt: state.profiles[deviceId]?.createdAt || timestamp,
+      lastSeen: timestamp,
+    };
+    ensureStaticStats(state, deviceId, exam.id);
+    writeStaticState(state);
+    return { profile: staticProfileFor(state, deviceId, exam.id) };
+  }
+
+  if (url.pathname === '/api/attempt') {
+    if (!deviceId || !payload.questionId) {
+      throw new Error('deviceId and questionId are required');
+    }
+
+    const state = readStaticState();
+    const stats = ensureStaticStats(state, deviceId, exam.id);
+    const correct = Boolean(payload.correct);
+    stats.totalSolved += 1;
+    stats.correctSolved += correct ? 1 : 0;
+    stats.streak = correct ? stats.streak + 1 : 0;
+    stats.bestScore = Math.max(stats.bestScore, stats.streak);
+    stats.maxStreak = stats.bestScore;
+
+    if (!correct) {
+      const wrongKey = staticScopedKey(deviceId, exam.id);
+      const wrongQuestions = state.wrongQuestions[wrongKey] || [];
+      const existing = wrongQuestions.find((item) => item.questionId === payload.questionId);
+      if (existing) {
+        existing.question = payload.question;
+        existing.selectedOption = payload.selectedOption;
+        existing.misses += 1;
+        existing.lastWrongAt = nowSeconds();
+      } else {
+        wrongQuestions.unshift({
+          questionId: payload.questionId,
+          question: payload.question,
+          selectedOption: payload.selectedOption,
+          misses: 1,
+          lastWrongAt: nowSeconds(),
+        });
+      }
+      state.wrongQuestions[wrongKey] = wrongQuestions;
+    }
+
+    writeStaticState(state);
+    return {
+      profile: staticProfileFor(state, deviceId, exam.id),
+      leaderboard: staticLeaderboard(exam.id, state),
+    };
+  }
+
+  if (url.pathname === '/api/wrong/remove') {
+    const state = readStaticState();
+    const wrongKey = staticScopedKey(deviceId, exam.id);
+    state.wrongQuestions[wrongKey] = (state.wrongQuestions[wrongKey] || []).filter(
+      (item) => item.questionId !== payload.questionId,
+    );
+    writeStaticState(state);
+    return { ok: true };
+  }
+
+  if (url.pathname === '/api/event') {
+    return { ok: true };
+  }
+
+  throw new Error('Static API route not found');
+}
+
+function staticExamFromValue(value) {
+  return STATIC_EXAMS.find((exam) => exam.id === value) || STATIC_EXAMS[0];
+}
+
+function readStaticState() {
+  try {
+    const parsed = JSON.parse(storageGet(STATIC_STATE_KEY) || '{}');
+    return {
+      profiles: parsed.profiles || {},
+      stats: parsed.stats || {},
+      wrongQuestions: parsed.wrongQuestions || {},
+    };
+  } catch {
+    return { profiles: {}, stats: {}, wrongQuestions: {} };
+  }
+}
+
+function writeStaticState(state) {
+  storageSet(STATIC_STATE_KEY, JSON.stringify(state));
+}
+
+function staticProfileFor(state, deviceId, examId) {
+  const profile = state.profiles[deviceId];
+  if (!profile) return null;
+
+  profile.lastSeen = nowSeconds();
+  const stats = ensureStaticStats(state, deviceId, examId);
+  writeStaticState(state);
+
+  return {
+    deviceId,
+    name: profile.name,
+    stats,
+  };
+}
+
+function ensureStaticStats(state, deviceId, examId) {
+  const statsKey = staticScopedKey(deviceId, examId);
+  state.stats[statsKey] ||= { ...defaultStats };
+  return state.stats[statsKey];
+}
+
+function staticLeaderboard(examId, state = readStaticState()) {
+  return Object.entries(state.profiles)
+    .map(([deviceId, profile]) => ({
+      name: profile.name,
+      ...ensureStaticStats(state, deviceId, examId),
+    }))
+    .sort((a, b) => b.bestScore - a.bestScore || b.correctSolved - a.correctSolved)
+    .slice(0, 10);
+}
+
+function staticWrongQuestions(deviceId, examId) {
+  const state = readStaticState();
+  return state.wrongQuestions[staticScopedKey(deviceId, examId)] || [];
+}
+
+function staticScopedKey(deviceId, examId) {
+  return `${deviceId}:${examId}`;
+}
+
+function nowSeconds() {
+  return Math.floor(Date.now() / 1000);
+}
+
 function getDeviceId() {
-  let deviceId = localStorage.getItem(DEVICE_KEY);
+  let deviceId = storageGet(DEVICE_KEY);
   if (!deviceId) {
-    deviceId = crypto.randomUUID();
-    localStorage.setItem(DEVICE_KEY, deviceId);
+    deviceId = createDeviceId();
+    storageSet(DEVICE_KEY, deviceId);
   }
   return deviceId;
+}
+
+function storageGet(key) {
+  try {
+    return window.localStorage?.getItem(key) || memoryStorage.get(key) || null;
+  } catch {
+    return memoryStorage.get(key) || null;
+  }
+}
+
+function storageSet(key, value) {
+  memoryStorage.set(key, value);
+  try {
+    window.localStorage?.setItem(key, value);
+  } catch {
+    // In-memory storage keeps the app usable when persistent storage is blocked.
+  }
+}
+
+function createDeviceId() {
+  if (window.crypto?.randomUUID) {
+    return window.crypto.randomUUID();
+  }
+
+  return `device-${Date.now()}-${Math.random().toString(16).slice(2)}`;
 }
 
 function selectRandomQuestion(pool) {
