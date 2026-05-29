@@ -231,7 +231,22 @@ class Handler(BaseHTTPRequestHandler):
             )
             return
 
+        if parsed.path == "/api/game/config":
+            self.send_json(
+                {
+                    "exam": exam_id,
+                    "label": exam["label"],
+                    "roundSeconds": 60,
+                    "mode": "boulder-rush",
+                }
+            )
+            return
+
         if parsed.path == "/api/questions":
+            self.send_json({"questions": load_questions(exam)})
+            return
+
+        if parsed.path == "/api/game/questions":
             self.send_json({"questions": load_questions(exam)})
             return
 

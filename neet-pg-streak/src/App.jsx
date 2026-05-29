@@ -7,8 +7,10 @@ import {
   CheckCircle2,
   ChevronDown,
   Flame,
+  Gamepad2,
   Layers3,
   Loader2,
+  PartyPopper,
   RefreshCcw,
   Search,
   Shuffle,
@@ -16,6 +18,7 @@ import {
   Trophy,
   UserRound,
   XCircle,
+  Crosshair,
 } from 'lucide-react';
 import './App.css';
 
@@ -28,6 +31,13 @@ const STATIC_EXAMS = [
   { id: 'inicet', label: 'INI-CET', file: 'inicet_questions.json' },
 ];
 const memoryStorage = new Map();
+const praiseLines = [
+  'Clean hit. Keep going.',
+  'Sharp shot. That was yours.',
+  'Excellent. Next one.',
+  'Beautiful accuracy.',
+  'Strong work. Stay locked in.',
+];
 
 const defaultStats = {
   streak: 0,
@@ -38,6 +48,9 @@ const defaultStats = {
 };
 
 function App() {
+  const [screen, setScreen] = useState(() =>
+    window.location.hash === '#game' ? 'game' : 'practice',
+  );
   const [config, setConfig] = useState({ exams: [] });
   const [selectedExam, setSelectedExam] = useState(
     () => storageGet(EXAM_KEY) || 'neet-pg',
@@ -213,6 +226,20 @@ function App() {
     return getCorrectOptionKey(currentQuestion);
   }, [currentQuestion]);
 
+  useEffect(() => {
+    const handleHashChange = () => {
+      setScreen(window.location.hash === '#game' ? 'game' : 'practice');
+    };
+
+    window.addEventListener('hashchange', handleHashChange);
+    return () => window.removeEventListener('hashchange', handleHashChange);
+  }, []);
+
+  const changeScreen = (nextScreen) => {
+    setScreen(nextScreen);
+    window.location.hash = nextScreen === 'game' ? 'game' : '';
+  };
+
   const changeExam = (examId) => {
     if (examId === selectedExam) return;
     setSelectedExam(examId);
@@ -283,31 +310,38 @@ function App() {
     pickQuestion(nextPool);
   };
 
+  const recordAttempt = async (question, optionKey) => {
+    const isCorrect = optionKey === getCorrectOptionKey(question);
+
+    const payload = await apiPost('/api/attempt', {
+      deviceId: getDeviceId(),
+      exam: selectedExam,
+      questionId: question.id,
+      question,
+      selectedOption: optionKey,
+      correct: isCorrect,
+    });
+
+    setProfile(payload.profile);
+    setLeaderboard(payload.leaderboard || []);
+    const wrongPayload = await apiGet(
+      `/api/wrong?deviceId=${encodeURIComponent(getDeviceId())}&exam=${encodeURIComponent(
+        selectedExam,
+      )}`,
+    );
+    setWrongQuestions(wrongPayload.wrongQuestions || []);
+
+    return isCorrect;
+  };
+
   const handleAnswer = async (optionKey) => {
     if (showResult || !profile) return;
 
-    const isCorrect = optionKey === correctOptionKey;
     setSelectedOption(optionKey);
     setShowResult(true);
 
     try {
-      const payload = await apiPost('/api/attempt', {
-        deviceId: getDeviceId(),
-        exam: selectedExam,
-        questionId: currentQuestion.id,
-        question: currentQuestion,
-        selectedOption: optionKey,
-        correct: isCorrect,
-      });
-
-      setProfile(payload.profile);
-      setLeaderboard(payload.leaderboard || []);
-      const wrongPayload = await apiGet(
-        `/api/wrong?deviceId=${encodeURIComponent(getDeviceId())}&exam=${encodeURIComponent(
-          selectedExam,
-        )}`,
-      );
-      setWrongQuestions(wrongPayload.wrongQuestions || []);
+      await recordAttempt(currentQuestion, optionKey);
     } catch (attemptError) {
       setError(attemptError.message || 'Your answer could not be saved.');
     }
@@ -354,7 +388,7 @@ function App() {
   }
 
   return (
-    <main className="app-shell">
+    <main className={`app-shell ${screen === 'game' ? 'is-game' : ''}`}>
       <aside className="practice-sidebar">
         <div className="brand-block">
           <div className="brand-mark">
@@ -380,6 +414,25 @@ function App() {
             ))}
           </div>
         )}
+
+        <div className="screen-switcher" aria-label="Mode selector">
+          <button
+            className={screen === 'practice' ? 'is-active' : ''}
+            type="button"
+            onClick={() => changeScreen('practice')}
+          >
+            <BookOpenCheck aria-hidden="true" />
+            Practice
+          </button>
+          <button
+            className={screen === 'game' ? 'is-active' : ''}
+            type="button"
+            onClick={() => changeScreen('game')}
+          >
+            <Gamepad2 aria-hidden="true" />
+            Game
+          </button>
+        </div>
 
         {profile && (
           <div className="user-chip">
@@ -533,93 +586,103 @@ function App() {
         </div>
       </aside>
 
-      <section className="practice-main">
-        <div className="question-toolbar">
-          <div className="question-meta">
-            <span>{currentQuestion.subject || 'Mixed'}</span>
-            <span>{currentQuestion.topic || 'General'}</span>
-            <span>{sourceLabel(currentQuestion.source_pdf)}</span>
-          </div>
-          <div className="question-count">
-            <Layers3 aria-hidden="true" />
-            {filteredQuestions.length} questions
-          </div>
-        </div>
-
-        <article className="question-panel">
-          <header className="question-header">
-            <p className="question-number">Question {currentQuestion.question_no}</p>
-            <h2>{currentQuestion.question}</h2>
-          </header>
-
-          {currentQuestion.images?.length > 0 && (
-            <figure className="question-image-frame">
-              <img src={`${BASE_URL}${currentQuestion.images[0]}`} alt="Question reference" />
-            </figure>
-          )}
-
-          <div className="options-list">
-            {options.map(([key, text], index) => {
-              const isCorrect = key === correctOptionKey;
-              const isSelected = key === selectedOption;
-              const optionClass = [
-                'option-button',
-                showResult && isCorrect ? 'is-correct' : '',
-                showResult && isSelected && !isCorrect ? 'is-wrong' : '',
-                showResult && !isSelected && !isCorrect ? 'is-muted' : '',
-              ]
-                .filter(Boolean)
-                .join(' ');
-
-              return (
-                <button
-                  className={optionClass}
-                  type="button"
-                  key={key}
-                  onClick={() => handleAnswer(key)}
-                  disabled={showResult || registrationRequired}
-                >
-                  <span className="option-index">{String.fromCharCode(65 + index)}</span>
-                  <span className="option-copy">{text}</span>
-                  {showResult && isCorrect && <CheckCircle2 aria-hidden="true" />}
-                  {showResult && isSelected && !isCorrect && <XCircle aria-hidden="true" />}
-                </button>
-              );
-            })}
+      {screen === 'game' ? (
+        <GameScreen
+          questions={filteredQuestions}
+          profile={profile}
+          registrationRequired={registrationRequired}
+          recordAttempt={recordAttempt}
+          selectedExam={selectedExam}
+        />
+      ) : (
+        <section className="practice-main">
+          <div className="question-toolbar">
+            <div className="question-meta">
+              <span>{currentQuestion.subject || 'Mixed'}</span>
+              <span>{currentQuestion.topic || 'General'}</span>
+              <span>{sourceLabel(currentQuestion.source_pdf)}</span>
+            </div>
+            <div className="question-count">
+              <Layers3 aria-hidden="true" />
+              {filteredQuestions.length} questions
+            </div>
           </div>
 
-          <footer className="answer-bar">
-            {showResult ? (
-              <>
-                <div
-                  className={
-                    selectedOption === correctOptionKey
-                      ? 'result-pill is-correct'
-                      : 'result-pill is-wrong'
-                  }
-                >
-                  {selectedOption === correctOptionKey
-                    ? `Correct. Streak ${stats.streak}.`
-                    : correctOptionKey
-                      ? `Wrong. Correct option is ${correctOptionKey.replace('O', '')}. Added to revisit list.`
-                      : 'Answer key unavailable for this question.'}
-                </div>
-                <button className="primary-button" type="button" onClick={() => pickQuestion()}>
-                  Next Question
-                  <ArrowRight aria-hidden="true" />
-                </button>
-              </>
-            ) : (
-              <>
-                <span className="helper-text">
-                  {profile ? 'Pick one option to lock your answer.' : 'Register this device to start.'}
-                </span>
-                <span className="solved-count">{stats.totalSolved} solved</span>
-              </>
+          <article className="question-panel">
+            <header className="question-header">
+              <p className="question-number">Question {currentQuestion.question_no}</p>
+              <h2>{currentQuestion.question}</h2>
+            </header>
+
+            {currentQuestion.images?.length > 0 && (
+              <figure className="question-image-frame">
+                <img src={`${BASE_URL}${currentQuestion.images[0]}`} alt="Question reference" />
+              </figure>
             )}
-          </footer>
-        </article>
-      </section>
+
+            <div className="options-list">
+              {options.map(([key, text], index) => {
+                const isCorrect = key === correctOptionKey;
+                const isSelected = key === selectedOption;
+                const optionClass = [
+                  'option-button',
+                  showResult && isCorrect ? 'is-correct' : '',
+                  showResult && isSelected && !isCorrect ? 'is-wrong' : '',
+                  showResult && !isSelected && !isCorrect ? 'is-muted' : '',
+                ]
+                  .filter(Boolean)
+                  .join(' ');
+
+                return (
+                  <button
+                    className={optionClass}
+                    type="button"
+                    key={key}
+                    onClick={() => handleAnswer(key)}
+                    disabled={showResult || registrationRequired}
+                  >
+                    <span className="option-index">{String.fromCharCode(65 + index)}</span>
+                    <span className="option-copy">{text}</span>
+                    {showResult && isCorrect && <CheckCircle2 aria-hidden="true" />}
+                    {showResult && isSelected && !isCorrect && <XCircle aria-hidden="true" />}
+                  </button>
+                );
+              })}
+            </div>
+
+            <footer className="answer-bar">
+              {showResult ? (
+                <>
+                  <div
+                    className={
+                      selectedOption === correctOptionKey
+                        ? 'result-pill is-correct'
+                        : 'result-pill is-wrong'
+                    }
+                  >
+                    {selectedOption === correctOptionKey
+                      ? `Correct. Streak ${stats.streak}.`
+                      : correctOptionKey
+                        ? `Wrong. Correct option is ${correctOptionKey.replace('O', '')}. Added to revisit list.`
+                        : 'Answer key unavailable for this question.'}
+                  </div>
+                  <button className="primary-button" type="button" onClick={() => pickQuestion()}>
+                    Next Question
+                    <ArrowRight aria-hidden="true" />
+                  </button>
+                </>
+              ) : (
+                <>
+                  <span className="helper-text">
+                    {profile ? 'Pick one option to lock your answer.' : 'Register this device to start.'}
+                  </span>
+                  <span className="solved-count">{stats.totalSolved} solved</span>
+                </>
+              )}
+            </footer>
+          </article>
+        </section>
+      )}
 
       {registrationRequired && (
         <div className="modal-backdrop" role="presentation">
@@ -646,6 +709,181 @@ function App() {
 
       <span className="corner-note">for you baby</span>
     </main>
+  );
+}
+
+function GameScreen({
+  questions,
+  profile,
+  registrationRequired,
+  recordAttempt,
+  selectedExam,
+}) {
+  const [gameQuestion, setGameQuestion] = useState(null);
+  const [timeLeft, setTimeLeft] = useState(60);
+  const [roundState, setRoundState] = useState('active');
+  const [message, setMessage] = useState('Shoot the correct boulder before it crosses the line.');
+  const [praise, setPraise] = useState('');
+  const [gameScore, setGameScore] = useState(0);
+  const [hitOption, setHitOption] = useState('');
+
+  const gameOptions = useMemo(
+    () => Object.entries(gameQuestion?.options || {}),
+    [gameQuestion],
+  );
+
+  const startRound = useCallback(() => {
+    if (!questions.length) return;
+    setGameQuestion(selectRandomQuestion(questions));
+    setTimeLeft(60);
+    setRoundState('active');
+    setMessage('Shoot the correct boulder before it crosses the line.');
+    setPraise('');
+    setHitOption('');
+  }, [questions]);
+
+  useEffect(() => {
+    const timer = window.setTimeout(startRound, 0);
+    return () => window.clearTimeout(timer);
+  }, [startRound, selectedExam]);
+
+  useEffect(() => {
+    if (roundState !== 'active' || registrationRequired || !profile) return undefined;
+
+    const interval = window.setInterval(() => {
+      setTimeLeft((current) => {
+        if (current <= 1) {
+          window.clearInterval(interval);
+          setRoundState('missed');
+          setMessage('Boulder crossed the line. New question incoming.');
+          window.setTimeout(startRound, 1400);
+          return 0;
+        }
+        return current - 1;
+      });
+    }, 1000);
+
+    return () => window.clearInterval(interval);
+  }, [profile, registrationRequired, roundState, startRound]);
+
+  const shootBoulder = async (optionKey) => {
+    if (roundState !== 'active' || !profile || registrationRequired || !gameQuestion) return;
+
+    setHitOption(optionKey);
+    setRoundState('resolved');
+
+    try {
+      const correct = await recordAttempt(gameQuestion, optionKey);
+      if (correct) {
+        setGameScore((score) => score + 1);
+        setPraise(praiseLines[(gameScore + gameQuestion.id.length) % praiseLines.length]);
+        setMessage('Direct hit. Correct answer.');
+      } else {
+        setPraise('');
+        setMessage(`Wrong boulder. Correct option was ${getCorrectOptionKey(gameQuestion).replace('O', '')}.`);
+      }
+      window.setTimeout(startRound, correct ? 1900 : 1600);
+    } catch {
+      setMessage('Could not save this shot. Try the next one.');
+      window.setTimeout(startRound, 1400);
+    }
+  };
+
+  if (!gameQuestion) {
+    return (
+      <section className="game-main">
+        <div className="game-loading">Loading game arena</div>
+      </section>
+    );
+  }
+
+  const elapsedPercent = 100 - (timeLeft / 60) * 100;
+  const timePercent = `${(timeLeft / 60) * 100}%`;
+  const fallY = `${Math.min(elapsedPercent * 0.68, 69)}%`;
+
+  return (
+    <section className="game-main">
+      <div className="game-hud">
+        <div>
+          <p className="eyebrow">Boulder Rush</p>
+          <h2>{gameQuestion.question}</h2>
+        </div>
+        <div className="game-clock">
+          <span>{timeLeft}s</span>
+          <div>
+            <i style={{ width: timePercent }} />
+          </div>
+        </div>
+      </div>
+
+      <div className="game-arena" style={{ '--fall-y': fallY }}>
+        {roundState === 'resolved' && hitOption === getCorrectOptionKey(gameQuestion) && (
+          <div className="fireworks" aria-hidden="true">
+            {Array.from({ length: 18 }).map((_, index) => (
+              <span key={index} style={{ '--spark': index }} />
+            ))}
+          </div>
+        )}
+
+        <div className="finish-line">
+          <span>Finish Line</span>
+        </div>
+
+        <div className="boulder-field">
+          {gameOptions.map(([key, text], index) => {
+            const correct = key === getCorrectOptionKey(gameQuestion);
+            const wasHit = key === hitOption;
+            const className = [
+              'boulder',
+              wasHit && correct ? 'is-correct' : '',
+              wasHit && !correct ? 'is-wrong' : '',
+              roundState !== 'active' && !wasHit ? 'is-muted' : '',
+            ]
+              .filter(Boolean)
+              .join(' ');
+
+            return (
+              <button
+                className={className}
+                type="button"
+                key={key}
+                style={{
+                  '--boulder-left': `${3 + index * 24}%`,
+                  '--mobile-left': `${3 + (index % 2) * 48}%`,
+                  '--mobile-offset': `${Math.floor(index / 2) * 118}px`,
+                  '--boulder-tilt': `${(index - 1.5) * 4}deg`,
+                  '--delay': `${index * 0.8}s`,
+                }}
+                onClick={() => shootBoulder(key)}
+                disabled={roundState !== 'active' || registrationRequired || !profile}
+              >
+                <span>{String.fromCharCode(65 + index)}</span>
+                <strong>{truncate(text, 72)}</strong>
+              </button>
+            );
+          })}
+        </div>
+
+        <div className="shooter">
+          <Crosshair aria-hidden="true" />
+          <span />
+        </div>
+      </div>
+
+      <div className="game-status">
+        <div className="game-score">
+          <Trophy aria-hidden="true" />
+          <span>{gameScore} hits</span>
+        </div>
+        <p>{profile ? message : 'Register this device to unlock the game.'}</p>
+        {praise && (
+          <strong>
+            <PartyPopper aria-hidden="true" />
+            {praise}
+          </strong>
+        )}
+      </div>
+    </section>
   );
 }
 
@@ -742,10 +980,27 @@ async function staticApiGet(path) {
     };
   }
 
+  if (url.pathname === '/api/game/config') {
+    return {
+      exam: exam.id,
+      label: exam.label,
+      roundSeconds: 60,
+      mode: 'boulder-rush',
+    };
+  }
+
   if (url.pathname === '/api/questions') {
     const response = await fetch(`${BASE_URL}${exam.file}`);
     if (!response.ok) {
       throw new Error(`Could not load ${exam.label} questions.`);
+    }
+    return { questions: await response.json() };
+  }
+
+  if (url.pathname === '/api/game/questions') {
+    const response = await fetch(`${BASE_URL}${exam.file}`);
+    if (!response.ok) {
+      throw new Error(`Could not load ${exam.label} game questions.`);
     }
     return { questions: await response.json() };
   }
